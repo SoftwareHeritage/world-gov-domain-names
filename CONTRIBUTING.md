@@ -34,12 +34,11 @@ take into account: e.g. in Brazil, `sp.gov.br` is the State of São
 Paulo, but `campinas.sp.gov.br` is a municipality. This requires two
 possible actions in `curated.csv`:
 
-- **Write the level without `*`** (`central-1`, not `central-1*`) when
-  we know that not all subdomains should be included: the domain
-  counts alone.
+- **Add a `!` to the level** (`central-1!`) when we know that not all
+  subdomains should be included: the domain counts alone.
 
-- **Otherwise, keep the `*`** (`central*`) and mark subdomains to
-  exclude as `local`. E.g. `gov.za` holds both national departments
+- **Otherwise, keep the level as is** (`central`) and mark subdomains
+  to exclude as `local`. E.g. `gov.za` holds both national departments
   and municipalities, so `capetown.gov.za` is marked as `local`.
 
 The root domains that mix levels are listed in
@@ -47,11 +46,11 @@ The root domains that mix levels are listed in
 knows the country. For each of them, `to_curate.csv` lists every
 domain directly under the root (`capetown.gov.za`, `dpme.gov.za`…)
 until `curated.csv` gives it a level: `local` for a lower tier,
-`central*` or `central-1*` otherwise, so that it does not come back.
-Under a root written without `*`, like the Brazilian states, this is
-how a body of the State gets in: `detran.sp.gov.br,central-1*`.
+`central` or `central-1` otherwise, so that it does not come back.
+Under a root written with `!`, like the Brazilian states, this is how
+a body of the State gets in: `detran.sp.gov.br,central-1`.
 A level is suggested when the label names a first-tier subdivision
-(`gauteng.gov.za`, `central-1*`) or follows the naming rule of a lower
+(`gauteng.gov.za`, `central-1`) or follows the naming rule of a lower
 tier in the `local_labels` column (`aydin-bld.gov.tr`, `local`):
 check it before moving the row.
 
@@ -75,19 +74,19 @@ One row per domain, as `domain,level`:
 
 ```csv
 domain,level
-gouv.fr,central*
-sp.gov.br,central-1
+gouv.fr,central
+sp.gov.br,central-1!
 abingdon.gov.uk,local
 ```
 
 - `domain` is a domain name.
 - `level` is `central` (central government and its bodies),
   `central-1` (the first tier below: state, region, Land, etc.) or
-  `local` (anything lower). A `*` after `central` or `central-1`
-  means the domain counts with all its subdomains (`gouv.fr` covers
-  `data.gouv.fr`); without it, the domain counts alone (see above).
-  `local` never takes a `*`: the domain and everything below it are
-  left out.
+  `local` (anything lower). A `central` or `central-1` domain counts
+  with all its subdomains (`gouv.fr` covers `data.gouv.fr`); with a
+  `!` (`central-1!`), the domain counts alone (see above). `local`
+  never takes a `!`: the domain and everything below it are left
+  out.
 
 ### `excluded.csv` for the domains you reject
 

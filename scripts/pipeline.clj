@@ -944,7 +944,7 @@
 (defn mixed-root-rows
   "[domain level] rows of the labels directly under the mixed roots of
   a country, www aside, that no decided domain is yet: label.root for
-  every label of the hosts hosts-of gives for a root, level central-1*
+  every label of the hosts hosts-of gives for a root, level central-1
   when the label names a first-level subdivision (subdivisions, compared
   by fold-name: westerncape for Western Cape), local when it matches
   the local-labels regex of its root in roots ({root regex-or-nil}),
@@ -959,7 +959,7 @@
                :when (and label (not= label "www"))
                :let [d (str label "." root)]
                :when (not (decided d))]
-           [d (cond (level1 (normalize-name label))                 "central-1*"
+           [d (cond (level1 (normalize-name label))                 "central-1"
                     (and local-rx (re-matches local-rx label))      "local"
                     :else                                           "")])
          distinct
@@ -1000,13 +1000,12 @@
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,level,name,score,sources): the ranked candidates, level a
-  central or central-1 one with its subdomains (subtree-cell) for the
-  curation to narrow, name their labels; then to_curate.csv (todo-country!)."
+  (domain,level,name,score,sources): the ranked candidates, name their
+  labels; then to_curate.csv (todo-country!)."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
-               [h (subtree-cell lvl) lbl (str sc) src])]
+               [h lvl lbl (str sc) src])]
     (write-csv-file out ["domain" "level" "name" "score" "sources"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))
     (todo-country! country-dir)))
@@ -1223,7 +1222,7 @@
   "The [domain kind country] rows of the policy table, sorted: rows are
   the [domain country level] of central-plus-rows, excl the labels
   local-labels keeps out of each [country root], apexes the #{[country
-  domain]} confirmed without their subdomains (a level without *). subtree (the domain and below)
+  domain]} confirmed without their subdomains (a level ending in !). subtree (the domain and below)
   unless the domain is an apex (exact, the domain alone), exclude for a
   local or excluded label directly under a central root; the longest
   match decides, a domain a subtree covers is dropped. A domain of
@@ -1264,7 +1263,7 @@
   "Write data/public-sector-domains-central+-policy.csv
   (domain,kind,country): the policy table (policy-rows) of the
   confirmed central and central-1 domains, those without their
-  subdomains (a level without *) as apexes and their local and excluded
+  subdomains (a level ending in !) as apexes and their local and excluded
   labels as exclusions."
   [_]
   (let [rows   (central-plus-rows)
@@ -1293,7 +1292,7 @@
       "")))
 
 (def ^:private levels-hint
-  "write central* or central-1* (with its subdomains), central or central-1 (the domain alone), or local")
+  "write central or central-1 (with its subdomains), central! or central-1! (the domain alone), or local")
 
 (defn- row-problems
   "The problems of the decision files of a country as read, [:err msg]
@@ -1332,7 +1331,7 @@
   of the same level and with its subdomains covers (unless harvested on
   its own, or directly under a mixed root, where every label gets a
   row), a local or excluded domain more than one label under a central
-  root, a mixed root not confirmed central*, central or central-1, or
+  root, a mixed root not confirmed central, central! or central-1!, or
   with no harvest file on it or above it.
   Pure."
   [curated excluded confirmed registered harvested? mixed]
@@ -1375,7 +1374,7 @@
            :let [level (level-of root)
                  why   (cond
                          (not (if (subtree-of root) (= "central" level) (harvest-levels level)))
-                         " is a mixed root in data/mixed-roots.csv but not confirmed central*, central or central-1"
+                         " is a mixed root in data/mixed-roots.csv but not confirmed central, central! or central-1!"
                          (not-any? harvested? (butlast (host-suffixes root)))
                          " is a mixed root in data/mixed-roots.csv with no harvest file on it or above it: run bb pipeline fetch")]
            :when why]

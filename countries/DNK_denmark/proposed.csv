@@ -1,9 +1,9 @@
 domain,level,name,score,sources
-datatilsynet.dk,central*,Danish Data Protection Agency,10,wikidata;linkgraph
+datatilsynet.dk,central,Danish Data Protection Agency,10,wikidata;linkgraph
 digst.dk,,Agency for Digital Government,10,wikidata;linkgraph
 politi.dk,,Police of Denmark | Rigspolitiet,10,wikidata;linkgraph
-au.dk,central*,Aarhus University | Aarhus University Library,9,academia;ror
-sdu.dk,central*,"Center for American Studies | Mads Clausen Institute | Q136848560 | The Danish National Centre of Psychotraumatology | The Hans Christian Andersen Centre | University of Southern Denmark | University of Southern Denmark Centre for Sports, Health and Civil Society",9,academia;ror
+au.dk,central,Aarhus University | Aarhus University Library,9,academia;ror
+sdu.dk,central,"Center for American Studies | Mads Clausen Institute | Q136848560 | The Danish National Centre of Psychotraumatology | The Hans Christian Andersen Centre | University of Southern Denmark | University of Southern Denmark Centre for Sports, Health and Civil Society",9,academia;ror
 at.dk,,Danish Working Environment Authority,7,wikidata
 borger.dk,,Linked from 22 public-sector domains,7,linkgraph
 bygst.dk,,Danish Building and Property Agency,7,wikidata
@@ -11,7 +11,7 @@ cfcs.dk,,Centre for Cyber Security,7,wikidata
 cpr.dk,,CPR-Kontoret,7,wikidata
 dff.dk,,Independent Research Fund Denmark,7,wikidata
 domaeneklager.dk,,Danish Complaints Board for Domain Names,7,wikidata
-dst.dk,central*,Statistics Denmark,7,wikidata;academia
+dst.dk,central,Statistics Denmark,7,wikidata;academia
 ens.dk,,Danish Energy Agency,7,wikidata
 erhvervsfremmebestyrelsen.dk,,Danish Board of Business Development,7,wikidata
 fak.dk,,Q137734568 | Q137734570,7,academia
@@ -31,7 +31,7 @@ samsik.dk,,Danish Resilience Agency,7,wikidata
 sik.dk,,Danish Safety Technology Authority,7,wikidata
 skatteankestyrelsen.dk,,Tax Appeals Agency | National Tax Tribunal,7,wikidata
 soc.ku.dk,,"Centre for the Sociological Study of Science, Expertise and Society | University of Copenhagen Department of Sociology",7,academia
-ssi.dk,central*,Statens Serum Institut,7,academia;sopc
+ssi.dk,central,Statens Serum Institut,7,academia;sopc
 statens-adm.dk,,Agency for Governmental Administration,7,wikidata
 statens-it.dk,,Agency for Governmental IT Services,7,wikidata
 stpk.dk,,Q11956800 | Danish Agency for Patient Complaints,7,wikidata
@@ -42,14 +42,14 @@ tet.dk,,Danish Intelligence Oversight Board,7,wikidata
 trafikstyrelsen.dk,,Danish Civil Aviation and Railway Authority | Q104826400,7,wikidata
 us.dk,,Danish Immigration Service | Q126918528,7,wikidata
 xn--danmarksfngsler-5lb.dk,,Q137361328 | Q137361371,7,wikidata
-aau.dk,central*,Aalborg University Library,6,academia;ror
-dtu.dk,central*,Technical University of Denmark,6,academia;ror
-ku.dk,central*,University of Copenhagen,6,academia;ror
+aau.dk,central,Aalborg University Library,6,academia;ror
+dtu.dk,central,Technical University of Denmark,6,academia;ror
+ku.dk,central,University of Copenhagen,6,academia;ror
 oscepa.org,,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,6,wikidata
 retsinformation.dk,,Linked from 11 public-sector domains,6,linkgraph
-ruc.dk,central*,Roskilde University Library,6,academia;ror
+ruc.dk,central,Roskilde University Library,6,academia;ror
 mitid.dk,,Linked from 6 public-sector domains,5,linkgraph
-naevneneshus.dk,central*,Danish Energy Board of Appeal | Danish Competition Appeals Tribunal | Danish Environment and Food Board of Appeal | Danish Appeals Boards Authority,5,wikidata;linkgraph
+naevneneshus.dk,central,Danish Energy Board of Appeal | Danish Competition Appeals Tribunal | Danish Environment and Food Board of Appeal | Danish Appeals Boards Authority,5,wikidata;linkgraph
 virk.dk,,Linked from 9 public-sector domains,5,linkgraph
 aalborgforsyning.dk,,Aalborg Forsyning A/S,4,wikidata
 adst.dk,,Administration and Services Agency of the Danish Ministry of Taxation,4,wikidata
@@ -94,7 +94,7 @@ cimbi.dk,,Center for Integrated Molecular Brain Imaging,4,academia
 civilstyrelsen.dk,,Department of Civil Affairs,4,wikidata
 cju.au.dk,,Centre for University Studies in Journalism,4,academia
 concito.dk,,Concito,4,academia
-consumerombudsman.dk,central*,Danish Consumer Ombudsman institution,4,wikidata
+consumerombudsman.dk,central,Danish Consumer Ombudsman institution,4,wikidata
 cope.ku.dk,,University of Copenhagen Copenhagen Center for Disaster Research,4,academia
 cosmicdawn.dk,,Cosmic Dawn Center,4,academia
 cp3-origins.dk,,The Centre for Cosmology and Particle Physics Phenomenology,4,academia
@@ -137,16 +137,16 @@ erhvervsstyrelsen.dk,,Danish Business Authority,4,wikidata
 faos.ku.dk,,University of Copenhagen Employment Relations Research Centre,4,academia
 fauk.dk,,Defence Judge Advocate Corps,4,wikidata
 fbbr.dk,,Q139517129,4,wikidata
-filmskolen.dk,central*,National Film School of Denmark,4,academia
+filmskolen.dk,central,National Film School of Denmark,4,academia
 finanstilsynet.dk,,Danish Financial Supervisory Authority,4,wikidata
 fiskeristyrelsen.dk,,The Danish Fisheries Agency,4,wikidata
 fln.dk,,Q7449848,4,wikidata
 foedevarestyrelsen.dk,,Q138841964,4,wikidata
-forbrugerombudsmanden.dk,central*,Danish Consumer Ombudsman institution,4,wikidata
+forbrugerombudsmanden.dk,central,Danish Consumer Ombudsman institution,4,wikidata
 forensic.au.dk,,Aarhus University Department of Forensic Medicine,4,academia
 gaeldst.dk,,Danish Debt Collection Agency,4,wikidata
 geogenetics.ku.dk,,Centre for Geogenetics,4,academia
-geus.dk,central*,Geological Survey of Denmark and Greenland,4,academia
+geus.dk,central,Geological Survey of Denmark and Greenland,4,academia
 gisselfeld-kloster.dk,,Paradishaven,4,academia
 gribskov.dk,,Q139517047,4,wikidata
 grundtvigcenteret.au.dk,,Q87987383,4,academia
@@ -194,7 +194,7 @@ nors.ku.dk,,Arnamagnæan Institute,4,academia
 nru.dk,,Neurobiology Research Unit,4,academia
 nsbv.dk,,Q139517041,4,wikidata
 okologienshave.dk,,Den Økologiske Have,4,academia
-pal-emb.dk,central*,mission of the State of Palestine in Denmark,4,wikidata
+pal-emb.dk,central,mission of the State of Palestine in Denmark,4,wikidata
 pet.dk,,Danish Security and Intelligence Service,4,wikidata
 plen.ku.dk,,The University Garden at Frederiksberg,4,academia
 plst.dk,,Q129328655,4,wikidata
@@ -204,7 +204,7 @@ revisortilsynet.dk,,Q11997701,4,wikidata
 rgo.dk,,Q141548106,4,wikidata
 rigsarkivet.dk,,Danish National Archives,4,wikidata
 rigsretten.dk,,The Court of Impeachment of the Realm,4,wikidata
-rigsrevisionen.dk,central*,Rigsrevisionen,4,wikidata
+rigsrevisionen.dk,central,Rigsrevisionen,4,wikidata
 rub.ruc.dk,,Roskilde University Library,4,academia
 sbst.dk,,Q123037060,4,wikidata
 sdfe.dk,,The Danish Agency for Climate Data,4,wikidata
@@ -239,7 +239,7 @@ toldst.dk,,Danish Customs Agency,4,wikidata
 ucviden.dk,,UC Viden/ Danish University Colleges,4,academia
 ufst.dk,,IT and Development Agency of the Danish Ministry of Taxation,4,wikidata
 uk.bane.dk,,Banedanmark,4,wikidata
-uk.rigsrevisionen.dk,central*,Rigsrevisionen,4,wikidata
+uk.rigsrevisionen.dk,central,Rigsrevisionen,4,wikidata
 unesco.dk,,Danish National Commission for UNESCO,4,wikidata
 vejdirektoratet.dk,,The Danish Road Directorate,4,wikidata
 veteran.forsvaret.dk,,The Danish Veteran Centre,4,wikidata
@@ -252,26 +252,26 @@ aka.gl,,Danish Tax Agency,3,wikidata
 at.gl,,Danish Working Environment Authority,3,wikidata
 bdforum.org,,Baltic Development Forum,3,academia
 civilsamfundet.org,,Copenhagen Business School Center for Civil Society Studies,3,academia
-copenhagen.europarl.europa.eu,central*,European Parliament Liaison Office in Denmark,3,wikidata
+copenhagen.europarl.europa.eu,central,European Parliament Liaison Office in Denmark,3,wikidata
 dataethics.eu,,Q131852918,3,academia
 denmark.representation.ec.europa.eu,,European Commission Representation in Denmark,3,wikidata
 dkpto.org,,Danish Patent and Trademark Office,3,wikidata
 dmaib.com,,Danish Maritime Accident Investigation Board,3,wikidata
-eal.dk,central*,Lillebaelt Academy University of Applied Sciences,3,ror
-en.via.dk,central*,VIA University College,3,ror
+eal.dk,central,Lillebaelt Academy University of Applied Sciences,3,ror
+en.via.dk,central,VIA University College,3,ror
 euro.who.int,,World Health Organization - Denmark,3,wikidata
-europa.eu,central*,"2 proposed hosts under it: copenhagen.europarl.europa.eu, denmark.representation.ec.europa.eu",3,parent
-international.ucl.dk,central*,University College Lillebaelt,3,ror
-itu.dk,central*,IT University of Copenhagen,3,ror
+europa.eu,central,"2 proposed hosts under it: copenhagen.europarl.europa.eu, denmark.representation.ec.europa.eu",3,parent
+international.ucl.dk,central,University College Lillebaelt,3,ror
+itu.dk,central,IT University of Copenhagen,3,ror
 jobsqd.com,,JobSquad,3,wikidata
 justitia-int.org,,Justitia,3,academia
-kp.dk,central*,University College Copenhagen,3,ror
+kp.dk,central,University College Copenhagen,3,ror
 norden.org,,Nordic Co-operation,3,wikidata
-phabsalon.dk,central*,University College Absalon,3,ror
+phabsalon.dk,central,University College Absalon,3,ror
 roc-taiwan.org,,Taipei Representative Office in Denmark,3,wikidata
 sustainiaworld.com,,Sustainia,3,academia
-ucn.dk,central*,University College of Northern Denmark,3,ror
-ucsyd.dk,central*,University College South Denmark,3,ror
+ucn.dk,central,University College of Northern Denmark,3,ror
+ucsyd.dk,central,University College South Denmark,3,ror
 unepccc.org,,UNEP Copenhagen Climate Centre,3,academia
 anklagemyndigheden.dk,,Copenhagen Police prosecution service | Danish Director of Public Prosecutions | State Prosecutor of Copenhagen | South Zealand and Lolland-Falster Police prosecution service | Danish Prosecution Service | Funen Police prosecution service | Faroe Islands Police prosecution service | Special Crime Unit prosecution service | Bornholm Police prosecution service | Central and West Jutland Police prosecution service | North Jutland Police prosecution service | North Zealand Police prosecution service | Western Copenhagen Police prosecution service | Central and West Zealand Police prosecution service | East Jutland Police prosecution service | State Prosecutor for Special Crime | Greenland Police prosecution service | South East Jutland Police prosecution service | South Jutland Police prosecution service,2,wikidata
 familieretshuset.dk,,Familieretshuset,2,wikidata

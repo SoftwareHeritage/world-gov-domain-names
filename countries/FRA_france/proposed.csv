@@ -1,23 +1,23 @@
 domain,level,name,score,sources
 louvre.fr,,Louvre Conservation Center,8,academia;directory
-parlement.fr,central*,French Parliament,8,wikidata
-ifao.egnet.net,central*,Institut Français d'Archéologie Orientale,7,academia;directory
+parlement.fr,central,French Parliament,8,wikidata
+ifao.egnet.net,central,Institut Français d'Archéologie Orientale,7,academia;directory
 iuct-oncopole.fr,,Institut Claudius Regaud | Oncopole de Toulouse,7,academia
 saintsulpicefrance.fr,,province sulpicienne de France,7,wikidata
 arenes.eu,,"Arènes: politique, santé publique, environnement, médias | Q51785043",6,academia
 b2oa.eu,,Q51783688 | Q51784654,6,academia
 bioimageanalysis.org,,Q51782100 | Q51783327,6,academia
 circeft.org,,Q51784774 | Q51785401,6,academia
-esiee.fr,central*,ESIEE Paris,6,academia;ror
-esigelec.fr,central*,Q51784827,6,academia;ror
-estia.fr,central*,Q51784415,6,academia;ror
+esiee.fr,central,ESIEE Paris,6,academia;ror
+esigelec.fr,central,Q51784827,6,academia;ror
+estia.fr,central,Q51784415,6,academia;ror
 europa.eu,,"3 proposed hosts under it: france.representation.ec.europa.eu, paris.europarl.europa.eu, marseille.europarl.europa.eu",6,parent
 europaraadet.um.dk,,Permanent Representation of Denmark to the Council of Europe,6,wikidata
 federation3c.com,,Q51781091 | Q51784004,6,academia
-france.mfa.am,central*,"Consulate of Armenia, Lyon | Embassy of Armenia, Paris",6,wikidata
+france.mfa.am,central,"Consulate of Armenia, Lyon | Embassy of Armenia, Paris",6,wikidata
 france.representation.ec.europa.eu,,European Commission Representation in France | Representative Office of the European Commission in Paris,6,wikidata
 francoallemand.com,,Deutsch-Französische Industrie- und Handelskammer,6,wikidata
-frankrig.um.dk,central*,"Embassy of Denmark, Paris",6,wikidata
+frankrig.um.dk,central,"Embassy of Denmark, Paris",6,wikidata
 globalcenters.columbia.edu,,Columbia Global Centers | Reid Hall,6,academia
 ifporient.org,,Centre d'études et de recherches sur le Moyen-Orient contemporain | Institut français du Proche-Orient,6,academia
 jardinbretagne.com,,Botanical garden of Upper Brittany | Q96758070,6,academia
@@ -26,18 +26,18 @@ locongres.org,,Permanent Congress of the Occitan Language,6,wikidata
 lsbb.eu,,Low Noise Inter-Disciplinary Underground Science & Technology | Q3214512,6,academia
 oncopole-toulouse.com,,Oncopole de Toulouse | Q51780999,6,academia
 secomunidades.pt,,"Consulate General of Portugal, Marseille | portuguese consulate, Lyon",6,wikidata
-unilasalle.fr,central*,Q51781673,6,academia;ror
-ademe.fr,central-1*,"2 proposed hosts under it: polynesie-francaise.ademe.fr, ocean-indien.ademe.fr",5,parent
+unilasalle.fr,central,Q51781673,6,academia;ror
+ademe.fr,central-1,"2 proposed hosts under it: polynesie-francaise.ademe.fr, ocean-indien.ademe.fr",5,parent
 aquarium-tropical.fr,,Aquarium tropical de la Porte Dorée,5,directory
 artisanat.fr,,CMA France - Chambres des métiers et de l'artisanat,5,directory
 asnr.fr,,Autorité de sûreté nucléaire et de radioprotection | Autorité de sûreté nucléaire et de radioprotection (ASNR) - Division de Paris | Autorité de sû...,5,directory
 atigip-justice.fr,,Agence du travail d’intérêt général et de l’insertion professionnelle (ATIGIP),5,directory
 atout-france.fr,,Atout France - Agence de développement touristique de la France,5,directory
-aura.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Auvergne-Rhône-Alpes,5,directory
+aura.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Auvergne-Rhône-Alpes,5,directory
 autorite-statistique-publique.fr,,Autorité de la statistique publique | Secrétariat de l'Autorité de la statistique publique,5,directory
 autorite-transports.fr,,Autorité de régulation des transports | Direction des affaires financières | Direction des affaires générales | Direction des affaires juridiques -...,5,directory
 autoritedelaconcurrence.fr,,Autorité de la concurrence | Cabinet de la présidente et direction des affaires européennes et internationales | Direction de la communication | Di...,5,directory
-auvergnerhonealpes.cnpf.fr,central-1*,Centre régional de la propriété forestière - Auvergne-Rhône-Alpes,5,directory
+auvergnerhonealpes.cnpf.fr,central-1,Centre régional de la propriété forestière - Auvergne-Rhône-Alpes,5,directory
 bordeaux-port.fr,,Grand port fluvio-maritime - Bordeaux,5,directory
 bpi.fr,,Bibliothèque publique d'information,5,directory
 c2rp.fr,,Carif Oref - Hauts-de-France,5,directory
@@ -46,7 +46,7 @@ cades.fr,,Caisse d'amortissement de la dette sociale (CADES) | Département des 
 cae-eco.fr,,Conseil d'analyse économique,5,directory
 calanques-parcnational.fr,,Parc national des Calanques,5,directory
 campus-condorcet.fr,,Établissement public - Campus Condorcet,5,directory
-cancer-martinique.fr,central-1*,Dispositif spécifique régional du cancer (DSRC) - Onco Martinique,5,directory
+cancer-martinique.fr,central-1,Dispositif spécifique régional du cancer (DSRC) - Onco Martinique,5,directory
 cancer.fr,,Institut national du cancer,5,directory
 cap-metiers.fr,,Carif Oref - Nouvelle-Aquitaine,5,directory
 cariforef-provencealpescotedazur.fr,,Carif Oref - Provence-Alpes-Côte d'Azur,5,directory
@@ -61,19 +61,19 @@ cci.fr,,CCI France (Chambres de Commerce et d'Industrie),5,directory
 ccne-ethique.fr,,Comité consultatif national d’éthique pour les sciences de la vie et de la santé,5,directory
 centrale-marseille.fr,,École centrale de Marseille,5,directory
 centre-inffo.fr,,Centre pour le développement de l'information sur la formation permanente,5,directory
-centre-valdeloire.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Centre-Val de Loire,5,directory
-centre-valdeloire.fr,central-1*,"Conseil régional - Centre-Val de Loire | Conseil économique, social et environnemental régional (Ceser) - Centre-Val de Loire | Direction générale ...",5,directory
+centre-valdeloire.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Centre-Val de Loire,5,directory
+centre-valdeloire.fr,central-1,"Conseil régional - Centre-Val de Loire | Conseil économique, social et environnemental régional (Ceser) - Centre-Val de Loire | Direction générale ...",5,directory
 centrenationaldulivre.fr,,Centre national du livre,5,directory
 centrepompidou.fr,,Centre national d'art et de culture Georges Pompidou | Direction de la communication et des partenariats | Direction de la production | Direction d...,5,directory
 cereq.fr,,Centre d'études et de recherches sur les qualifications,5,directory
 cesece-guyane.fr,,"Conseil économique, social, environnemental, de la culture et de l'éducation (Cesece) - Guyane",5,directory
-ceser-grandest.fr,central-1*,"Conseil économique, social et environnemental régional (Ceser) - Grand Est",5,directory
-ceser-nouvelle-aquitaine.fr,central-1*,"Conseil économique, social et environnemental régional (Ceser) - Nouvelle-Aquitaine",5,directory
-ceser.centre-valdeloire.fr,central-1*,"Conseil économique, social et environnemental régional (Ceser) - Centre-Val de Loire",5,directory
-ceser.maregionsud.fr,central-1*,"Conseil économique, social et environnemental régional (Ceser) - Provence-Alpes-Côte d'Azur",5,directory
-ceserdefrance.fr,central-1*,"Conseil économique, social et environnemental régional (Ceser) - Guadeloupe",5,directory
+ceser-grandest.fr,central-1,"Conseil économique, social et environnemental régional (Ceser) - Grand Est",5,directory
+ceser-nouvelle-aquitaine.fr,central-1,"Conseil économique, social et environnemental régional (Ceser) - Nouvelle-Aquitaine",5,directory
+ceser.centre-valdeloire.fr,central-1,"Conseil économique, social et environnemental régional (Ceser) - Centre-Val de Loire",5,directory
+ceser.maregionsud.fr,central-1,"Conseil économique, social et environnemental régional (Ceser) - Provence-Alpes-Côte d'Azur",5,directory
+ceserdefrance.fr,central-1,"Conseil économique, social et environnemental régional (Ceser) - Guadeloupe",5,directory
 cevennes-parcnational.fr,,Parc national des Cévennes,5,directory
-cg976.fr,central-1*,Conseil départemental - Mayotte,5,directory
+cg976.fr,central-1,Conseil départemental - Mayotte,5,directory
 cglls.fr,,Caisse de garantie du logement locatif social (CGLLS),5,directory
 cglpl.fr,,Contrôleur général des lieux de privation de liberté (CGLPL),5,directory
 ch-agen-nerac.fr,,Service d’aide médicale urgente (Samu) - Lot-et-Garonne,5,directory
@@ -195,7 +195,7 @@ creps-reunion.fr,,"Centre de ressources, d'expertise et de performance sportives
 creps-wattignies.fr,,"Centre de ressources, d'expertise et de performance sportives (Creps) - Wattignies",5,directory
 crepsag.fr,,"Centre de ressources, d'expertise et de performance sportives (Creps) - Pointe-à-Pitre",5,directory
 crepspoitiers.fr,,"Centre de ressources, d'expertise et de performance sportives (Creps) - Poitiers",5,directory
-crous-reunionmayotte.fr,central-1*,Centre régional des œuvres universitaires et scolaires (Crous) - La Réunion et Mayotte,5,directory
+crous-reunionmayotte.fr,central-1,Centre régional des œuvres universitaires et scolaires (Crous) - La Réunion et Mayotte,5,directory
 csa.fr,,Arcom - Bordeaux | Arcom - Caen | Arcom - Clermont-Ferrand | Arcom - Dijon | Arcom - La Réunion - Mayotte | Arcom - Lille | Arcom - Marseille | Arc...,5,directory
 csr-retraites.fr,,Comité de suivi des retraites | Secrétariat du comité de suivi des retraites,5,directory
 debatpublic.fr,,Commission nationale du débat public (CNDP),5,directory
@@ -225,7 +225,7 @@ espe-martinique.fr,,Institut national supérieur du professorat et de l'éducati
 espmer.fr,,École d'administration des affaires maritimes (EAAM) | École de formation des affaires maritimes (EFAM) | École du service public de la mer,5,directory
 etablissements.fhf.fr,,Service d’aide médicale urgente (Samu) - Corse-du-Sud,5,directory
 eurecom.fr,,EURECOM Ecole d'ingénieur et autre de recherche en sciences du numérique,5,directory
-europeenauvergnerhonealpes.fr,central-1*,Conseil régional - Auvergne-Rhône-Alpes,5,directory
+europeenauvergnerhonealpes.fr,central-1,Conseil régional - Auvergne-Rhône-Alpes,5,directory
 expertisefrance.fr,,Expertise France,5,directory
 fiva.fr,,Fonds d'indemnisation des victimes de l'amiante (FIVA),5,directory
 fondsdegarantie.fr,,Fonds de garantie des assurances obligatoires de dommages (FGAO) | Fonds de garantie des victimes des actes de terrorisme et d'autres infractions (...,5,directory
@@ -240,17 +240,17 @@ ghrmsa.fr,,Service d’aide médicale urgente (Samu) - Haut-Rhin,5,directory
 ghsif.fr,,Service d’aide médicale urgente (Samu) - Seine-et-Marne,5,directory
 ght-coeurgrandest.fr,,Service d’aide médicale urgente (Samu) - Meuse,5,directory
 gipalfa.centre-valdeloire.fr,,Carif Oref - Centre-Val de Loire,5,directory
-grandest.chambre-agriculture.fr,central-1*,Chambre régionale d'agriculture - Grand Est - Site de Chalons-en-Champagne | Chambre régionale d'agriculture - Grand Est - Site de Laxou,5,directory
-grandest.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Grand Est - Site de Schiltigheim,5,directory
-grandest.cnpf.fr,central-1*,Centre régional de la propriété forestière - Grand Est,5,directory
+grandest.chambre-agriculture.fr,central-1,Chambre régionale d'agriculture - Grand Est - Site de Chalons-en-Champagne | Chambre régionale d'agriculture - Grand Est - Site de Laxou,5,directory
+grandest.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Grand Est - Site de Schiltigheim,5,directory
+grandest.cnpf.fr,central-1,Centre régional de la propriété forestière - Grand Est,5,directory
 guadeloupe-parcnational.fr,,Parc national de la Guadeloupe,5,directory
 guichet-entreprises.fr,,Sous-direction de l'action européenne et internationale,5,directory
 guimet.fr,,Musée des arts asiatiques Guimet,5,directory
 has-sante.fr,,"Direction de l'amélioration de la qualité et de la sécurité des soins | Direction de l'évaluation médicale, économique et de santé publique | Direc...",5,directory
 hatvp.fr,,"Direction administrative et financière, financière et des ressources humaines | Direction des partenariats et de la communication | Direction des s...",5,directory
 hautconseilclimat.fr,,Haut Conseil pour le climat,5,directory
-hautsdefrance-normandie.cnpf.fr,central-1*,Centre régional de la propriété forestière - Hauts-de-France | Centre régional de la propriété forestière - Normandie,5,directory
-hautsdefrance.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Hauts-de-France,5,directory
+hautsdefrance-normandie.cnpf.fr,central-1,Centre régional de la propriété forestière - Hauts-de-France | Centre régional de la propriété forestière - Normandie,5,directory
+hautsdefrance.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Hauts-de-France,5,directory
 hceres.fr,,Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur (HCERES),5,directory
 hcfea.fr,,"Haut Conseil de la famille, de l'enfance et de l'âge (HCFEA) | Secrétariat du Haut Conseil de la famille, de l'enfance et de l'âge",5,directory
 hcfp.fr,,Haut Conseil des finances publiques,5,directory
@@ -262,7 +262,7 @@ hopital-novo.fr,,Service d’aide médicale urgente (Samu) - Val-d'Oise,5,direct
 hopital.fr,,Service d’aide médicale urgente (Samu) - Haute-Saône,5,directory
 hopitaux-nord-ardenne.fr,,Service d’aide médicale urgente (Samu) - Ardennes,5,directory
 iedom.fr,,Institut d'émission des départements d'Outre-Mer,5,directory
-ifc.cnpf.fr,central-1*,Centre régional de la propriété forestière - Ile-de-France-Centre-Val de Loire,5,directory
+ifc.cnpf.fr,central-1,Centre régional de la propriété forestière - Ile-de-France-Centre-Val de Loire,5,directory
 ifce.fr,,Agence comptable | Direction de l'appui filière et de la stratégie | Direction de la formation | Direction des ressources humaines | Direction du C...,5,directory
 ifpenergiesnouvelles.fr,,IFPEN (IFP Énergies nouvelles) - Etablissement de Lyon,5,directory
 ihest.fr,,Institut des Hautes études par les sciences et la technologie,5,directory
@@ -290,7 +290,7 @@ institutparisregion.fr,,Institut d'aménagement et d'urbanisme de la région d'�
 institutrobertbadinter.fr,,Institut Robert Badinter - Études et recherches sur le droit et la justice,5,directory
 iufrance.fr,,Institut universitaire de France (IUF) | Secrétariat général de l'Institut universitaire de France,5,directory
 joueurs-info-service.fr,,Joueurs Info Service,5,directory
-laregionvoustransporte.fr,central-1*,Conseil régional - Auvergne-Rhône-Alpes,5,directory
+laregionvoustransporte.fr,central-1,Conseil régional - Auvergne-Rhône-Alpes,5,directory
 lareunion-archi.fr,,École nationale supérieure d'architecture - La Réunion,5,directory
 larochelle.port.fr,,Grand port fluvio-maritime - La Rochelle,5,directory
 leblob.fr,,Cité des sciences et de l'industrie,5,directory
@@ -301,10 +301,10 @@ lne.fr,,Laboratoire national de métrologie et d'essais | Laboratoire national d
 lrmh.fr,,Laboratoire de recherche des monuments historiques,5,directory
 mangerbouger.fr,,"Manger Bouger, programme national nutrition santé",5,directory
 manufacturesnationales.fr,,"Établissement public Mobilier national - Musée national de la céramique - Musée national Adrien Dubouché - Manufactures nationales Sèvres, Gobelins...",5,directory
-maregionsud.fr,central-1*,"Conseil régional - Provence-Alpes-Côte d'Azur | Conseil économique, social et environnemental régional (Ceser) - Provence-Alpes-Côte d'Azur | Direc...",5,directory
+maregionsud.fr,central-1,"Conseil régional - Provence-Alpes-Côte d'Azur | Conseil économique, social et environnemental régional (Ceser) - Provence-Alpes-Côte d'Azur | Direc...",5,directory
 marseille-port.fr,,Grand port fluvio-maritime - Marseille-Fos,5,directory
 martinique.port.fr,,Grand port fluvio-maritime - Martinique,5,directory
-mayotte.fr,central-1*,Archives départementales - Mayotte | Bibliothèque départementale - Mayotte | Conseil départemental - Mayotte,5,directory
+mayotte.fr,central-1,Archives départementales - Mayotte | Bibliothèque départementale - Mayotte | Conseil départemental - Mayotte,5,directory
 mercantour-parcnational.fr,,Parc national du Mercantour,5,directory
 meteo.fr,,Météo-France - Site de Toulouse,5,directory
 mobilisation-expertise.fr,,Expertise France,5,directory
@@ -324,10 +324,10 @@ museedesplansreliefs.fr,,Musée des plans-reliefs,5,directory
 museedusport.fr,,Musée national du Sport,5,directory
 museepicassoparis.fr,,Musée national Picasso - Paris,5,directory
 nantes.port.fr,,Grand port fluvio-maritime - Nantes-Saint-Nazaire,5,directory
-nouvelle-aquitaine.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Nouvelle-Aquitaine - Site de Bordeaux | Chambre régionale d'agriculture - Nouvelle-Aquitaine - Site de Limoges | ...,5,directory
-nouvelle-aquitaine.cnpf.fr,central-1*,Centre régional de la propriété forestière - Nouvelle-Aquitaine,5,directory
+nouvelle-aquitaine.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Nouvelle-Aquitaine - Site de Bordeaux | Chambre régionale d'agriculture - Nouvelle-Aquitaine - Site de Limoges | ...,5,directory
+nouvelle-aquitaine.cnpf.fr,central-1,Centre régional de la propriété forestière - Nouvelle-Aquitaine,5,directory
 observatoire-littoral-guyane.fr,,"Direction de la mer, du littoral et des fleuves (DMLF) - Guyane",5,directory
-ocean-indien.ademe.fr,central-1*,Agence de l'environnement et de la maîtrise de l'énergie (ADEME) - Direction régionale Océan Indien - Site de Mayotte | Agence de l'environnement e...,5,directory
+ocean-indien.ademe.fr,central-1,Agence de l'environnement et de la maîtrise de l'énergie (ADEME) - Direction régionale Océan Indien - Site de Mayotte | Agence de l'environnement e...,5,directory
 odeadom.fr,,Office de développement de l'économie agricole des départements d'Outre-mer (ODEADOM),5,directory
 ofdt.fr,,Observatoire français des drogues et des tendances addictives,5,directory
 ofii.fr,,Office français de l'immigration et de l'intégration,5,directory
@@ -339,8 +339,8 @@ operadeparis.fr,,"Atelier d'art lyrique | Opéra national de Paris, Palais Garni
 oppic.fr,,Opérateur du patrimoine et des projets immobiliers de la culture,5,directory
 ordredelaliberation.fr,,"Conseil national des communes ""Compagnon de la Libération"" - Ordre de la Libération",5,directory
 orientation.centre-valdeloire.fr,,Carif Oref - Centre-Val de Loire,5,directory
-paca.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Provence-Alpes-Côte d'Azur,5,directory
-paca.cnpf.fr,central-1*,Centre régional de la propriété forestière - Provence-Alpes-Côte d'Azur,5,directory
+paca.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Provence-Alpes-Côte d'Azur,5,directory
+paca.cnpf.fr,central-1,Centre régional de la propriété forestière - Provence-Alpes-Côte d'Azur,5,directory
 palais-portedoree.fr,,Établissement Public du Palais de la Porte Dorée,5,directory
 parc-amazonien-guyane.fr,,Parc amazonien de Guyane,5,directory
 parc-marin-bassin-arcachon.fr,,Parc naturel marin du Bassin d'Arcachon,5,directory
@@ -353,7 +353,7 @@ parc-marin-martinique.fr,,Parc naturel marin de Martinique,5,directory
 parc-marin-mayotte.fr,,Parc naturel marin de Mayotte,5,directory
 parcsnationaux.fr,,Parcs nationaux de France,5,directory
 parczoologiquedeparis.fr,,Parc Zoologique de Paris (Zoo de Vincennes),5,directory
-pays-de-la-loire.chambres-agriculture.fr,central-1*,Chambre régionale d'agriculture - Pays de la Loire,5,directory
+pays-de-la-loire.chambres-agriculture.fr,central-1,Chambre régionale d'agriculture - Pays de la Loire,5,directory
 philharmoniedeparis.fr,,Cité de la musique - Philharmonie de Paris,5,directory
 pole-emploi.fr,,France Travail,5,directory
 polynesie-francaise.ademe.fr,,Agence de l'environnement et de la maîtrise de l'énergie (ADEME) - Polynésie française,5,directory
@@ -365,7 +365,7 @@ pro.choisirmonmetier-paysdelaloire.fr,,Carif Oref - Pays de la Loire,5,directory
 pyrenees-parcnational.fr,,Parc national des Pyrénées,5,directory
 quaibranly.fr,,Musée du quai Branly - Jacques Chirac,5,directory
 rafp.fr,,Établissement de retraite additionnelle de la fonction publique,5,directory
-regionguadeloupe.fr,central-1*,"Conseil de la culture, de l'éducation et de l'environnement - Guadeloupe | Conseil régional - Guadeloupe | Conseil économique, social et environnem...",5,directory
+regionguadeloupe.fr,central-1,"Conseil de la culture, de l'éducation et de l'environnement - Guadeloupe | Conseil régional - Guadeloupe | Conseil économique, social et environnem...",5,directory
 reglementation-controle.asnr.fr,,Autorité de sûreté nucléaire et de radioprotection (ASNR) - Division d'Orléans | Autorité de sûreté nucléaire et de radioprotection (ASNR) - Divisi...,5,directory
 reseau-canope.fr,,Atelier Canopé 01 - Bourg-en-Bresse | Atelier Canopé 02 - Laon | Atelier Canopé 03 - Moulins | Atelier Canopé 04 - Digne-les-Bains | Atelier Canopé...,5,directory
 retourvolontaire.fr,,Office français de l'immigration et de l'intégration,5,directory
@@ -374,8 +374,8 @@ reunion.port.fr,,Grand port fluvio-maritime - La Réunion,5,directory
 rmngp.fr,,Établissement public de la Réunion des musées nationaux et du Grand Palais,5,directory
 sanctuaire-agoa.fr,,Sanctuaire AGOA pour les mammifères marins,5,directory
 santepubliquefrance.fr,,"Agence nationale de Santé publique | Santé publique France - Antilles, site de la Guadeloupe | Santé publique France - Antilles, site de la Martini...",5,directory
-sdis971.fr,central-1*,Service départemental d'incendie et de secours (SDIS) - Guadeloupe,5,directory
-sdis976.fr,central-1*,Service départemental d'incendie et de secours (SDIS) - Mayotte,5,directory
+sdis971.fr,central-1,Service départemental d'incendie et de secours (SDIS) - Guadeloupe,5,directory
+sdis976.fr,central-1,Service départemental d'incendie et de secours (SDIS) - Mayotte,5,directory
 securite-ferroviaire.fr,,Établissement public de sécurité ferroviaire,5,directory
 shom.fr,,Direction de la stratégie et du développement | Direction des missions institutionnelles et des relations internationales | Direction des moyens gé...,5,directory
 site.bdlg.fr,,Bureau des longitudes,5,directory
@@ -417,25 +417,25 @@ agencedpc.fr,,Q55385475,4,wikidata
 agrocampus-ouest.fr,,Research Institute of Horticulture and Seeds,4,academia
 aixenprovence.fr,,Q117408151,4,wikidata
 alsace.eu,,"2 proposed hosts under it: archives.alsace.eu, archives68.alsace.eu",4,parent
-amb-afg.fr,central*,"Embassy of Afghanistan, Paris",4,wikidata
-amb-algerie.fr,central*,"Embassy of Algeria, Paris",4,wikidata
-ambarimparis.fr,central*,"Embassy of Mauritania, Paris",4,wikidata
-ambassade-du-burundi.fr,central*,Embassy of Burundi in France,4,wikidata
-ambassade-du-soudan.fr,central*,Embassy of Sudan in France,4,wikidata
-ambassadesyrie.fr,central*,"Embassy of Syria, Paris",4,wikidata
+amb-afg.fr,central,"Embassy of Afghanistan, Paris",4,wikidata
+amb-algerie.fr,central,"Embassy of Algeria, Paris",4,wikidata
+ambarimparis.fr,central,"Embassy of Mauritania, Paris",4,wikidata
+ambassade-du-burundi.fr,central,Embassy of Burundi in France,4,wikidata
+ambassade-du-soudan.fr,central,Embassy of Sudan in France,4,wikidata
+ambassadesyrie.fr,central,"Embassy of Syria, Paris",4,wikidata
 ampere-lab.fr,,Laboratoire Ampère,4,academia
 amse-aixmarseille.fr,,Groupement de Recherche en Economie Quantitative d’Aix-Marseille,4,academia
 ancv.com,,Agence nationale pour les chèques-vacances,4,directory
 anexplo.genotoul.fr,,Q51780878,4,academia
 anhima.fr,,Anthropology and History of the Ancient Worlds,4,academia
-anrt-nancy.fr,central*,Atelier national de recherche typographique,4,academia
+anrt-nancy.fr,central,Atelier national de recherche typographique,4,academia
 anthropobiologie.fr,,Laboratory of Molecular Anthropology and Image Synthesis,4,academia
 apc.u-paris.fr,,Astroparticle and Cosmology Laboratory,4,academia
 aramis.obspm.fr,,Q51784220,4,academia
-arar.mom.fr,central*,Archéologie et Archéométrie,4,academia
+arar.mom.fr,central,Archéologie et Archéométrie,4,academia
 arboretum-amance.fr,,Arboretum d'Amance,4,academia
 arboretum-canetenroussillon.fr,,Arboretum of Canet-en-Roussillon,4,academia
-arboretumdesbarres.fr,central*,Arboretum national des Barres,4,academia
+arboretumdesbarres.fr,central,Arboretum national des Barres,4,academia
 arboretumdeversailleschevreloup.fr,,Arboretum de Chèvreloup,4,academia
 archeo.ens.fr,,Q30262184,4,academia
 archeologie.orleans-metropole.fr,,Q141959510,4,wikidata
@@ -444,8 +444,8 @@ archeosciences-bordeaux.fr,,Archéosciences Bordeaux,4,academia
 archive.ims-bordeaux.fr,,Q51784336,4,academia
 archives.alsace.eu,,Archives d'Alsace - site de Colmar | Archives d'Alsace - site de Strasbourg,4,directory
 archives68.alsace.eu,,Archives d'Alsace - site de Colmar,4,directory
-arscan.fr,central*,Archéologies et Sciences de l’Antiquité,4,academia
-artehis.u-bourgogne.fr,central*,Q51780478,4,academia
+arscan.fr,central,Archéologies et Sciences de l’Antiquité,4,academia
+artehis.u-bourgogne.fr,central,Q51780478,4,academia
 arvalisinstitutduvegetal.fr,,ARVALIS - Institut du végétal,4,academia
 assemblee-afe.fr,,Assembly of French Citizens Abroad,4,wikidata
 atilf.fr,,Computer Processing and Analysis of the French Language,4,academia
@@ -454,8 +454,8 @@ aviesan.fr,,French National Alliance for Life Sciences and Health,4,wikidata
 bambouseraie.fr,,Bambouseraie de Prafrance,4,academia
 batiment.imag.fr,,Institut d'informatique et mathématiques appliquées de Grenoble,4,academia
 bdi.fr,,Bretagne Développement Innovation,4,wikidata
-bdp971.wordpress.com,central-1*,Bibliothèque départementale - Guadeloupe,4,directory
-benin-ambassade.fr,central*,Embassy of Benin in France,4,wikidata
+bdp971.wordpress.com,central-1,Bibliothèque départementale - Guadeloupe,4,directory
+benin-ambassade.fr,central,Embassy of Benin in France,4,wikidata
 beta-economics.fr,,Bureau for Economic Theory and Applications,4,academia
 beta-umr7522.fr,,Bureau for Economic Theory and Applications,4,academia
 bezout.univ-paris-est.fr,,Q51781545,4,academia
@@ -478,7 +478,7 @@ bip.cnrs-mrs.fr,,Bioénergétique et Ingénierie des Protéines,4,academia
 boiscornille.fr,,Q96758075,4,academia
 bordeaux-neurocampus.fr,,Q51780159,4,academia
 bourgognefranchecomte.cci.fr,,Chambre de commerce et d'industrie de région Bourgogne-Franche-Comté,4,wikidata
-bretagne-inp.fr,central*,Bretagne Institute of Technology,4,academia
+bretagne-inp.fr,central,Bretagne Institute of Technology,4,academia
 c2ma.mines-ales.fr,,Q51784623,4,academia
 ca-paris.justice.fr,,Court of Appeal of Paris,4,wikidata
 campusfrance.org,,Campus France,4,directory
@@ -549,7 +549,7 @@ chambord.org,,Domaine national de Chambord,4,directory
 chateauversailles-recherche.fr,,Palace of Versailles Research Centre,4,academia
 chemicalbiology.curie.fr,,Q51781882,4,academia
 chisco.u-paris10.fr,,Centre d'histoire sociale et culturelle de l'Occident,4,academia
-chrono-environnement.univ-fcomte.fr,central*,Chrono-Environment Laboratory,4,academia
+chrono-environnement.univ-fcomte.fr,central,Chrono-Environment Laboratory,4,academia
 chronobiotron.u-strasbg.fr,,Q51783983,4,academia
 ci2n.fr,,Q51781681,4,academia
 cic-cpc.chu-clermontferrand.fr,,Q51782520,4,academia
@@ -588,7 +588,7 @@ collectivitedemartinique.mq,,Collectivité territoriale de Martinique,4,director
 columbiaprograms.fr,,Reid Hall,4,academia
 commission-malraux.fr,,Q134570315,4,wikidata
 communfrancais.destincommun.fr,,Destin commun,4,academia
-consulat-besancon-algerie.fr,central*,"Consulate of Algeria, Besançon",4,wikidata
+consulat-besancon-algerie.fr,central,"Consulate of Algeria, Besançon",4,wikidata
 consulat-bordeaux-algerie.fr,,"Consulate of Algeria, Bordeaux",4,wikidata
 consulat-mali-lyon.fr,,Consulate General of Mali in Lyon,4,wikidata
 consulat-metz-algerie.fr,,Consulate of Algeria in Metz,4,wikidata
@@ -671,8 +671,8 @@ ei.mines-douai.fr,,Q51783841,4,academia
 eipl.cnrs-mrs.fr,,Q51781517,4,academia
 elec.unice.fr,,Q51781525,4,academia
 elliadd.univ-fcomte.fr,,"Édition, Langages, Littératures, Informatique, Arts, Didactiques, Discours",4,academia
-embassyofnamibia.fr,central*,Embassy of Namibia in Paris,4,wikidata
-emboliviafrancia.fr,central*,embassy of Bolivia in France,4,wikidata
+embassyofnamibia.fr,central,Embassy of Namibia in Paris,4,wikidata
+emboliviafrancia.fr,central,embassy of Bolivia in France,4,wikidata
 emfor-bfc.org,,Carif Oref - Bourgogne-Franche-Comté,4,directory
 enim.eu,,Département d'appui au pilotage stratégique et à l'innovation | Sous direction des politiques sociales maritimes (SDPSM) | Sous-direction de la rel...,4,directory
 enpc.fr,,"3 proposed hosts under it: navier.enpc.fr, cermics-lab.enpc.fr, cerea.enpc.fr",4,parent
@@ -715,7 +715,7 @@ fmnt.online.fr,,Q51781782,4,academia
 fncaue.com,,"Conseil d'architecture, d'urbanisme et de l'environnement (CAUE) - Paris",4,directory
 fondation-cnrs.org,,Fondation CNRS,4,directory
 fondation-nanosciences.fr,,Fondation Nanosciences,4,academia
-foretpriveefrancaise.com,central-1*,Centre national de la propriété forestière | Centre régional de la propriété forestière - Auvergne-Rhône-Alpes,4,directory
+foretpriveefrancaise.com,central-1,Centre national de la propriété forestière | Centre régional de la propriété forestière - Auvergne-Rhône-Alpes,4,directory
 fr.sfr-necker.fr,,Q51781933,4,academia
 fr2769.upmc.fr,,Q51780489,4,academia
 frabio.univ-lille1.fr,,Q51781609,4,academia
@@ -751,7 +751,7 @@ ghicl.fr,,Q52606305,4,academia
 ghtarmor.bzh,,Service d’aide médicale urgente (Samu) - Côtes d'Armor,4,directory
 gi2m-metz.fr,,Q51781666,4,academia
 gind.mines-albi.fr,,Q51783941,4,academia
-gouv.qc.ca,central*,Quebec general delegation to Paris,4,wikidata
+gouv.qc.ca,central,Quebec general delegation to Paris,4,wikidata
 grandlyon.com,,Métropole de Lyon - Rhône,4,directory
 grandparisamenagement.fr,,Q16303550,4,wikidata
 gred-clermont.fr,,Genetique Reproduction and Developpement,4,academia
@@ -769,7 +769,7 @@ gulliver.espci.fr,,Gulliver,4,academia
 h2a-france.org,,Haute autorité de l'audit,4,directory
 harmasjeanhenrifabre.fr,,Harmas de Fabre,4,academia
 haropaport.com,,Ports de Paris - HAROPA Port,4,directory
-hautenormandie.fr,central-1*,Regional Council of Upper Normandy,4,wikidata
+hautenormandie.fr,central-1,Regional Council of Upper Normandy,4,wikidata
 hautsdefrance.cci.fr,,Chamber of commerce Grand Lille,4,wikidata
 health-data-hub.fr,,Health Data Hub,4,wikidata
 hec.fr,,Groupement de Recherche et d’Études en Gestion à HEC Paris,4,academia
@@ -926,7 +926,7 @@ itap.irstea.fr,,Q51782972,4,academia
 itech.fr,,Q51780080,4,academia
 item.ens.fr,,Institut des textes et manuscrits modernes,4,academia
 ithem.fr,,Innovatives Therapies in Haemostasis,4,academia
-itodys.univ-paris7.fr,central*,Interfaces Traitements Organisation et Dynamique des Systèmes,4,academia
+itodys.univ-paris7.fr,central,Interfaces Traitements Organisation et Dynamique des Systèmes,4,academia
 iusti.univ-provence.fr,,Institut Universitaire des Systèmes Thermiques Industriels,4,academia
 iut.u-bordeaux4.fr,,Institut universitaire de technologie,4,academia
 ixxi.fr,,Q133503051,4,academia
@@ -940,8 +940,8 @@ jardinsdebroceliande.fr,,Q96758069,4,academia
 jardinsrocambole.fr,,Q86661763,4,academia
 jrcc.pf,,JRCC Tahiti (Joint Rescue Coordination Centre) ou Centre de coordination aéronautique et maritime de sauvetage conjoint - Polynésie française,4,directory
 jussieu.fr,,"5 proposed hosts under it: ecologie.snv.jussieu.fr, lpthe.jussieu.fr, lct.jussieu.fr",4,parent
-justice.fr,central-1*,Q115471229,4,wikidata
-kenyaembassyparis.fr,central*,Embassy of Kenya in France,4,wikidata
+justice.fr,central-1,Q115471229,4,wikidata
+kenyaembassyparis.fr,central,Embassy of Kenya in France,4,wikidata
 l2e.upmc.fr,,Laboratoire d'Électronique et d'Electromagnétisme,4,academia
 la-fabrique.fr,,La Fabrique de l’industrie,4,academia
 laas.fr,,Laboratory for Analysis and Architecture of Systems,4,academia
@@ -972,7 +972,7 @@ lama-umr8050.fr,,Q51780750,4,academia
 lama.univ-savoie.fr,,Mathematics Laboratory,4,academia
 lameta.univ-montp1.fr,,Q51782836,4,academia
 lamsade.dauphine.fr,,Lamsade,4,academia
-languedoc-roussillon-universites.fr,central*,Languedoc Roussillon Universities,4,academia
+languedoc-roussillon-universites.fr,central,Languedoc Roussillon Universities,4,academia
 laplace.univ-tlse.fr,,Laboratoire Plasma et Conversion d'Energie,4,academia
 lapsco.fr,,Laboratoire de Psychologie Sociale et Cognitive,4,academia
 lar.univ-paris-diderot.fr,,André Revuz Didactics Laboratory,4,academia
@@ -1117,12 +1117,12 @@ math.u-bourgogne.fr,,Institut de Mathématiques de Bourgogne,4,academia
 math.unice.fr,,Laboratoire Jean-Alexandre Dieudonné,4,academia
 math.univ-lille1.fr,,Q51782117,4,academia
 math.univ-metz.fr,,Q51784322,4,academia
-mathdoc.fr,central*,Cellule de coordination documentaire nationale pour les mathématiques,4,academia
+mathdoc.fr,central,Cellule de coordination documentaire nationale pour les mathématiques,4,academia
 mathrice.fr,,Q51783485,4,academia
 mathsamodeler.ujf-grenoble.fr,,Q51780984,4,academia
 matv2l.cnrs-orleans.fr,,Q51783890,4,academia
 mavihep-strasbourg.fr,,Virus Host-Interactions and Liver Diseases,4,academia
-mediatheques.collectivitedemartinique.mq,central-1*,Bibliothèque départementale - Martinique,4,directory
+mediatheques.collectivitedemartinique.mq,central-1,Bibliothèque départementale - Martinique,4,directory
 meshs.fr,,MESHS - Maison Européenne des Sciences de l'Homme et de la Société,4,academia
 mesopolhis.fr,,"Centre méditerranéen de sociologie, de science politique et d’histoire",4,academia
 metafort.fr,,Q51781129,4,academia
@@ -1180,7 +1180,7 @@ orientazione.isula.corsica,,Carif Oref - Corse,4,directory
 osug.fr,,Observatoire des Sciences de l'Univers de Grenoble,4,academia
 osupytheas.fr,,Q3348326,4,academia
 osur.univ-rennes1.fr,,Q51782983,4,academia
-ouzbekistan.fr,central*,"Embassy of Uzbekistan, Paris",4,wikidata
+ouzbekistan.fr,central,"Embassy of Uzbekistan, Paris",4,wikidata
 pacific-credo.fr,,Centre de Recherche et de Documentation sur l'Océanie,4,academia
 pacte-grenoble.fr,,"Laboratoire Politiques Publiques, Action Politique, Territoires",4,academia
 pagesperso-orange.fr,,"2 proposed hosts under it: consulat.indonesie.pagesperso-orange.fr, rosesdenormandie.pagesperso-orange.fr",4,parent
@@ -1190,7 +1190,7 @@ paris-conciergerie.fr,,Conciergerie,4,wikidata
 paris-neuroscience.fr,,École des Neurosciences de Paris,4,academia
 paris-saclay.fr,,"2 proposed hosts under it: i2bc.paris-saclay.fr, satie.paris-saclay.fr",4,parent
 parisantecampus.fr,,PariSanté Campus,4,academia
-parisdescartes.fr,central*,"10 proposed hosts under it: lps.recherche.parisdescartes.fr, canthel.shs.parisdescartes.fr, map5.mi.parisdescartes.fr",4,parent
+parisdescartes.fr,central,"10 proposed hosts under it: lps.recherche.parisdescartes.fr, canthel.shs.parisdescartes.fr, map5.mi.parisdescartes.fr",4,parent
 partnaire.fr,,Partnaire France,4,wikidata
 pasteur-lille.fr,,Center for Infection and Immunity of Lille,4,academia
 patrimoines-martinique.org,,Archives Territoriales - Martinique,4,directory
@@ -1219,7 +1219,7 @@ recherche.cesi.fr,,Laboratoire d’innovation numérique pour les entreprises et
 recherche.irsan.fr,,Q98639203,4,academia
 recherche.math.univ-bpclermont.fr,,Laboratoire de Mathématiques,4,academia
 recherchecliniquepariscentre.fr,,Q51785074,4,academia
-regionpaca.fr,central-1*,Regional Council of Provence-Alpes-Côte d'Azur,4,wikidata
+regionpaca.fr,central-1,Regional Council of Provence-Alpes-Côte d'Azur,4,wikidata
 remi-centrevaldeloire.fr,,Rémi,4,wikidata
 republique-des-savoirs.fr,,Q51781852,4,academia
 rmngbp.cnrs-orleans.fr,,Q51783752,4,academia
@@ -1239,8 +1239,8 @@ satie.paris-saclay.fr,,Laboratory of Systems & Applications of Information & Ene
 scanmat.univ-rennes1.fr,,Q51782135,4,academia
 science.curie.fr,,Q51783077,4,academia
 scienceschimiques.univ-rennes1.fr,,Institut des sciences chimiques de Rennes,4,academia
-sciencespo-rennes.fr,central*,Institut d'études politiques de Rennes,4,academia
-sdis974.re,central-1*,Service départemental d'incendie et de secours (SDIS) - La Réunion,4,directory
+sciencespo-rennes.fr,central,Institut d'études politiques de Rennes,4,academia
+sdis974.re,central-1,Service départemental d'incendie et de secours (SDIS) - La Réunion,4,directory
 sete-moulis-cnrs.fr,,Station for Theoretical and Experimental Ecology,4,academia
 sfr-biosciences.fr,,SFR Biosciences Lyon,4,academia
 sfr-ibsm.fr,,Q51784111,4,academia
@@ -1280,7 +1280,7 @@ thema.univ-fcomte.fr,,Théoriser et Modéliser pour Aménager,4,academia
 theta.obs-besancon.fr,,Q51781028,4,academia
 til.u-bourgogne.fr,,Q51783655,4,academia
 tima.imag.fr,,Techniques of Informatics and Microelectronics for Integrated Systems Architecture,4,academia
-titss-cntss.fr,central*,National Court for Health and Social Services Rates,4,wikidata
+titss-cntss.fr,central,National Court for Health and Social Services Rates,4,wikidata
 tnova.fr,,Terra Nova,4,academia
 toulouse-aerospace.fr,,Toulouse Aerospace,4,academia
 tours.fr,,Q111083328,4,wikidata
@@ -1294,8 +1294,8 @@ txiktxak.fr,,Txik Txak,4,wikidata
 u-bordeaux1.fr,,"5 proposed hosts under it: obs.u-bordeaux1.fr, math.u-bordeaux1.fr, incia.u-bordeaux1.fr",4,parent
 u-bordeaux2.fr,,"4 proposed hosts under it: ibgc.u-bordeaux2.fr, cgfb.u-bordeaux2.fr, rmsb.u-bordeaux2.fr",4,parent
 u-bordeaux4.fr,,"2 proposed hosts under it: iut.u-bordeaux4.fr, cerfap.u-bordeaux4.fr",4,parent
-u-bourgogne.fr,central*,University of Burgundy Europe,4,academia
-u-paris.fr,central*,Centre d'études et de recherches interdisciplinaires de l'UFR LAC | Paris Cité University | Q51778792,4,academia;ror
+u-bourgogne.fr,central,University of Burgundy Europe,4,academia
+u-paris.fr,central,Centre d'études et de recherches interdisciplinaires de l'UFR LAC | Paris Cité University | Q51778792,4,academia;ror
 u-paris2.fr,,"6 proposed hosts under it: crda.u-paris2.fr, cde.u-paris2.fr, carism.u-paris2.fr",4,parent
 u-pem.fr,,"6 proposed hosts under it: msme.u-pem.fr, acp.u-pem.fr, lisaa.u-pem.fr",4,parent
 u-sports.univ-fcomte.fr,,Laboratoire C3S,4,academia
@@ -1308,7 +1308,7 @@ u2is.ensta-paristech.fr,,Q51785110,4,academia
 u830.curie.fr,,Genetics and Biology of Cancers,4,academia
 u900.curie.fr,,"Cancer and Genome : Bioinformatics, Biostatistics and Epidemiology of a Complex System",4,academia
 u932.curie.fr,,Immunity and Cancer,4,academia
-ubfc.fr,central*,Burgundy - Franche-Comté University Group,4,academia
+ubfc.fr,central,Burgundy - Franche-Comté University Group,4,academia
 ucp.ensta-paristech.fr,,Q51781479,4,academia
 uhp-nancy.fr,,"2 proposed hosts under it: cjbn.uhp-nancy.fr, cran.uhp-nancy.fr",4,parent
 ujf-grenoble.fr,,Laboratoire de Radiopharmaceutiques Biocliniques,4,academia
@@ -1341,13 +1341,13 @@ univ-montp1.fr,,"2 proposed hosts under it: lameta.univ-montp1.fr, ibmm.univ-mon
 univ-montp2.fr,,"7 proposed hosts under it: lupm.univ-montp2.fr, iemm.univ-montp2.fr, ens.math.univ-montp2.fr",4,parent
 univ-mrs.fr,,"8 proposed hosts under it: ciml.univ-mrs.fr, cinam.univ-mrs.fr, afmb.univ-mrs.fr",4,parent
 univ-paris-est.fr,,"3 proposed hosts under it: bezout.univ-paris-est.fr, irg.univ-paris-est.fr, erudite.univ-paris-est.fr",4,parent
-univ-paris3.fr,central*,"CERAM | CERC | CLESTHIA | Center for Research on the English Speaking World | Centre de Recherche Interuniversitaire sur l'Amérique Latine | Centre de recherche sur les pays lusophones | Centre des Etudes Arabes et Orientales | Communication, Information, Médias | Didactique des Langues, des Textes et des Cultures | Formes et Idées de la Renaissance aux Lumières | Institut de Recherche Médias, Cultures, Communication et Numérique | Les Cultures de l'Europe Méditerranéenne Occidentale | PRISMES | Q51780798 | Q51782847 | Q51785167 | Université de Paris III. Institut de recherche sur le cinéma et l'audiovisuel | Visual and Performance Studies",4,academia;ror
+univ-paris3.fr,central,"CERAM | CERC | CLESTHIA | Center for Research on the English Speaking World | Centre de Recherche Interuniversitaire sur l'Amérique Latine | Centre de recherche sur les pays lusophones | Centre des Etudes Arabes et Orientales | Communication, Information, Médias | Didactique des Langues, des Textes et des Cultures | Formes et Idées de la Renaissance aux Lumières | Institut de Recherche Médias, Cultures, Communication et Numérique | Les Cultures de l'Europe Méditerranéenne Occidentale | PRISMES | Q51780798 | Q51782847 | Q51785167 | Université de Paris III. Institut de recherche sur le cinéma et l'audiovisuel | Visual and Performance Studies",4,academia;ror
 univ-paris5.fr,,"3 proposed hosts under it: lcrbw.pharmacie.univ-paris5.fr, lpp.psycho.univ-paris5.fr, eda.shs.univ-paris5.fr",4,parent
-univ-paris7.fr,central*,"2 proposed hosts under it: mpq.univ-paris7.fr, itodys.univ-paris7.fr",4,parent
+univ-paris7.fr,central,"2 proposed hosts under it: mpq.univ-paris7.fr, itodys.univ-paris7.fr",4,parent
 univ-provence.fr,,"2 proposed hosts under it: sites.univ-provence.fr, iusti.univ-provence.fr",4,parent
 univ-rennes1.fr,,"13 proposed hosts under it: geosciences.univ-rennes1.fr, biochpharma.univ-rennes1.fr, iode.univ-rennes1.fr",4,parent
 univ-savoie.fr,,"5 proposed hosts under it: lip.univ-savoie.fr, polytech.univ-savoie.fr, lama.univ-savoie.fr",4,parent
-universiteparisseine.fr,central*,University of Paris-Seine,4,academia
+universiteparisseine.fr,central,University of Paris-Seine,4,academia
 ups-tlse.fr,,"10 proposed hosts under it: lrsv.ups-tlse.fr, ict.ups-tlse.fr, imrcp.ups-tlse.fr",4,parent
 urafpa.fr,,Laboratoire Animal et Agroécosystèmes,4,academia
 urmis.fr,,URMIS,4,academia
@@ -1365,7 +1365,7 @@ web.reunionprospectivecompetences.org,,Carif Oref - La Réunion,4,directory
 wiki-math.univ-mlv.fr,,Q51781130,4,academia
 wikis.univ-lille1.fr,,Q51781358,4,academia
 wildenstein-institute.fr,,Wildenstein Institute,4,academia
-wordpress.com,central-1*,"7 proposed hosts under it: bdp971.wordpress.com, lpcpp.wordpress.com, etudesculturelles.wordpress.com",4,parent
+wordpress.com,central-1,"7 proposed hosts under it: bdp971.wordpress.com, lpcpp.wordpress.com, etudesculturelles.wordpress.com",4,parent
 www-cbd.ups-tlse.fr,,Centre de Biologie du Développement,4,academia
 www-fourier.ujf-grenoble.fr,,Institut Fourier,4,academia
 www-frbt.biotoul.fr,,Q51782766,4,academia
@@ -1384,18 +1384,18 @@ zoo.montpellier.fr,,Parc zoologique de Montpellier,4,academia
 academiemarquisienne.com,,Marquesan Academy,3,wikidata
 aecc.hypotheses.org,,Q51782598,3,academia
 afri-ct.org,,Q51781309,3,academia
-afriquesud.net,central*,"Embassy of South Africa, Paris",3,wikidata
+afriquesud.net,central,"Embassy of South Africa, Paris",3,wikidata
 ai.facebook.com,,Facebook AI Research,3,academia
 alistore.eu,,Alistore European Research Institute,3,academia
-ambacamparis.org,central*,Embassy of Cameroun in France,3,wikidata
-ambalaos-france.com,central*,Embassy of Laos in France,3,wikidata
-ambardcparis.com,central*,Embassy of Democratic Republic of the Congo in Paris,3,wikidata
-ambasadat.net,central*,"Embassy of Kosovo, Paris",3,wikidata
-ambassade-comores.com,central*,"Embassy of Comoros, Paris",3,wikidata
-ambassade-vietnam.com,central*,"Embassy of Vietnam, Paris",3,wikidata
-ambasseneparis.com,central*,"Embassy of Senegal, Paris",3,wikidata
-ambtchad-paris.org,central*,Embassy of Chad in France,3,wikidata
-angers.esba-talm.fr,central*,École Supérieure d'Art et de Design Tours-Angers-Le Mans,3,ror
+ambacamparis.org,central,Embassy of Cameroun in France,3,wikidata
+ambalaos-france.com,central,Embassy of Laos in France,3,wikidata
+ambardcparis.com,central,Embassy of Democratic Republic of the Congo in Paris,3,wikidata
+ambasadat.net,central,"Embassy of Kosovo, Paris",3,wikidata
+ambassade-comores.com,central,"Embassy of Comoros, Paris",3,wikidata
+ambassade-vietnam.com,central,"Embassy of Vietnam, Paris",3,wikidata
+ambasseneparis.com,central,"Embassy of Senegal, Paris",3,wikidata
+ambtchad-paris.org,central,Embassy of Chad in France,3,wikidata
+angers.esba-talm.fr,central,École Supérieure d'Art et de Design Tours-Angers-Le Mans,3,ror
 arboretum-balaine.com,,Arboretum de Balaine,3,academia
 arboretum-roure.org,,Arboretum Marcel Kroenlein,3,academia
 arboretumdelafosse.com,,Arboretum de la Fosse,3,academia
@@ -1406,7 +1406,7 @@ asies.hypotheses.org,,ASIEs Inalco,3,academia
 association-artic.org,,Association pour la Recherche de Thérapeutiques Innovantes en Cancérologie,3,academia
 augustecomte.org,,Société positiviste de Paris,3,academia
 autorite-concurrence.nc,,Autorité de la concurrence de la Nouvelle-Calédonie,3,wikidata
-beauxartsnantes.fr,central*,École des beaux-arts Nantes Saint-Nazaire,3,ror
+beauxartsnantes.fr,central,École des beaux-arts Nantes Saint-Nazaire,3,ror
 bio-afm-lab.com,,Q51783377,3,academia
 biobanques.eu,,Biobanques Infrastructure,3,academia
 bioecoagro.eu,,UMR Transfrontalière BioEcoAgro,3,academia
@@ -1418,17 +1418,17 @@ bordeaux.diplo.de,,"Consulate General of Germany, Bordeaux",3,wikidata
 bordeus.consuladoportugal.mne.pt,,"Consulate General of Portugal, in Bordeaux",3,wikidata
 branfere.com,,Zoo and Botanical Garden of Branféré,3,academia
 brezhoneg.bzh,,Ofis publik ar brezhoneg,3,wikidata
-builders-ingenieurs.fr,central*,Builders École d'ingénieurs,3,ror
+builders-ingenieurs.fr,central,Builders École d'ingénieurs,3,ror
 bus-tub.com,,TUB Meuse Grand Sud,3,wikidata
 c18.net,,Centre international d'étude du XVIIIe siècle,3,academia
 c2p2-cpe.com,,"Laboratory of Chemistry, Catalysis, Polymers and Process",3,academia
 canceropole-clara.com,,Q2936222,3,academia
 canceropole-grandouest.com,,Q16535477,3,academia
 caradeuc.com,,Q96758068,3,academia
-cbnbl.org,central*,National Botanical Conservatory of Bailleul,3,academia
+cbnbl.org,central,National Botanical Conservatory of Bailleul,3,academia
 cde-montpellier.com,,Université de Lausanne. Centre du droit de l'entreprise,3,academia
 ceed-diabete.org,,Q16507364,3,academia
-cefc.com.hk,central*,French Centre for Research on Contemporary China,3,academia
+cefc.com.hk,central,French Centre for Research on Contemporary China,3,academia
 ceipi.edu,,"Université des sciences juridiques, politiques et sociales de Strasbourg. Centre d'études internationales de la propriété industrielle",3,academia
 celphedia.eu,,Q51780885,3,academia
 centre-hepato-biliaire.org,,Physiopathogenesis and Treatment of Liver Diseases,3,academia
@@ -1453,7 +1453,7 @@ cgbresil.org,,"Consulate-General of Brazil, Paris",3,wikidata
 cgireunion.com,,"Consulate General of India, Saint-Denis",3,wikidata
 chanousia.org,,Chanousia Alpine Botanical Garden,3,academia
 chateaudemongenan.com,,Château de Mongenan,3,academia
-china-consulate.org,central-1*,"3 proposed hosts under it: reunion-sdn.china-consulate.org, lyon.china-consulate.org, marseille.china-consulate.org",3,parent
+china-consulate.org,central-1,"3 proposed hosts under it: reunion-sdn.china-consulate.org, lyon.china-consulate.org, marseille.china-consulate.org",3,parent
 choiseul.info,,Institut Choiseul for International Politics and Geoeconomics,3,academia
 cic-it-lille.com,,Centre d'Investigation Clinique - Innovation Technologique de Lille,3,academia
 cicvaccinologie.com,,Centre Cochin-Pasteur,3,academia
@@ -1463,10 +1463,10 @@ cips-psychosoma.org,,Centre international de psychosomatique,3,academia
 cirm-manca.org,,Q51782223,3,academia
 cirpes.net,,Q113834130,3,academia
 civam.org,,Fédération Nationale des Centres d'Initiatives pour Valoriser l’Agriculture et le Milieu Rural,3,wikidata
-clamor.criminocorpus.org,central*,Center for Digital Humanities and History of Justice,3,academia
+clamor.criminocorpus.org,central,Center for Digital Humanities and History of Justice,3,academia
 clermontmetropole.eu,,Linked from 3 public-sector domains,3,linkgraph
 clipsy.hypotheses.org,,Q140577358,3,academia
-cma.mines-paristech.fr,central*,Centre de Mathématiques Appliquées - CMA,3,ror
+cma.mines-paristech.fr,central,Centre de Mathématiques Appliquées - CMA,3,ror
 cnano-raa.org,,Q51782005,3,academia
 cnanoge.org,,Q51779740,3,academia
 cnanoidf.org,,Q51783787,3,academia
@@ -1482,12 +1482,12 @@ consulat-general-tunisie-paris.com,,Consulate general of Tunisia in Paris,3,wiki
 consulatalgerie-lyon.org,,"Algerian general consulate, Lyon",3,wikidata
 consulatalgerie-paris.org,,"Algerian General Consulate, Paris",3,wikidata
 consulatalgerielille.org,,"Consulate General of Algeria, Lille",3,wikidata
-consulatchine-strasbourg.org,central-1*,"Consulate General of China, Strasbourg",3,wikidata
+consulatchine-strasbourg.org,central-1,"Consulate General of China, Strasbourg",3,wikidata
 consulatcolombie.com,,Consulate General of Colombia in Paris,3,wikidata
 consulatmaroclyon.com,,"General Consulate of Morocco, Lyon",3,wikidata
 consulmada-marseille.com,,Q16507624,3,wikidata
 consulsenbordeaux.com,,Q16507655,3,wikidata
-cpe.fr,central*,École d'Ingénieurs en Chimie et Sciences du Numérique,3,ror
+cpe.fr,central,École d'Ingénieurs en Chimie et Sciences du Numérique,3,ror
 cpmr-atlantic.org,,Atlantic Arc Commission,3,wikidata
 crav-vocation.org,,Q124152436,3,academia
 creamontblanc.org,,CREA Mont-Blanc,3,academia
@@ -1500,7 +1500,7 @@ ct-ipc.com,,Q54370281,3,academia
 ctdec.com,,Q2946079,3,academia
 dafa-afgh.org,,French Archeological Delegation to Afghanistan,3,wikidata
 dcmcore.com,,DCM Core Institute,3,academia
-devinci.fr,central*,Pôle Léonard de Vinci,3,ror
+devinci.fr,central,Pôle Léonard de Vinci,3,ror
 dfk-paris.org,,Deutsches Forum für Kunstgeschichte,3,academia
 dhns-inserm.com,,Maladies et hormones du système nerveux,3,academia
 dicen-idf.org,,Dispositifs d'Information et de Communication à l'Ère Numérique Paris Ile de France,3,academia
@@ -1511,50 +1511,50 @@ domaine-du-montmarin.com,,Montmarin gardens,3,academia
 domaineduciran.com,,Q3034611,3,academia
 drt-cea.com,,Direction de la recherche technologique,3,wikidata
 e-monsite.com,,"2 proposed hosts under it: lejardinbotaniquedefoncaude.e-monsite.com, u1152.e-monsite.com",3,parent
-ece.fr,central*,École Centrale d'Électronique,3,ror
+ece.fr,central,École Centrale d'Électronique,3,ror
 ecofog.gf,,Ecology of Guianan Forests,3,academia
 ecolab.omp.eu,,Laboratoire Ecologie Fonctionnelle et Environnement,3,academia
 ed-psycha.org,,Ecole doctorale de recherches en psychanalyse (Paris),3,academia
 editta.hypotheses.org,,Q51780951,3,academia
 em-strasbourg.eu,,"2 proposed hosts under it: humanis.em-strasbourg.eu, large.em-strasbourg.eu",3,parent
-embajadadominicanaenfrancia.com,central*,Embassy of the Dominican Republic in France,3,wikidata
+embajadadominicanaenfrancia.com,central,Embassy of the Dominican Republic in France,3,wikidata
 energie-rs2e.com,,Réseau sur le stockage électrochimique de l'énergie,3,academia
-enib.fr,central*,École nationale d'ingénieurs de Brest,3,ror
-enit.fr,central*,École Nationale d'Ingénieurs de Tarbes,3,ror
-enm.meteo.fr,central*,École Nationale de la Météorologie,3,ror
-ensa-nancy.fr,central*,École Nationale Supérieure d'Art et de Design de Nancy,3,ror
-ensad-dijon.fr,central*,ENSA Dijon,3,ror
-ensait.fr,central*,École Nationale Supérieure des Arts et Industries Textiles,3,ror
-ensat.fr,central*,École Nationale Supérieure Agronomique de Toulouse,3,ror
-ensba-lyon.fr,central*,École Nationale Supérieure des Beaux-Arts de Lyon,3,ror
-ensc-lille.fr,central*,École Nationale Supérieure de Chimie de Lille,3,ror
-enseeiht.fr,central*,"École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",3,ror
-ensiacet.fr,central*,École Nationale Supérieure des Ingénieurs en Arts Chimiques et Technologiques,3,ror
-ensta-paris.fr,central*,École Nationale Supérieure de Techniques Avancées Paris,3,ror
+enib.fr,central,École nationale d'ingénieurs de Brest,3,ror
+enit.fr,central,École Nationale d'Ingénieurs de Tarbes,3,ror
+enm.meteo.fr,central,École Nationale de la Météorologie,3,ror
+ensa-nancy.fr,central,École Nationale Supérieure d'Art et de Design de Nancy,3,ror
+ensad-dijon.fr,central,ENSA Dijon,3,ror
+ensait.fr,central,École Nationale Supérieure des Arts et Industries Textiles,3,ror
+ensat.fr,central,École Nationale Supérieure Agronomique de Toulouse,3,ror
+ensba-lyon.fr,central,École Nationale Supérieure des Beaux-Arts de Lyon,3,ror
+ensc-lille.fr,central,École Nationale Supérieure de Chimie de Lille,3,ror
+enseeiht.fr,central,"École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",3,ror
+ensiacet.fr,central,École Nationale Supérieure des Ingénieurs en Arts Chimiques et Technologiques,3,ror
+ensta-paris.fr,central,École Nationale Supérieure de Techniques Avancées Paris,3,ror
 epe-asso.org,,Entreprises pour l’Environnement,3,academia
 epheverisme.art,,Epheveristic Research Laboratory,3,academia
 epn-campus.eu,,European Photon and Neutron Science Campus,3,academia
 erim.univ-nc.nc,,Q51783031,3,academia
-esa-paysbasque.fr,central*,École Supérieure d'Art Pays Basque,3,ror
+esa-paysbasque.fr,central,École Supérieure d'Art Pays Basque,3,ror
 esa.int,,European Space Agency,3,wikidata
-esaaa.fr,central*,École supérieure d'art Annecy Alpes,3,ror
-esad-gv.fr,central*,École Supérieure d’Art et Design •Grenoble •Valence,3,ror
-esad-orleans.fr,central*,École Supérieure d'Art et de Design d'Orléans,3,ror
-esadse.fr,central*,École Supérieure d'Art et Design de Saint-Étienne,3,ror
+esaaa.fr,central,École supérieure d'art Annecy Alpes,3,ror
+esad-gv.fr,central,École Supérieure d’Art et Design •Grenoble •Valence,3,ror
+esad-orleans.fr,central,École Supérieure d'Art et de Design d'Orléans,3,ror
+esadse.fr,central,École Supérieure d'Art et Design de Saint-Étienne,3,ror
 esan.eus,,ESAN Basque Police,3,wikidata
-esapyrenees.fr,central*,École Supérieure d'Art des Pyrénées,3,ror
-esce.fr,central*,École Supérieure du Commerce Extérieur,3,ror
-escom.fr,central*,École Supérieure de Chimie Organique et Minérale,3,ror
-eseo.fr,central*,École Supérieure d'Électronique de l'Ouest,3,ror
+esapyrenees.fr,central,École Supérieure d'Art des Pyrénées,3,ror
+esce.fr,central,École Supérieure du Commerce Extérieur,3,ror
+escom.fr,central,École Supérieure de Chimie Organique et Minérale,3,ror
+eseo.fr,central,École Supérieure d'Électronique de l'Ouest,3,ror
 esi-archamps.eu,,European Scientific Institute,3,academia
-esiea.fr,central*,ESIEA University,3,ror
-esiee-it.fr,central*,ESIEE-IT,3,ror
-esitc-cachan.fr,central*,École Supérieure d'Ingénieurs des Travaux de la Construction de Cachan,3,ror
-esj-lille.fr,central*,École supérieure de journalisme de Lille,3,ror
+esiea.fr,central,ESIEA University,3,ror
+esiee-it.fr,central,ESIEE-IT,3,ror
+esitc-cachan.fr,central,École Supérieure d'Ingénieurs des Travaux de la Construction de Cachan,3,ror
+esj-lille.fr,central,École supérieure de journalisme de Lille,3,ror
 espol-lille.eu,,Q51784204,3,academia
 esrf.eu,,European Synchrotron Radiation Facility,3,academia
-essca.fr,central*,ESSCA School of Management,3,ror
-estaca.fr,central*,École Supérieure des Techniques Aéronautiques et de Construction Automobile,3,ror
+essca.fr,central,ESSCA School of Management,3,ror
+estaca.fr,central,École Supérieure des Techniques Aéronautiques et de Construction Automobile,3,ror
 etudesculturelles.wordpress.com,,Institut de recherche Intersité études culturelles,3,academia
 etudesgeopolitiques.org,,Observatoire d’Etudes Géopolitiques,3,academia
 etudesitaliennes.hypotheses.org,,Q51782252,3,academia
@@ -1562,7 +1562,7 @@ eurofidai.org,,European Financial data Institute,3,academia
 eurogendfor.org,,European Gendarmerie Force,3,wikidata
 euromov.eu,,Q51783660,3,academia
 europe.naverlabs.com,,Naver Labs Europe,3,academia
-exteriors.ad,central*,"Embassy of Andorra, Paris",3,wikidata
+exteriors.ad,central,"Embassy of Andorra, Paris",3,wikidata
 faculty-psbedu.paris,,Q51783176,3,academia
 finovi.eu,,Q51781753,3,academia
 focus.cs.unibo.it,,Q51781478,3,academia
@@ -1576,17 +1576,17 @@ fondation-ritc.net,,Q51779894,3,academia
 fondation-stae.net,,Sciences and Technologies for Aeronautics and Space,3,academia
 fondationconcorde.com,,Fondation Concorde,3,academia
 forcesdudroit.wordpress.com,,Q51785123,3,academia
-fr.diplomatie.ma,central*,"Embassy of Morocco, Paris",3,wikidata
-fr.mfa.lt,central*,"Embassy of Lithuania, Paris",3,wikidata
+fr.diplomatie.ma,central,"Embassy of Morocco, Paris",3,wikidata
+fr.mfa.lt,central,"Embassy of Lithuania, Paris",3,wikidata
 france-genomique.org,,Q51783080,3,academia
-france.ambassadetogo.org,central*,Embassy of Togo in France,3,wikidata
-france.mid.ru,central*,"Embassy of Russia, Paris",3,wikidata
-francia.consuladovenezuela.org,central*,"Embassy of Venezuela, Paris",3,wikidata
+france.ambassadetogo.org,central,Embassy of Togo in France,3,wikidata
+france.mid.ru,central,"Embassy of Russia, Paris",3,wikidata
+francia.consuladovenezuela.org,central,"Embassy of Venezuela, Paris",3,wikidata
 frstrategie.org,,Foundation for Strategic Research,3,academia
 fticr.org,,Q51781909,3,academia
 g-eau.net,,"Gestion de l'Eau, Acteurs, Usages",3,academia
 gaati.org,,Q51782453,3,academia
-ganil-spiral2.eu,central*,Grand Accélérateur National d'Ions Lourds,3,academia
+ganil-spiral2.eu,central,Grand Accélérateur National d'Ions Lourds,3,academia
 gdr-elsj.eu,,"European University Network -Researching Rights in the areas of Freedom, Security and Justice",3,academia
 gdr-robotique.org,,Q51783849,3,academia
 gemtex-lab.com,,Laboratoire Génie et Matériaux Textiles,3,academia
@@ -1596,7 +1596,7 @@ geopolitique.eu,,Groupe d'études géopolitiques,3,academia
 geopolitique.net,,Q51782260,3,academia
 global-future-college.org,,Q138757535,3,academia
 gregoriae.com,,Q51784749,3,academia
-groupe-espi.fr,central*,École Supérieure des Professions Immobilières,3,ror
+groupe-espi.fr,central,École Supérieure des Professions Immobilières,3,ror
 gtsiea2432.wordpress.com,,Q51784362,3,academia
 habiterlemonde.org,,Q51780431,3,academia
 hal.science,,Observatoire Caraïbéen du Climat Scolaire,3,academia
@@ -1607,7 +1607,7 @@ histoire-vendee.com,,Centre Vendéen de Recherches Historiques,3,academia
 home.cern,,CERN,3,academia
 humanis.em-strasbourg.eu,,Q51785470,3,academia
 hydrosciences.org,,Laboratory HydroSciences Montpellier,3,academia
-hypotheses.org,central*,"11 proposed hosts under it: aecc.hypotheses.org, pariset.hypotheses.org, asies.hypotheses.org",3,parent
+hypotheses.org,central,"11 proposed hosts under it: aecc.hypotheses.org, pariset.hypotheses.org, asies.hypotheses.org",3,parent
 i4ce.org,,Q24938593,3,academia
 iac.nc,,Institut Agronomique Néo-Calédonien,3,academia
 iame-research.center,,"Infection, Antimicrobials, Modelling, Evolution",3,academia
@@ -1618,9 +1618,9 @@ ic-arts.eu,,Institut Carnot ARTS,3,academia
 ican-institute.org,,Institute of Cardiometabolism And Nutrition,3,academia
 iccwbo.org,,International Court of Arbitration,3,wikidata
 iceel.eu,,Q51781942,3,academia
-ices.fr,central*,Institut catholique d’études supérieures,3,ror
+ices.fr,central,Institut catholique d’études supérieures,3,ror
 icm-institute.org,,Q51784459,3,academia
-ict-toulouse.fr,central*,Institut catholique de toulouse,3,ror
+ict-toulouse.fr,central,Institut catholique de toulouse,3,ror
 idc-europe.org,,Institute of Democracy and Cooperation,3,academia
 idest-paris.com,,Institute of Space and Telecommunications Law,3,academia
 iferiss.org,,Q51782753,3,academia
@@ -1636,7 +1636,7 @@ ilm.pf,,Institut Louis-Malardé,3,academia
 im2e.org,,Q51786222,3,academia
 imn-bordeaux.org,,Neurodegeneratives Diseases Institute,3,academia
 indemco.org,,Institute of Democracy and Cooperation,3,academia
-ines-solaire.org,central*,National Institute of Solar Energy,3,academia
+ines-solaire.org,central,National Institute of Solar Energy,3,academia
 infectiopolesud.com,,Q51782537,3,academia
 inra-ifris.org,,Sciences en Société,3,academia
 inserm-tens.com,,The Enteric Nervous System in Gut and Brain Disorders,3,academia
@@ -1654,14 +1654,14 @@ institutducerveau.org,,Paris Brain Institute,3,academia
 institutkurde.org,,Kurdish Institute of Paris,3,academia
 institutmontaigne.org,,Institut Montaigne,3,academia
 institutnicod.org,,Institut Jean Nicod,3,academia
-institutoptique.fr,central*,Institut d’Optique Graduate School,3,ror
+institutoptique.fr,central,Institut d’Optique Graduate School,3,ror
 institutvilley.com,,Institut Villey pour la culture juridique et la philosophie du droit,3,academia
 instytutpolski.pl,,Polish Institute Paris,3,wikidata
 integrare-umrs951.jimdo.com,,Integrated Genetic Approaches in Therapeutic Discovery for Rare Diseases,3,academia
 interpol.int,,Interpol,3,wikidata
 intru.hypotheses.org,,"Interactions, transferts, ruptures artistiques et culturelless",3,academia
 iom.cnr.it,,CNR-IOM Research Unit in Grenoble,3,academia
-ipsa.fr,central*,Institut Polytechnique des Sciences Avancées,3,ror
+ipsa.fr,central,Institut Polytechnique des Sciences Avancées,3,ror
 irap.omp.eu,,Research Institute in Astrophysics and Planetology,3,academia
 ircan.org,,Institute of Research on Cancer and Aging in Nice,3,academia
 iremmo.org,,Institut de Recherches et d'Études sur la Méditerranée et le Moyen-Orient,3,academia
@@ -1674,13 +1674,13 @@ irt-saintexupery.com,,IRT Saint Exupéry,3,academia
 ismea.org,,"Institut de sciences mathématiques et économiques appliquées (Paris, France)",3,academia
 istem.eu,,Institut des cellules souches pour le traitement et l'étude des maladies monogéniques,3,academia
 istina.eu,,Istina,3,academia
-istom.fr,central*,ISTOM - École supérieure d'agro-développement international,3,ror
+istom.fr,central,ISTOM - École supérieure d'agro-développement international,3,ror
 itab.bio,,ITAB,3,academia
 itbfr.org,,Q100324125,3,academia
-iuf.amue.fr,central*,Institut Universitaire de France,3,ror
-iut-rodez.fr,central*,Institut Universitaire de Technologie de Rodez,3,ror
-iut.fr,central*,Instituts Universitaires de Technologie,3,ror
-iutdijon.u-bourgogne.fr,central*,Institut Universitaire de Technologie de Dijon/Auxerre,3,ror
+iuf.amue.fr,central,Institut Universitaire de France,3,ror
+iut-rodez.fr,central,Institut Universitaire de Technologie de Rodez,3,ror
+iut.fr,central,Instituts Universitaires de Technologie,3,ror
+iutdijon.u-bourgogne.fr,central,Institut Universitaire de Technologie de Dijon/Auxerre,3,ror
 jardin-georgesdelaselle.com,,Jardin Georges Delaselle,3,academia
 jardinbotaniquedeguyane.com,,Guyana Botanical Garden,3,academia
 jardindulautaret.com,,Lautaret Garden,3,academia
@@ -1690,7 +1690,7 @@ jean-jaures.org,,Jean Jaurès Foundation,3,academia
 jimdo.com,,"2 proposed hosts under it: integrare-umrs951.jimdo.com, lgppr.jimdo.com",3,parent
 journals.openedition.org,,Centre de Recherches sur les Discours Ordinaires et Spécialisés,3,academia
 jsp-saintmauricedebeynost.com,,Jeunes Sapeurs Pompiers de Saint-Maurice-de-Beynost,3,wikidata
-juriscope.org,central*,Q51783258,3,academia
+juriscope.org,central,Q51783258,3,academia
 krctnn.com,,"Rare and Common Kidney Diseases, Matrix Remodelling and Tissue Repair",3,academia
 labadhesioninflammation.org,,Q51784960,3,academia
 laballuejardin.com,,Q96758073,3,academia
@@ -1712,7 +1712,7 @@ lavillanumeris.com,,Q125377224,3,academia
 lcm-umr7509.org,,Laboratoire de Chimie Moléculaire,3,academia
 leclubdesjuristes.com,,Le Club des juristes,3,academia
 lediplomate.media,,Q141656898,3,academia
-lefildarar.hypotheses.org,central*,Archéologie et Archéométrie,3,academia
+lefildarar.hypotheses.org,central,Archéologie et Archéométrie,3,academia
 legos.omp.eu,,Laboratory of Space Geophysical and Oceanographic Studies,3,academia
 lejardinbotaniquedefoncaude.e-monsite.com,,jardin botanique de Foncaude,3,academia
 lejardindesolfacties.com,,Jardin des Olfacties,3,academia
@@ -1732,43 +1732,43 @@ live.univ-nc.nc,,Q51784069,3,academia
 lpcpp.wordpress.com,,Q51782787,3,academia
 lpma-research.com,,Polymers and Advanced Materials Laboratory,3,academia
 lscp.net,,Laboratoire de Sciences Cognitives et Psycholinguistique,3,academia
-lunam.fr,central*,Université Nantes Angers Le Mans,3,ror
+lunam.fr,central,Université Nantes Angers Le Mans,3,ror
 lurraldea.net,,Basque Country Development Council,3,wikidata
 lusage.org,,Q51784211,3,academia
 lyo.econsulat.tn,,"Consulate General of Tunisia, Lyon",3,wikidata
-lyon.china-consulate.org,central-1*,Consulate General of China in Lyon,3,wikidata
+lyon.china-consulate.org,central-1,Consulate General of China in Lyon,3,wikidata
 lyon.diplo.de,,"Consulate General of Germany, Lyon",3,wikidata
 lyon.mae.ro,,"Consulate General of Romania, Lyon",3,wikidata
 m2slab.com,,"Movement, Sport and health Sciences Laboratory",3,academia
-mae.ro,central*,"4 proposed hosts under it: strasbourg.mae.ro, paris.mae.ro, marsilia.mae.ro",3,parent
+mae.ro,central,"4 proposed hosts under it: strasbourg.mae.ro, paris.mae.ro, marsilia.mae.ro",3,parent
 maison-de-chateaubriand.hauts-de-seine.net,,Arboretum de la Vallée-aux-Loups,3,academia
 manioc.org,,Q51780009,3,academia
-marseille.china-consulate.org,central-1*,"Consulate General of China, Marseille",3,wikidata
+marseille.china-consulate.org,central-1,"Consulate General of China, Marseille",3,wikidata
 marseille.diplo.de,,"Consulate General of Germany, Marseille",3,wikidata
 marseille.europarl.europa.eu,,European Parliament Liaison Office in Marseille,3,wikidata
 marseille.mid.ru,,"Russian Consulate, Marseille",3,wikidata
 marsilia.mae.ro,,Q16507615,3,wikidata
-mauritius-paris.govmu.org,central*,"Embassy of Mauritius, Paris",3,wikidata
-meparis.org,central*,Embassy of Myanmar in France,3,wikidata
-mfa.gr,central*,Embassy of Greece in France,3,wikidata
-mfa.tj,central*,"Embassy of Tajikistan, Paris",3,wikidata
+mauritius-paris.govmu.org,central,"Embassy of Mauritius, Paris",3,wikidata
+meparis.org,central,Embassy of Myanmar in France,3,wikidata
+mfa.gr,central,Embassy of Greece in France,3,wikidata
+mfa.tj,central,"Embassy of Tajikistan, Paris",3,wikidata
 mgps.eu,,Q51781653,3,academia
-mid.ru,central*,"3 proposed hosts under it: marseille.mid.ru, france.mid.ru, strasbourg.mid.ru",3,parent
+mid.ru,central,"3 proposed hosts under it: marseille.mid.ru, france.mid.ru, strasbourg.mid.ru",3,parent
 minatec.org,,Minatec,3,academia
-misiones.cubaminrex.cu,central*,"Embassy of Cuba, France",3,wikidata
+misiones.cubaminrex.cu,central,"Embassy of Cuba, France",3,wikidata
 mshsud.org,,Maison des Sciences et des Humanités SUD,3,academia
 msmp.eu,,Laboratoire de Mécanique et Procédés de Fabrication,3,academia
 musee-de-salagon.com,,Jardins de Salagon,3,academia
-mzv.sk,central*,"Embassy of Slovakia, Paris",3,wikidata
+mzv.sk,central,"Embassy of Slovakia, Paris",3,wikidata
 naturospace.com,,NaturoSpace,3,academia
-norway.no,central*,"Embassy of Norway, Paris",3,wikidata
-nucleide.org,central*,Laboratoire National Henri Becquerel,3,academia
+norway.no,central,"Embassy of Norway, Paris",3,wikidata
+nucleide.org,central,Laboratoire National Henri Becquerel,3,academia
 nzembassy.com,,"Consulate General of New Zealand, Nouméa",3,wikidata
 obs.coe.int,,European Audiovisual Observatory,3,academia
 obsdupositif.org,,Q141688102,3,academia
 observatoire-culture.net,,Observatoire des politiques culturelles,3,academia
 observatoireethiquepublique.com,,Observatoire de l'éthique publique,3,academia
-oca.eu,central*,Côte d'Azur Observatory,3,academia
+oca.eu,central,Côte d'Azur Observatory,3,academia
 omp.eu,,"4 proposed hosts under it: laero.omp.eu, ecolab.omp.eu, irap.omp.eu",3,parent
 openedition.org,,Centre pour l'édition électronique ouverte,3,academia
 oplcat.eu,,Q96335508,3,wikidata
@@ -1781,24 +1781,24 @@ parc-phoenix.org,,Parc Phœnix,3,academia
 parcauxbambous.com,,Le Parc aux Bambous,3,academia
 parcducosmos.org,,Q3364340,3,academia
 parcfloraldelasource.com,,Parc Floral de la Source,3,academia
-paris-est-sup.fr,central*,Paris-Est Sup,3,ror
+paris-est-sup.fr,central,Paris-Est Sup,3,ror
 paris-oecd.diplo.de,,Q131406130,3,wikidata
 paris-saclay.business,,Paris Saclay,3,academia
-paris.embassy.mn,central*,Embassy of Mongolia in France,3,wikidata
+paris.embassy.mn,central,Embassy of Mongolia in France,3,wikidata
 paris.europarl.europa.eu,,European Parliament Liaison Office in Paris,3,wikidata
-paris.mae.ro,central*,"Embassy of Romania, Paris",3,wikidata
-paris.mofa.go.ug,central*,"Embassy of Uganda, Paris",3,wikidata
+paris.mae.ro,central,"Embassy of Romania, Paris",3,wikidata
+paris.mofa.go.ug,central,"Embassy of Uganda, Paris",3,wikidata
 paris.pan.pl,,"Scientific Center in Paris, Polish Academy of Sciences",3,academia
 parisdescartes.libguides.com,,Q51780377,3,academia
 parisepigenetics.com,,Epigenetics and Cell Fate,3,academia
 pariset.hypotheses.org,,Q51782272,3,academia
-paristech.fr,central*,ParisTech,3,ror
-paysbasetvous.nl,central*,"Embassy of The Netherlands, Paris",3,wikidata
+paristech.fr,central,ParisTech,3,ror
+paysbasetvous.nl,central,"Embassy of The Netherlands, Paris",3,wikidata
 periclesfrance.org,,Q131386757,3,academia
 planet-exotica.com,,Parc Jardins du Monde,3,academia
 planetworkshops.org,,The Planetworkshops,3,academia
-pnsd.fr,central*,Pôle National Supérieur de Danse Rosella Hightower,3,ror
-polytech-lille.fr,central*,Polytech Lille,3,ror
+pnsd.fr,central,Pôle National Supérieur de Danse Rosella Hightower,3,ror
+polytech-lille.fr,central,Polytech Lille,3,ror
 populaires.net,,Q130565791,3,academia
 postsov.org,,Q137554122,3,academia
 pourunerepubliqueecologique.org,,Q141763531,3,academia
@@ -1807,12 +1807,12 @@ premup.org,,Q51779889,3,academia
 pro.ovh.net,,GIP International,3,wikidata
 railenium.eu,,Q124458624,3,academia
 rdst.org,,Q51783569,3,academia
-rennes-sb.fr,central*,École Supérieure de Commerce de Rennes,3,ror
+rennes-sb.fr,central,École Supérieure de Commerce de Rennes,3,ror
 reseau-asie.com,,Réseau Asie,3,academia
 reseau-chu.org,,Q51783955,3,academia
 reseaumistral.com,,Réseau Mistral,3,wikidata
-reunion-sdn.china-consulate.org,central-1*,Consulate General of China in Saint-Denis,3,wikidata
-rnbm.org,central*,Réseau National des Bibliothèques de Mathématiques,3,academia
+reunion-sdn.china-consulate.org,central-1,Consulate General of China in Saint-Denis,3,wikidata
+rnbm.org,central,Réseau National des Bibliothèques de Mathématiques,3,academia
 roadef.org,,Société française de Recherche Opérationnelle et Aide à la Décision,3,academia
 roc-taiwan.org,,Taipei Representative Office in France,3,wikidata
 romerenaissances.hypotheses.org,,Rome et ses Renaissances,3,academia
@@ -1825,7 +1825,7 @@ seedsresearch.eu,,Q51783804,3,academia
 segrez.wixsite.com,,Arboretum de Segrez,3,academia
 senconsulatmarseille.com,,Q16507658,3,wikidata
 sfr-sante-societe.net,,Q51780914,3,academia
-sfu-paris.fr,central*,Sigmund Freud Privatuniversität - Standort Paris,3,ror
+sfu-paris.fr,central,Sigmund Freud Privatuniversität - Standort Paris,3,ror
 sirice.eu,,"Sorbonne - Identités, relations internationales et civilisations de l'Europe",3,academia
 snd-sorbonne.org,,Q51785479,3,academia
 spacetimeandquantum.com,,"The Samy Maroun Center for Space, Time and the Quantum",3,academia
@@ -1838,7 +1838,7 @@ strasbourg.mid.ru,,"Consulate General of Russia, Strasbourg",3,wikidata
 strasbourg.representation.si,,Permanent Mission of Slovenia to the Council of Europe,3,wikidata
 strassburg-europarat.diplo.de,,Permanent Mission of the Federal Republic of Germany to the Council of Europe,3,wikidata
 strassburg.diplo.de,,"Consulate General of Germany, Strasbourg",3,wikidata
-swedenabroad.se,central*,"Embassy of Sweden, Paris",3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Paris",3,wikidata
 tae-paris.org,,Q139379163,3,wikidata
 takuvik.ulaval.ca,,Laboratoire Takuvik,3,academia
 tangramcenter.com,,TANGRAM - Center of Excellence CMA CGM,3,academia
@@ -1850,12 +1850,12 @@ thecpfa.com,,Center of Political and Foreign Affairs,3,academia
 theshiftproject.org,,The Shift Project,3,academia
 translational-research-diabetes.com,,Translational Research Laboratory for Diabetes,3,academia
 tse-fr.eu,,Q51781458,3,academia
-u-plum.fr,central*,Université Paris Lumières,3,ror
+u-plum.fr,central,Université Paris Lumières,3,ror
 u1001.org,,Robustness and Evolvability of Life,3,academia
 u1152.e-monsite.com,,Physiopathologie et Epidémiologie des Maladies Respiratoires,3,academia
-ucly.fr,central*,Université catholique de lyon,3,ror
-uco.fr,central*,Université catholique de l'ouest,3,ror
-uess.fr,central*,Université Européenne des Senteurs & Saveur,3,ror
+ucly.fr,central,Université catholique de lyon,3,ror
+uco.fr,central,Université catholique de l'ouest,3,ror
+uess.fr,central,Université Européenne des Senteurs & Saveur,3,ror
 ugcb.net,,Q63147119,3,wikidata
 um.dk,,Permanent Delegation of Denmark to the OECD,3,wikidata
 umi2958.eu,,Georgia Tech-CNRS Laboratory,3,academia
@@ -1867,79 +1867,79 @@ unesco.diplo.de,,"Permanent Mission of the Federal Republic of Germany to the Un
 unesco.um.dk,,Permanent Mission of Denmark to UNESCO,3,wikidata
 unicog.org,,Cognitive Neuroimaging,3,academia
 unis-neuro.com,,Ion Channel and Synaptic Neurobiology Laboratory,3,academia
-univ-catholille.fr,central*,Université Catholique de Lille,3,ror
-univ-cotedazur.eu,central*,University of Côte d'Azur,3,academia
+univ-catholille.fr,central,Université Catholique de Lille,3,ror
+univ-cotedazur.eu,central,University of Côte d'Azur,3,academia
 univ-nc.nc,,"5 proposed hosts under it: live.univ-nc.nc, erim.univ-nc.nc, larje.univ-nc.nc",3,parent
-univ-reims.eu,central*,University of Reims,3,academia
+univ-reims.eu,central,University of Reims,3,academia
 urba2000.com,,URBA 2000,3,wikidata
 urepsss.com,,UREPSSS,3,academia
-utbm.fr,central*,Université de technologie de belfort-montbéliard,3,ror
+utbm.fr,central,Université de technologie de belfort-montbéliard,3,ror
 valombreuse.com,,Q139888363,3,academia
 vascular-research-center.org,,Q51782805,3,academia
 veblen-institute.org,,Veblen Institute,3,academia
 vivrefrancais.com,,Q120227771,3,academia
-wes-sup.fr,central*,Wesford,3,ror
+wes-sup.fr,central,Wesford,3,ror
 who.int,,World Health Organization (France),3,wikidata
 worldwatercouncil.org,,World Water Council,3,academia
 www-05.ibm.com,,IBM La Gaude,3,academia
 za-inee.org,,Q51784538,3,academia
 zoo-mulhouse.com,,Parc Zoologique et Botanique de Mulhouse,3,academia
 zootropical.com,,Jardin zoologique tropical,3,academia
-aueg.org,central*,Alliance Université-Entreprise de Grenoble,2,ror
-aup.edu,central*,American University of Paris,2,ror
-beauxartsparis.com,central*,École Nationale Supérieure des Beaux-Arts,2,ror
-biomedicale.parisdescartes.fr,central*,Brain Physiology Lab | Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques | Neurophysiology Laboratory and New Microscopies | Q51781947 | Q51781988 | Q51783309 | the Molecular Basis of Response to Xenobiotics,2,academia
-bsb-education.com,central*,"ESC Dijon Bourgogne, École supérieure de commerce de Dijon-Bourgogne",2,ror
-campusadventiste.edu,central*,Campus adventiste du salève,2,ror
+aueg.org,central,Alliance Université-Entreprise de Grenoble,2,ror
+aup.edu,central,American University of Paris,2,ror
+beauxartsparis.com,central,École Nationale Supérieure des Beaux-Arts,2,ror
+biomedicale.parisdescartes.fr,central,Brain Physiology Lab | Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques | Neurophysiology Laboratory and New Microscopies | Q51781947 | Q51781988 | Q51783309 | the Molecular Basis of Response to Xenobiotics,2,academia
+bsb-education.com,central,"ESC Dijon Bourgogne, École supérieure de commerce de Dijon-Bourgogne",2,ror
+campusadventiste.edu,central,Campus adventiste du salève,2,ror
 chimie.ens.fr,,Laboratoire des biomolécules | Processus d'Activation Sélective par Transfert d'Energie Uni-électronique ou Radiatif | Q51782221,2,academia
 cours-appel.justice.fr,,Tribunal judiciaire de Rennes | Tribunal judiciaire de Toulouse | Dijon Judicial Court | tribunal judiciaire de Nîmes | Q84319097,2,wikidata
 curie.fr,,Chemistry and modeling for cancer biology | Dynamics of Genetic Information Fundamental Basis and Cancer | Nuclear Dynamics | Q109620211 | René Huguenin Hospital | Subcellular Structure and Cellular Dynamics,2,academia
-ecoledubois.com,central*,École Supérieure du Bois,2,ror
+ecoledubois.com,central,École Supérieure du Bois,2,ror
 ecolesdoctorales.parisdescartes.fr,,Membrane Traffic in Health and Disease | Pathophysiology and Pharmacotoxicology of the Human Placenta | Q51779678 | Q51781075 | Q51781851 | Q51781860 | Q51782050 | Q51784696,2,academia
-eiu.ac,central*,European International University,2,ror
-ensta-bretagne.eu,central*,École nationale supérieure de techniques avancées Bretagne,2,ror
-esa-n.info,central*,Ecole supérieure d'art | Dunkerque - Tourcoing,2,ror
-esaavignon.eu,central*,École supérieure d'Art d'Avignon,2,ror
-esaip.org,central*,École Supérieure Angevine d'Informatique et de Productique,2,ror
-esci-paris.eu,central*,École supérieure de commerce international,2,ror
-escp.eu,central*,ESCP Business School,2,ror
-esitc-metz.com,central*,École Supérieure d'Ingénieurs des Travaux de la Construction de Metz,2,ror
-esma-artistique.com,central*,École Supérieure des Metiers Artistiques,2,ror
-essa-isgroupe.com,central*,École supérieure du soudage et de ses applications,2,ror
-excelia-group.com,central*,Excelia Business School,2,ror
+eiu.ac,central,European International University,2,ror
+ensta-bretagne.eu,central,École nationale supérieure de techniques avancées Bretagne,2,ror
+esa-n.info,central,Ecole supérieure d'art | Dunkerque - Tourcoing,2,ror
+esaavignon.eu,central,École supérieure d'Art d'Avignon,2,ror
+esaip.org,central,École Supérieure Angevine d'Informatique et de Productique,2,ror
+esci-paris.eu,central,École supérieure de commerce international,2,ror
+escp.eu,central,ESCP Business School,2,ror
+esitc-metz.com,central,École Supérieure d'Ingénieurs des Travaux de la Construction de Metz,2,ror
+esma-artistique.com,central,École Supérieure des Metiers Artistiques,2,ror
+essa-isgroupe.com,central,École supérieure du soudage et de ses applications,2,ror
+excelia-group.com,central,Excelia Business School,2,ror
 geves.fr,,G.E.V.E.S. | Group for the Study and Control of Varieties and Seeds | Q51783810,2,academia
-groupe-esa.com,central*,École supérieure des agricultures,2,ror
+groupe-esa.com,central,École supérieure des agricultures,2,ror
 gustaveroussy.fr,,Dynamique moléculaire de la transformation hématopoïétique | Identification of Molecular Predictors and New Targets for Cancer Treatment | Immunology of Tumors and Immunotherapy | Integrative Cancer Immunology and Oncogenetic | Laboratory for Vectorology in Anticancer Therapy | Metabolic and systemic aspects of oncogenesis for new therapeutic approaches | Molecular Radiotherapy Unit | Q109583924 | Q109590507 | Q109614434 | Q109620221 | Q51781544 | Rétrovirus Endogènes et Eléments Rétroides des Eucaryotes Supérieurs,2,academia
-hesam.eu,central*,HESAM Université,2,ror
+hesam.eu,central,HESAM Université,2,ror
 ibpc.fr,,Institut de biologie physico-chimique | Laboratoire de Biologie Physico-Chimique des Protéines Membranaires | Physiologie Membranaire et Moléculaire du Chloroplaste,2,academia
 ibps.upmc.fr,,Laboratoire de Biologie du Développement | Q51783646 | Q51784551,2,academia
-icrennes.org,central*,Institut catholique de rennes,2,ror
+icrennes.org,central,Institut catholique de rennes,2,ror
 ifsttar.fr,,IFSTTAR | Q51781270 | Q51781279 | Q51781287 | Q51785458 | Q51786176,2,wikidata;academia
 inb.u-bordeaux2.fr,,Neuroinflammation : Imaging and Treatment of Multiple Sclerosis | Q51779784 | Q51780714,2,academia
-international.epitech.eu,central*,École pour l'informatique et les nouvelles technologies,2,ror
-ipsl-edu.com,central*,Institut Polytechnique Saint-Louis,2,ror
+international.epitech.eu,central,École pour l'informatique et les nouvelles technologies,2,ror
+ipsl-edu.com,central,Institut Polytechnique Saint-Louis,2,ror
 irstea.fr,,Q51780542 | Q51781953 | Q51782097 | Q51782772 | Q51782966 | Q51783051 | Q51783904 | Q51784341 | Q51784560 | Q51784575 | Q51785012,2,academia
-isunet.edu,central*,International Space University,2,ror
-mbs-education.com,central*,MBS School of Business,2,ror
-nyu.edu,central*,New York University Paris,2,ror
+isunet.edu,central,International Space University,2,ror
+mbs-education.com,central,MBS School of Business,2,ror
+nyu.edu,central,New York University Paris,2,ror
 recherche.parisdescartes.fr,,Laboratoire Adaptations Travail-Individu | Laboratory for the Psychology of Child Development and Education | Pediatric Epilepsies and Brain Plasticity | Q51779673 | Q51780234 | Q51781215 | Q51781378 | Q51784030 | Q51784197 | Q51784387 | Q51784509,2,academia
 sb-roscoff.fr,,Adaptation and Diversity in the Marine Environment | Laboratory of Integrative Biology of Marine Model | Phosphorylation de protéines et Pathologies Humaines | Station biologique de Roscoff,2,academia
-schiller.edu,central*,Schiller International University,2,ror
-supinfo.com,central*,SUPINFO,2,ror
-tbs-education.com,central*,TBS Education,2,ror
+schiller.edu,central,Schiller International University,2,ror
+supinfo.com,central,SUPINFO,2,ror
+tbs-education.com,central,TBS Education,2,ror
 u-cergy.fr,,Laboratoire de Physique Théorique et Modélisation | Laboratory of Physiochemistry of Polymers and Interfaces | Q51779714 | Q51779974 | Q51780247 | Q51780709 | Q51781227 | Q51782055 | Q51783364 | Q51784124 | Q51784727 | Université de Paris. Faculté de médecine. Laboratoire de chimie biologique,2,academia
 u-clermont1.fr,,"Microbes, Intestine, Inflammation and Susceptibility of the Host | Molecular Imaging and Targeted Therapy | Q51780872 | Q51781255 | Q51781299 | Q51781838 | Q51782965 | Q51785131",2,academia
 u-paris10.fr,,Q51784064 | Q51784789 | Q51785196 | Q51785287,2,academia
-ulip.london.ac.uk,central*,University of London Institute in Paris,2,ror
+ulip.london.ac.uk,central,University of London Institute in Paris,2,ror
 unice.fr,,Centre Méditerranéen de Médecine Moléculaire | Institut de Chimie de Nice | Laboratoire Interdisciplinaire Récits Cultures Et Sociétés | Laboratoire Motricité Humaine Education Sport Santé | Laboratoire de PhysioMédecine Moléculaire | Q51783047 | Q51786145 | Q51786154 | Q51786156 | Q51786161 | Q51786165 | Q51786174 | Q51786185 | Q51786205,2,academia
 univ-fcomte.fr,,Q51781707 | Q51781907 | Q51784133 | Q51785605,2,academia
 univ-lille1.fr,,Growth Factor Signaling in Breast Cancer. Functional Proteomics | Q51780595 | Q51781580,2,academia
 univ-paris-diderot.fr,,"Alloimmunity- Autoimmunity - Transplantation | Biomarkers in Cardiological Neurological and Vascular Diseases | Carcinomatosis Angiogenesis and Translational Research | Clinical Epidemiology and Economic Evaluation Applied to Vulnerable Populations | Genetics of Diabetes | Immunoloy, Dermatology and Oncology | LARCA | Lymphocyte Differentiation and Lymphoid Disorders | Myeloid Malignancies: Stem Cells, Preclinical Models and Translational Research | Q51781336 | Q51781956 | Q51782080 | Q51782081 | Q51783700 | Response Variability to Psychotropes | Viral Genetics and Pathogenesis",2,academia
-univ-valenciennes.fr,central*,Q51778781 | Q51781088 | Q51781828 | Q51782808 | Q51784377 | Q51784912 | University of Valenciennes,2,academia
+univ-valenciennes.fr,central,Q51778781 | Q51781088 | Q51781828 | Q51782808 | Q51784377 | Q51784912 | University of Valenciennes,2,academia
 upmc.fr,,Centre de recherche Saint-Antoine | Experimental and Clinical Respiratory Neurophysiology | Pathophysiology of Mendelian Disorders Expressed in Children | Q51780469 | Q51781062 | Q51781386 | Q51781440 | Q51781539 | Q51781670 | Q51782131 | Q51784664 | Q51785089,2,academia
 canceropole-gso.org,,Cardio-Thoracic Research Centre of Bordeaux | Q51780154 | Q51781764,1,academia
 euskaltzaindia.eus,,Euskaltzaindia,1,wikidata
-finlandabroad.fi,central*,"Permanent Delegation of Finland to the OECD | Permanent Representation of Finland to the Council of Europe | Embassy of Finland, Paris",1,wikidata
+finlandabroad.fi,central,"Permanent Delegation of Finland to the OECD | Permanent Representation of Finland to the Council of Europe | Embassy of Finland, Paris",1,wikidata
 hec.edu,,Groupement de Recherche et d’Études en Gestion à HEC Paris | HEC Paris Innovation & Entrepreneurship Institute | Society & Organizations Institute,1,academia
 ich.unesco.org,,Living Heritage Entity,1,wikidata
 institutimagine.org,,Institut des maladies génétiques Imagine | Q51782068 | Q51782517 | Q51782536,1,academia

@@ -127,39 +127,34 @@
   "The values of the level column of curated.csv and registered.csv.
   The levels: central government, the first tier below it (central-1:
   Land, state, region…) and everything lower (local). A central or
-  central-1 level ending in * takes the domain with all its subdomains
-  (gouv.fr), without * the domain alone, for a root shared with a lower
-  tier (sp.gov.br: the state of São Paulo, but also its
+  central-1 domain counts with all its subdomains (gouv.fr); ending in
+  ! it counts alone, for a root shared with a lower tier
+  (sp.gov.br,central-1!: the state of São Paulo, but also its
   municipalities). A local row is never harvested: it carves a
   lower-tier label and below out of a shared root (abingdon.gov.uk
   under gov.uk)."
-  #{"central*" "central" "central-1*" "central-1" "local"})
-
-(defn parse-level
-  "[level subtree?] of a level cell, central-1* reading
-  [\"central-1\" true]; nil for a cell not in level-cells. Pure."
-  [cell]
-  (when (level-cells cell)
-    [(str/replace cell #"\*$" "") (str/ends-with? cell "*")]))
+  #{"central" "central!" "central-1" "central-1!" "local"})
 
 (def harvest-levels
   "The levels whose domains stand for a subtree to harvest and probe."
   #{"central" "central-1"})
 
-(defn subtree-cell
-  "The level cell of a domain taken with all its subdomains: central*
-  for central, central-1* for central-1, the level as is otherwise
-  (local, blank). Pure."
-  [level]
-  (cond-> (or level "") (harvest-levels level) (str "*")))
+(defn parse-level
+  "[level subtree?] of a level cell, central-1! reading
+  [\"central-1\" false], central-1 [\"central-1\" true], local
+  [\"local\" false]; nil for a cell not in level-cells. Pure."
+  [cell]
+  (when (level-cells cell)
+    (let [level (str/replace cell #"!$" "")]
+      [level (and (contains? harvest-levels level) (not (str/ends-with? cell "!")))])))
 
 ;; Per-country decision files, named after the status of their domains.
 ;; Hand-edited: countries/<c>/curated.csv (domain,level -- confirmed
 ;; by hand, see level-cells) and countries/<c>/excluded.csv
 ;; (domain,reason -- rejected).
 ;; Generated: countries/<c>/sources/<registry>/registered.csv
-;; (domain,level -- listed by an official registry, central* and
-;; central-1* rows: a registry domain counts with its subdomains). The confirmed
+;; (domain,level -- listed by an official registry, a registry domain
+;; counting with its subdomains). The confirmed
 ;; domains of a country are their compilation, registered plus curated
 ;; minus excluded, computed in memory (confirmed-rows): no file to
 ;; regenerate after a curation.
@@ -219,7 +214,7 @@
 
 (defn read-curated
   "Read the [domain level-cell] rows of countries/<c>/curated.csv, the
-  cell lower-cased (Central* reads central*), blank when the row has
+  cell lower-cased (Central! reads central!), blank when the row has
   none: parse-level reads it."
   [country-dir]
   (map #(update % 1 str/lower-case) (read-domain-rows (curated-file country-dir) 2)))
@@ -318,11 +313,10 @@
 
 (defn write-registered!
   "Write the [domain level] rows to countries/<c>/sources/<registry>/registered.csv,
-  sorted by domain, a central or central-1 domain with its subdomains
-  (subtree-cell), and drop the confirmed cache."
+  sorted by domain, and drop the confirmed cache."
   [country-dir registry rows]
   (write-csv-file (registered-file country-dir registry) ["domain" "level"]
-                  (sort-by first (for [[d level] rows] [d (subtree-cell level)])))
+                  (sort-by first (for [[d level] rows] [d level])))
   (drop-confirmed-cache!))
 
 (defn normalize-name
