@@ -1,21 +1,27 @@
-# AI policy
+# AI policy v0.2
 
-## Banned LLM assistance for communication
+## Banned LLM-driven agent actions
 
-Interpersonal communication must be fully written by humans: issues, pull or merge requests, commit messages, reviews and emails.
+An LLM-driven agent must never perform any action on the project by
+itself, such as opening issues, pushing commits, etc.
 
-If you want to add content written with the assistance of an LLM, add it as an attachment (e.g. in an email) or as additional information (e.g. in an issue).
+## Limited and transparent LLM assistance for communication
 
-Translation and rephrasing tools are allowed on what you have written, and you're encouraged to disclose help received when it has been significant.
+Interpersonal communication must be written by humans: issues, pull or
+merge requests, commit messages, reviews and emails.
 
-An "agent" must not perform any action on the project by itself (opening issues, pushing commits, etc.).
+If you want to add content written with the assistance of an LLM, make
+it easy for the reader to distinguish what was written by you and what
+was written by or with the LLM.
 
-## Allowed LLM assistance for writing for code and documentation
+## Allowed LLM assistance for writing code and documentation
 
-You can use an LLM to help you write patches or pull/merge request content.
+You can use an LLM to help you write code and documentation.
 
-If a contribution contains LLM-generated content, it must carry an `Assisted-by: <tool>:<model>` trailer. Do not use `Co-authored-by:` to mention the assistance of an LLM.
+Do not use git trailers to mention the assistance of an LLM.
 
 ## You are responsible, not "AI"
 
-You must own and be able to justify every change you propose to code and documentation and be careful to propose targeted commits that are easy for humans to review.
+You must own and be able to justify the changes you propose to code
+and documentation and be careful to propose targeted commits that are
+easy for humans to understand and review.
