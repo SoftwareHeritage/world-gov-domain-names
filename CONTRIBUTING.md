@@ -34,13 +34,13 @@ take into account: e.g. in Brazil, `sp.gov.br` is the State of São
 Paulo, but `campinas.sp.gov.br` is a municipality. This requires two
 possible actions in `curated.csv`:
 
-- **Mark such domains as `exact` in the `kind` column** when we know
-  that not all subdomains should be included.
-  
-- **Otherwise, keep `subtree` as the `kind` for these domains** and
-  mark subdomains to exclude as `local`. E.g. `gov.za` holds both
-  national departments and municipalities, so `capetown.gov.za` is
-  marked as `local`.
+- **Write the level without `*`** (`central-1`, not `central-1*`) when
+  we know that not all subdomains should be included: the domain
+  counts alone.
+
+- **Otherwise, keep the `*`** (`central*`) and mark subdomains to
+  exclude as `local`. E.g. `gov.za` holds both national departments
+  and municipalities, so `capetown.gov.za` is marked as `local`.
 
 These root domains mix levels and need someone who knows the country:
 
@@ -72,21 +72,23 @@ us an email to change it.
 
 ### `curated.csv` for the domains you confirm
 
-One row per domain, as `domain,level,kind`:
+One row per domain, as `domain,level`:
 
 ```csv
-domain,level,kind
-gouv.fr,central,subtree
-sp.gov.br,central-1,exact
-abingdon.gov.uk,local,
+domain,level
+gouv.fr,central*
+sp.gov.br,central-1
+abingdon.gov.uk,local
 ```
 
 - `domain` is a domain name.
 - `level` is `central` (central government and its bodies),
   `central-1` (the first tier below: state, region, Land, etc.) or
-  `local` (anything lower).
-- `kind` is empty (the domain counts with everything below it, like
-  `subtree`) or `exact` (the domain counts alone, see above).
+  `local` (anything lower). A `*` after `central` or `central-1`
+  means the domain counts with all its subdomains (`gouv.fr` covers
+  `data.gouv.fr`); without it, the domain counts alone (see above).
+  `local` never takes a `*`: the domain and everything below it are
+  left out.
 
 ### `excluded.csv` for the domains you reject
 
@@ -108,7 +110,7 @@ a `local` row in `curated.csv` instead.
 reviewed.
 
 1. For each domain you are sure about, move its row to `curated.csv`,
-   fixing the level or the kind if needed; if it is not a public body,
+   fixing the level if needed; if it is not a public body,
    add it to `excluded.csv` with a reason.
 2. Add the domains we missed to `curated.csv` directly.
 

@@ -18,8 +18,11 @@ The confirmed domains of a country are compiled in memory at each run
 (=common/compile-confirmed=): its registries
 (=sources/<registry>/registered.csv=, =domain,level=, written by
 =govuk= and =bb directories registry=) plus =curated.csv=
-(=domain,level,kind=, a curated row winning) minus =excluded.csv=
-(=domain,reason=). A contradiction stops every command; =bb check=
+(=domain,level=, a curated row winning) minus =excluded.csv=
+(=domain,reason=). A level is =central*= or =central-1*= for a domain
+with all its subdomains (=common/parse-level=), =central= or
+=central-1= for the domain alone, or =local=; registries always write
+the =*= form. A contradiction stops every command; =bb check=
 reports them all, with their fix. A =local= row or an excluded label
 directly under a central root takes that label out of the root's
 subtree; it is never harvested.
@@ -104,8 +107,8 @@ there is skipped unless =FORCE=1=; a failed query leaves it untouched.
 =domains= writes =data/public-sector-domains-central+-policy.csv=
 (=domain,kind,country=) from the confirmed =central= and =central-1=
 domains of UN members and observers: =subtree= (a domain and
-everything below it), =exact= (the domain alone, when =curated.csv=
-says so) and =exclude= (a =local= or excluded label directly under a
+everything below it, a level with =*=), =exact= (the domain alone, a
+level without =*=) and =exclude= (a =local= or excluded label directly under a
 central root). The longest matching domain decides; a domain a subtree
 covers is pruned. It is read by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]].
 
@@ -117,7 +120,8 @@ A root falls under one of three regimes:
    the first-tier bodies (=sp.gov.br=) are =central-1= rows, covered by
    the root with everything below them, unless their root also carries
    a lower tier: the 27 Brazilian states, which host their
-   municipalities, are =exact=. Lower-tier labels are =local= rows,
+   municipalities, are =central-1= without =*=, hence =exact= rows.
+   Lower-tier labels are =local= rows,
    hence =exclude= rows. For =gov.uk=, =bb pipeline govuk= classifies
    the official CDDO list (Wikidata GSS codes and naming conventions)
    into =sources/govuk/registered.csv=; refresh it after updating the

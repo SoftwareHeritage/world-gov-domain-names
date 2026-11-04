@@ -914,11 +914,11 @@
              (concat rows (parent-rows rows known excluded)))))
 
 (defn fold-todo-rows
-  "Fold [domain level kind] rows so that none sits under another:
+  "Fold [domain level] rows so that none sits under another:
   a row under a listed one is left out, the decision on the higher
   domain covering it; then parent-min-hosts rows or more under one
   registrable domain give way to a row for it, level their most
-  frequent one, kind blank (subtree). Order kept, a folded row taking
+  frequent one. Order kept, a folded row taking
   the place of its first host. Pure."
   [rows]
   (let [listed (set (map first rows))
@@ -931,11 +931,11 @@
                   (if-not (fold? p)
                     row
                     (let [hosts (groups p)]
-                      [p (most-frequent-level (map second hosts)) ""])))))
+                      [p (most-frequent-level (map second hosts))])))))
          distinct)))
 
 (defn todo-country!
-  "Write countries/<c>/to_curate.csv (domain,level,kind): the
+  "Write countries/<c>/to_curate.csv (domain,level): the
   rows of proposed.csv no decided or excluded domain covers yet, in
   the columns of curated.csv, ready to move there, folded by
   fold-todo-rows (cnr.it for its 59 subdomains; proposed.csv lists
@@ -944,24 +944,25 @@
   [country-dir]
   (let [out     (str "countries/" country-dir "/to_curate.csv")
         decided (into (decided-domains) (map first (read-excluded country-dir)))
-        open    (for [[d level _ kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
+        open    (for [[d level] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
-                  [d (or level "") (or kind "")])
+                  [d (or level "")])
         rows    (fold-todo-rows open)]
-    (write-csv-file out ["domain" "level" "kind"] rows)
+    (write-csv-file out ["domain" "level"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
 
 (defn cmd-todo [args] (iter-countries todo-country! args))
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,level,name,kind,score,sources): the ranked candidates, name
-  their labels, kind blank (subtree) for the curation to set; then to_curate.csv (todo-country!)."
+  (domain,level,name,score,sources): the ranked candidates, level a
+  central or central-1 one with its subdomains (subtree-cell) for the
+  curation to narrow, name their labels; then to_curate.csv (todo-country!)."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
-               [h lvl lbl "" (str sc) src])]
-    (write-csv-file out ["domain" "level" "name" "kind" "score" "sources"] rows)
+               [h (subtree-cell lvl) lbl (str sc) src])]
+    (write-csv-file out ["domain" "level" "name" "score" "sources"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))
     (todo-country! country-dir)))
 
@@ -1154,7 +1155,7 @@
   "The [domain kind country] rows of the policy table, sorted: rows are
   the [domain country level] of central-plus-rows, excl the labels
   local-labels keeps out of each [country root], apexes the #{[country
-  domain]} curated.csv says exact. subtree (the domain and below)
+  domain]} confirmed without their subdomains (a level without *). subtree (the domain and below)
   unless the domain is an apex (exact, the domain alone), exclude for a
   local or excluded label directly under a central root; the longest
   match decides, a domain a subtree covers is dropped. A domain of
@@ -1194,11 +1195,14 @@
 (defn cmd-domains
   "Write data/public-sector-domains-central+-policy.csv
   (domain,kind,country): the policy table (policy-rows) of the
-  confirmed central and central-1 domains, their curated exact rows as
-  apexes and their local and excluded labels as exclusions."
+  confirmed central and central-1 domains, those without their
+  subdomains (a level without *) as apexes and their local and excluded
+  labels as exclusions."
   [_]
   (let [rows   (central-plus-rows)
-        apexes (set (for [[c d _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
+        apexes (set (for [[c d level _ subtree?] (confirmed-rows)
+                          :when (and (harvest-levels level) (not subtree?))]
+                      [c d]))
         policy (policy-rows rows (local-labels) apexes)]
     (write-csv-file policy-file ["domain" "kind" "country"] policy)
     (println (str "Wrote " policy-file " (" (count policy) " rows: "
@@ -1220,35 +1224,27 @@
       (str ": write " host)
       "")))
 
-(def ^:private levels-hint "write central, central-1 or local")
-(def ^:private kinds-hint "leave it empty (subtree) or write exact")
+(def ^:private levels-hint
+  "write central* or central-1* (with its subdomains), central or central-1 (the domain alone), or local")
 
 (defn- row-problems
   "The problems of the decision files of a country as read, [:err msg]
   or [:warn msg] in the order of the report: anomalies are the [file
-  kind x] of file-anomalies. ERR: a first cell that is no hostname, a
-  blank or unknown level, an unknown kind or one on a local domain, two
-  levels for a domain, a domain both curated and excluded. WARN: a
-  duplicate row, an excluded row without a reason. Pure."
+  tag x] of file-anomalies. ERR: a first cell that is no hostname, a
+  blank or unknown level, two levels for a domain, a domain both
+  curated and excluded. WARN: a duplicate row, an excluded row without
+  a reason. Pure."
   [curated excluded anomalies]
   (concat
-   (for [[file kind x] anomalies]
-     (case kind
+   (for [[file tag x] anomalies]
+     (case tag
        :invalid-hostname [:err (str "'" x "' in " file " is not a hostname" (hostname-hint x)
                                     " (row dropped)")]
        :duplicate        [:warn (str x " is listed twice in " file " (first row wins)")]))
-   (for [[d level] curated :when (not (levels level))]
-     [:err (if (str/blank? level)
+   (for [[d cell] curated :when (not (parse-level cell))]
+     [:err (if (str/blank? cell)
              (str d " has no level in curated.csv: " levels-hint)
-             (str d " has an unknown level '" level "' in curated.csv: " levels-hint))])
-   (for [[d level kind] curated
-         :let [why (cond
-                     (not (kinds kind))
-                     (str d " has an unknown kind '" kind "' in curated.csv: " kinds-hint)
-                     (and (seq kind) (not (harvest-levels level)))
-                     (str d " is " level ": only a central or central-1 domain takes a kind"))]
-         :when why]
-     [:err why])
+             (str d " has an unknown level '" cell "' in curated.csv: " levels-hint))])
    (for [[d rows] (group-by first curated)
          :let [lvls (distinct (map second rows))]
          :when (next lvls)]
@@ -1261,30 +1257,34 @@
 (defn- coverage-problems
   "The [:warn msg] of the curated and excluded rows of a country against
   its compiled decisions: confirmed is confirmed-country, registered
-  {domain [registry level]} (first registry wins), harvested? tells
-  whether a domain has a harvest file of its own. A curated row a
-  registry already lists or a confirmed domain of the same level covers
-  (unless harvested on its own), a local or excluded domain more than
-  one label under a central root. Pure."
+  {domain [registry level-cell]} (first registry wins), harvested?
+  tells whether a domain has a harvest file of its own. A curated row a
+  registry already lists, a curated row with its subdomains a confirmed
+  domain of the same level and with its subdomains covers (unless
+  harvested on its own), a local or excluded domain more than one label
+  under a central root. Pure."
   [curated excluded confirmed registered harvested?]
-  (let [level-of  (into {} (for [[d level] confirmed] [d level]))
-        source-of (into {} (for [[d _ source] confirmed] [d source]))]
+  (let [level-of   (into {} (for [[d level] confirmed] [d level]))
+        source-of  (into {} (for [[d _ source] confirmed] [d source]))
+        subtree-of (into {} (for [[d _ _ subtree?] confirmed] [d subtree?]))]
     (concat
-     (for [[d level] curated
-           :let [[r rlevel] (get registered d)]
-           :when (= level rlevel)]
-       [:warn (str d " (" level ") is curated but " r " already lists it")])
-     ;; a confirmed domain covers its subdomains: a curated row under a
-     ;; root of the same level adds nothing, unless it is harvested on
-     ;; its own
-     (for [[d level kind] curated
-           :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
-           :when (and root (= level (level-of root)) (not= kind "exact") (not (harvested? d)))]
-       [:warn (str d " (" level ") is already covered by " root
-                   " (" level ", " (source-of root) ")")])
+     (for [[d cell] curated
+           :let [[r rcell] (get registered d)]
+           :when (= cell rcell)]
+       [:warn (str d " (" cell ") is curated but " r " already lists it")])
+     ;; a confirmed domain with its subdomains covers them: a curated
+     ;; row with its subdomains under such a root of the same level adds
+     ;; nothing, unless it is harvested on its own
+     (for [[d cell] curated
+           :let [[level subtree?] (parse-level cell)
+                 root (some #(when (level-of %) %) (rest (host-suffixes d)))]
+           :when (and subtree? root (subtree-of root) (= level (level-of root))
+                      (not (harvested? d)))]
+       [:warn (str d " (" cell ") is already covered by " root
+                   " (" cell ", " (source-of root) ")")])
      ;; the policy table only carves the labels directly under a central
-     ;; root out of its subtree (labels-under-central); under a central-1
-     ;; root (an exact row) everything is out already
+     ;; root out of its subtree (labels-under-central); under a root
+     ;; without its subdomains everything is out already
      (for [d (concat (for [[d level] confirmed :when (= level "local")] d)
                      (map first excluded))
            :let [root (some #(when (contains? harvest-levels (level-of %)) %)
@@ -1303,8 +1303,8 @@
   (let [curated   (read-curated c)
         excluded  (read-excluded c)
         anomalies (for [[file path] [["curated.csv" (curated-file c)] ["excluded.csv" (excluded-file c)]]
-                        [kind x] (file-anomalies path)]
-                    [file kind x])
+                        [tag x] (file-anomalies path)]
+                    [file tag x])
         problems  (vec (row-problems curated excluded anomalies))]
     (if (some #(= :err (first %)) problems)
       problems
@@ -1323,18 +1323,17 @@
   "Compile the decision files of the given countries (all by default),
   reporting every problem at once with its fix (country-problems). ERR
   and exit 1: a first cell that is no hostname, a blank or unknown
-  level, an unknown kind or one on a local domain, two levels for a
-  domain, a domain both curated and excluded. WARN: a duplicate row, an
-  excluded row without a reason, a curated row a registry already lists
-  or a confirmed domain of the same level covers (unless harvested on
-  its own), a local or excluded domain more than one label under a
-  central root."
+  level, two levels for a domain, a domain both curated and excluded.
+  WARN: a duplicate row, an excluded row without a reason, a curated
+  row a registry already lists or a confirmed domain of the same level
+  covers (unless harvested on its own), a local or excluded domain more
+  than one label under a central root."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [report! (fn [c]
                     (let [problems (country-problems c)]
-                      (doseq [[kind msg] problems]
-                        (err (if (= :err kind) "ERR: " "WARN: ") c ": " msg))
+                      (doseq [[severity msg] problems]
+                        (err (if (= :err severity) "ERR: " "WARN: ") c ": " msg))
                       (not-any? #(= :err (first %)) problems)))
           failed  (count (remove true? (doall (map report! countries))))]
       (if (pos? failed)

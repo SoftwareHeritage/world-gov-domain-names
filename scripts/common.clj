@@ -123,30 +123,43 @@
     (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h)
          (not (re-matches #"[0-9.]+" h)))))
 
-(def levels
-  "The levels of a confirmed domain: central government, the first tier
-  below it (central-1: Land, state, region…) and everything lower
-  (local). A local row is never harvested: it carves a lower-tier label
-  out of a shared root (abingdon.gov.uk under gov.uk)."
-  #{"central" "central-1" "local"})
+(def level-cells
+  "The values of the level column of curated.csv and registered.csv.
+  The levels: central government, the first tier below it (central-1:
+  Land, state, region…) and everything lower (local). A central or
+  central-1 level ending in * takes the domain with all its subdomains
+  (gouv.fr), without * the domain alone, for a root shared with a lower
+  tier (sp.gov.br: the state of São Paulo, but also its
+  municipalities). A local row is never harvested: it carves a
+  lower-tier label and below out of a shared root (abingdon.gov.uk
+  under gov.uk)."
+  #{"central*" "central" "central-1*" "central-1" "local"})
 
-(def kinds
-  "The kinds a curated central or central-1 domain may give in the
-  policy table: blank (the default, subtree) covers it and everything
-  below it, exact itself alone, for a root shared with a lower tier
-  (sp.gov.br: the state of São Paulo, but also its municipalities)."
-  #{"" "subtree" "exact"})
+(defn parse-level
+  "[level subtree?] of a level cell, central-1* reading
+  [\"central-1\" true]; nil for a cell not in level-cells. Pure."
+  [cell]
+  (when (level-cells cell)
+    [(str/replace cell #"\*$" "") (str/ends-with? cell "*")]))
 
 (def harvest-levels
   "The levels whose domains stand for a subtree to harvest and probe."
   #{"central" "central-1"})
 
+(defn subtree-cell
+  "The level cell of a domain taken with all its subdomains: central*
+  for central, central-1* for central-1, the level as is otherwise
+  (local, blank). Pure."
+  [level]
+  (cond-> (or level "") (harvest-levels level) (str "*")))
+
 ;; Per-country decision files, named after the status of their domains.
-;; Hand-edited: countries/<c>/curated.csv (domain,level,kind --
-;; confirmed by hand, kind optional) and countries/<c>/excluded.csv
+;; Hand-edited: countries/<c>/curated.csv (domain,level -- confirmed
+;; by hand, see level-cells) and countries/<c>/excluded.csv
 ;; (domain,reason -- rejected).
 ;; Generated: countries/<c>/sources/<registry>/registered.csv
-;; (domain,level -- listed by an official registry). The confirmed
+;; (domain,level -- listed by an official registry, central* and
+;; central-1* rows: a registry domain counts with its subdomains). The confirmed
 ;; domains of a country are their compilation, registered plus curated
 ;; minus excluded, computed in memory (confirmed-rows): no file to
 ;; regenerate after a curation.
@@ -181,19 +194,18 @@
   [path] (decision-anomalies (rest (read-csv-raw path))))
 
 (defn read-curated
-  "Read the [domain level kind] rows of countries/<c>/curated.csv,
-  level and kind lower-cased (Central reads central), kind blank when
-  the row has none."
+  "Read the [domain level-cell] rows of countries/<c>/curated.csv, the
+  cell lower-cased (Central* reads central*), blank when the row has
+  none: parse-level reads it."
   [country-dir]
-  (map #(-> % (update 1 str/lower-case) (update 2 str/lower-case))
-       (read-domain-rows (curated-file country-dir) 3)))
+  (map #(update % 1 str/lower-case) (read-domain-rows (curated-file country-dir) 2)))
 
 (defn read-excluded
   "Read the [domain reason] rows of countries/<c>/excluded.csv."
   [country-dir] (read-domain-rows (excluded-file country-dir) 2))
 
 (defn read-registered
-  "Read the [domain level] rows of countries/<c>/sources/<registry>/registered.csv."
+  "Read the [domain level-cell] rows of countries/<c>/sources/<registry>/registered.csv."
   [country-dir registry]
   (read-domain-rows (registered-file country-dir registry) 2))
 
@@ -217,23 +229,26 @@
   (->> rows (map (juxt first identity)) index-first vals (sort-by first)))
 
 (defn compile-confirmed
-  "Compile a country's confirmed [domain level source kind] rows:
+  "Compile a country's confirmed [domain level source subtree?] rows:
   its curated rows, which win, then the rows of its registries in
-  order (kind blank), minus the excluded domains; source is
-  \"curated\" or the registry's name. Throws ex-info on an unknown level
-  or a domain both curated and excluded. Sorted by domain."
+  order, minus the excluded domains; level and subtree? as parse-level
+  reads the level cell, source \"curated\" or the registry's name.
+  Throws ex-info on an unknown level or a domain both curated and
+  excluded. Sorted by domain."
   [curated registries excluded]
-  (let [rows     (concat (for [[d level kind] curated] [d level "curated" kind])
-                         (for [[registry rs] registries, [d level] rs] [d level registry ""]))
+  (let [rows     (concat (for [[d cell] curated] [d cell "curated"])
+                         (for [[registry rs] registries, [d cell] rs] [d cell registry]))
         excluded (set (map first excluded))]
-    (when-let [[d level] (first (remove #(contains? levels (second %)) rows))]
-      (throw (ex-info (str d (if (str/blank? level) ": no level" (str ": unknown level '" level "'"))
+    (when-let [[d cell] (first (remove #(parse-level (second %)) rows))]
+      (throw (ex-info (str d (if (str/blank? cell) ": no level" (str ": unknown level '" cell "'"))
                            " -- run bb check for every problem and its fix")
                       {:domain d})))
     (when-let [[d] (first (filter #(contains? excluded (first %)) curated))]
       (throw (ex-info (str d ": both curated and excluded") {:domain d})))
     (->> rows
          (remove #(contains? excluded (first %)))
+         (map (fn [[d cell source]]
+                (let [[level subtree?] (parse-level cell)] [d level source subtree?])))
          dedup-by-first)))
 
 (defn confirmed-country
@@ -244,15 +259,15 @@
                      (read-excluded country-dir)))
 
 (defn- compile-confirmed-rows
-  "[country domain level source kind] of every country. Throws
+  "[country domain level source subtree?] of every country. Throws
   ex-info on the first contradiction in the decision files."
   []
   (vec (for [c (country-dirs)
-             [d level source kind] (try (confirmed-country c)
+             [d level source subtree?] (try (confirmed-country c)
                                         (catch clojure.lang.ExceptionInfo e
                                           (throw (ex-info (str c ": " (ex-message e))
                                                           (assoc (ex-data e) :country c)))))]
-         [c d level source kind])))
+         [c d level source subtree?])))
 
 ;; Each cache holds a delay: a first deref from two threads at once (a
 ;; bounded-pmap over countries) still compiles once, with no lock.
@@ -260,7 +275,7 @@
 
 (defn confirmed-rows
   "Return the confirmed domains of every country as a vector of [country
-  domain level source kind], compiled once per run and cached
+  domain level source subtree?], compiled once per run and cached
   (write-registered! drops the cache). Throws ex-info on the first
   contradiction in the decision files."
   []
@@ -279,10 +294,11 @@
 
 (defn write-registered!
   "Write the [domain level] rows to countries/<c>/sources/<registry>/registered.csv,
-  sorted by domain, and drop the confirmed cache."
+  sorted by domain, a central or central-1 domain with its subdomains
+  (subtree-cell), and drop the confirmed cache."
   [country-dir registry rows]
   (write-csv-file (registered-file country-dir registry) ["domain" "level"]
-                  (sort-by first (for [[d level] rows] [d level])))
+                  (sort-by first (for [[d level] rows] [d (subtree-cell level)])))
   (drop-confirmed-cache!))
 
 (defn normalize-name
