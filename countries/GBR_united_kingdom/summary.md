@@ -15,6 +15,12 @@ Their domains are confirmed as they are, without curation:
 
 - `govuk`: `countries/GBR_united_kingdom/sources/govuk/registered.csv`
 
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier); a suggested level is to be checked.
+
+- `gov.uk`: councils, parishes, fire and park authorities; devolved bodies
+
 ## UN/DESA national portal
 
 - Declared: [https://www.gov.uk](https://www.gov.uk) (host `gov.uk`)

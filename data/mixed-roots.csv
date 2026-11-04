@@ -16,6 +16,7 @@ gov.ng,NGA_nigeria,two-letter state codes,(ab|ad|ak|an|be|bo|bu|by|cr|dl|eb|en|g
 gov.ph,PHL_philippines,provinces and local government units,,"[a-z]+waterdistrict|[a-z]{4,}wd|[a-z]{4,}city|cityof[a-z]+|municipalityof[a-z]+|lgu[a-z]+"
 gov.pk,PAK_pakistan,provinces and cities,,
 gov.tr,TUR_turkey,"metropolitan water utilities, local unions",,"[a-z0-9-]+-?bld|[a-z]+ozelidare|[a-z]+muhtarligi|[a-z]+(sulama|atiksu)birligi|([a-z]+-?)?[a-z]{0,2}ski"
+gov.uk,GBR_united_kingdom,"councils, parishes, fire and park authorities; devolved bodies","[a-z-]{3,}ni|ni-?[a-z]{2,}|[a-z-]*(scotland|scottish)[a-z-]*|[a-z-]*(wales|cymru)","[a-z-]+(-?dc|-?bc|-?pc|-?tc|-npa|fire|frs|city|parish(es)?|council|borough)|[a-z-]{3,}cc|[a-z]+shire"
 gov.vn,VNM_vietnam,provinces (bare names) and lower tiers,,(phuong|thitran|uybannhandanxa|ubndxa|ubndphuong)[a-z0-9]+
 gov.za,ZAF_south_africa,provinces and ~257 municipalities,,"[a-z]{3,}(lm|dm|mun)|[a-z]+-dm"
 ma.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
