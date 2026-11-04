@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Micronesia
-- Languages: English; Gilbertese
-- Population: 120740
-- GDP per capita: 2559 US$ (2025)
-- Currencies: AUD; KID
 - ccTLD: `.ki` (manager: Ministry of Information, Communications and Transport (MICT))
-- OECD: non-member
 - UN/DESA EGDI: Rank 147 of 193
 - Government type: presidential republic
 - Capital: Tarawa

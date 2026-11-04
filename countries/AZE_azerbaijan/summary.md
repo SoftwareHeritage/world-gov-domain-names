@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Azerbaijani
-- Population: 10241722
-- GDP per capita: 7411 US$ (2025)
-- Currencies: AZN
 - ccTLD: `.az` (manager: IntraNS)
-- OECD: non-member
 - UN/DESA EGDI: Rank 74 of 193
 - Government type: presidential republic
 - Capital: Baku (Baki, Baky)

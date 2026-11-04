@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Western Europe
-- Languages: French
-- Population: 66351959
-- GDP per capita: 48986 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.fr` (manager: Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.))
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris

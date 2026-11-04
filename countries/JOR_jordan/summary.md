@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Arabic
-- Population: 11734000
-- GDP per capita: 5348 US$ (2025)
-- Currencies: JOD
 - ccTLD: `.jo` (manager: Ministry of Digital Economy and Entrepreneurship (MoDEE))
-- OECD: non-member
 - UN/DESA EGDI: Rank 89 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Amman

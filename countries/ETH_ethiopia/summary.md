@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: Amharic
-- Population: 111652998
-- GDP per capita: 933 US$ (2025)
-- Currencies: ETB
 - ccTLD: `.et` (manager: Ethio telecom)
-- OECD: non-member
 - UN/DESA EGDI: Rank 169 of 193
 - Government type: federal parliamentary republic
 - Capital: Addis Ababa

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Western Europe
-- Languages: German; French; Luxembourgish
-- Population: 681973
-- GDP per capita: 147252 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.lu` (manager: RESTENA)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 45 of 193
 - Government type: constitutional monarchy
 - Capital: Luxembourg

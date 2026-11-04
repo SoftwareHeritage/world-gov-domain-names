@@ -3,17 +3,43 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Portuguese
-- Population: 213421037
-- GDP per capita: 10713 US$ (2025)
-- Currencies: BRL
 - ccTLD: `.br` (manager: Comite Gestor da Internet no Brasil)
-- OECD: non-member
 - UN/DESA EGDI: Rank 50 of 193
 - Government type: federal presidential republic
 - Capital: Brasília
 - Hosts collected: 2448
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `ac.gov.br`: state bodies and municipalities
+- `al.gov.br`: state bodies and municipalities
+- `am.gov.br`: state bodies and municipalities
+- `ap.gov.br`: state bodies and municipalities
+- `ba.gov.br`: state bodies and municipalities
+- `ce.gov.br`: state bodies and municipalities
+- `df.gov.br`: state bodies and municipalities
+- `es.gov.br`: state bodies and municipalities
+- `go.gov.br`: state bodies and municipalities
+- `ma.gov.br`: state bodies and municipalities
+- `mg.gov.br`: state bodies and municipalities
+- `ms.gov.br`: state bodies and municipalities
+- `mt.gov.br`: state bodies and municipalities
+- `pa.gov.br`: state bodies and municipalities
+- `pb.gov.br`: state bodies and municipalities
+- `pe.gov.br`: state bodies and municipalities
+- `pi.gov.br`: state bodies and municipalities
+- `pr.gov.br`: state bodies and municipalities
+- `rj.gov.br`: state bodies and municipalities
+- `rn.gov.br`: state bodies and municipalities
+- `ro.gov.br`: state bodies and municipalities
+- `rr.gov.br`: state bodies and municipalities
+- `rs.gov.br`: state bodies and municipalities
+- `sc.gov.br`: state bodies and municipalities
+- `se.gov.br`: state bodies and municipalities
+- `sp.gov.br`: state bodies and municipalities
+- `to.gov.br`: state bodies and municipalities
 
 ## UN/DESA national portal
 

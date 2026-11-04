@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: English
-- Population: 2422712
-- GDP per capita: 919 US$ (2025)
-- Currencies: GMD
 - ccTLD: `.gm` (manager: GM-NIC)
-- OECD: non-member
 - UN/DESA EGDI: Rank 181 of 193
 - Government type: presidential republic
 - Capital: Banjul

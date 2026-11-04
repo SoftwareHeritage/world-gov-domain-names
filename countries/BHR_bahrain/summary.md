@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Arabic
-- Population: 1594654
-- GDP per capita: 30597 US$ (2025)
-- Currencies: BHD
 - ccTLD: `.bh` (manager: Telecommunications Regulatory Authority (TRA))
-- OECD: non-member
 - UN/DESA EGDI: Rank 18 of 193
 - Government type: constitutional monarchy
 - Capital: Manama

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: English; Malay
-- Population: 34231700
-- GDP per capita: 13125 US$ (2025)
-- Currencies: MYR
 - ccTLD: `.my` (manager: MYNIC Berhad)
-- OECD: non-member
 - UN/DESA EGDI: Rank 57 of 193
 - Government type: federal parliamentary constitutional monarchy
 - Capital: Kuala Lumpur

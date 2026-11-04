@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Southern Africa
-- Languages: Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana
-- Population: 63100945
-- GDP per capita: 6267 US$ (2024)
-- Currencies: ZAR
 - ccTLD: `.za` (manager: ZA Domain Name Authority)
-- OECD: non-member
 - UN/DESA EGDI: Rank 40 of 193
 - Government type: parliamentary republic
 - Capital: Pretoria (administrative capital); Cape Town (legislative capital); Bloemfontein (judicial capital)
 - Hosts collected: 1841
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.za`: provinces and ~257 municipalities
 
 ## UN/DESA national portal
 

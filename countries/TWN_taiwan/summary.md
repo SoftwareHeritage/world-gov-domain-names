@@ -3,12 +3,7 @@
 ## Overview
 
 - UN status: **Not recognised by the UN** (exclude from UN-facing report)
-- Region: Asia / Eastern Asia
-- Languages: Chinese
-- Population: 23317031
-- Currencies: TWD
 - ccTLD: `.tw` (manager: Taiwan Network Information Center (TWNIC))
-- OECD: non-member
 - Government type: semi-presidential republic
 - Capital: Taipei
 - Hosts collected: 0

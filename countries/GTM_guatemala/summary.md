@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Central America
-- Languages: Spanish
-- Population: 18079810
-- GDP per capita: 6598 US$ (2025)
-- Currencies: GTQ
 - ccTLD: `.gt` (manager: Universidad del Valle de Guatemala)
-- OECD: non-member
 - UN/DESA EGDI: Rank 122 of 193
 - Government type: presidential republic
 - Capital: Guatemala City

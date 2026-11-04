@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: Sinhala; Tamil
-- Population: 21763170
-- GDP per capita: 5002 US$ (2025)
-- Currencies: LKR
 - ccTLD: `.lk` (manager: Council for Information Technology)
-- OECD: non-member
 - UN/DESA EGDI: Rank 98 of 193
 - Government type: presidential republic
 - Capital: Colombo (commercial capital); Sri Jayewardenepura Kotte (legislative capital)

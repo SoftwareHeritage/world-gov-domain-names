@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Middle Africa
-- Languages: English
-- Population: 15786898
-- GDP per capita: 1080 US$ (2015)
-- Currencies: SSP
 - ccTLD: `.ss` (manager: National Communication Authority (NCA))
-- OECD: non-member
 - UN/DESA EGDI: Rank 192 of 193
 - Government type: presidential republic
 - Capital: Juba

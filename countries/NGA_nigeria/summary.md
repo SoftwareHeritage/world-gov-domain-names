@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: English
-- Population: 223800000
-- GDP per capita: 1084 US$ (2024)
-- Currencies: NGN
 - ccTLD: `.ng` (manager: Nigeria Internet Registration Association)
-- OECD: non-member
 - UN/DESA EGDI: Rank 144 of 193
 - Government type: federal presidential republic
 - Capital: Abuja
 - Hosts collected: 1924
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.ng`: two-letter state codes
 
 ## UN/DESA national portal
 

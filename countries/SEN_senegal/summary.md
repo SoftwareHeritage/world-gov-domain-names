@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: French
-- Population: 18593258
-- GDP per capita: 1955 US$ (2025)
-- Currencies: XOF
 - ccTLD: `.sn` (manager: Universite Cheikh Anta Diop)
-- OECD: non-member
 - UN/DESA EGDI: Rank 135 of 193
 - Government type: presidential republic
 - Capital: Dakar

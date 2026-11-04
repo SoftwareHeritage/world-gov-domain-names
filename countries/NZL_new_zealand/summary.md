@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Australia and New Zealand
-- Languages: English; Māori; New Zealand Sign Language
-- Population: 5324700
-- GDP per capita: 49591 US$ (2025)
-- Currencies: NZD
 - ccTLD: `.nz` (manager: InternetNZ)
-- OECD: member since 1973
 - UN/DESA EGDI: Rank 16 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Wellington

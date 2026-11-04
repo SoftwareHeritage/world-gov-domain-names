@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: English
-- Population: 9077691
-- GDP per capita: 846 US$ (2025)
-- Currencies: SLE
 - ccTLD: `.sl` (manager: Sierratel)
-- OECD: non-member
 - UN/DESA EGDI: Rank 172 of 193
 - Government type: presidential republic
 - Capital: Freetown

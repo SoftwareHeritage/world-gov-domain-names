@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: English; Urdu
-- Population: 241499431
-- GDP per capita: 1596 US$ (2025)
-- Currencies: PKR
 - ccTLD: `.pk` (manager: PKNIC)
-- OECD: non-member
 - UN/DESA EGDI: Rank 136 of 193
 - Government type: federal parliamentary republic
 - Capital: Islamabad
 - Hosts collected: 1332
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.pk`: provinces and cities
 
 ## UN/DESA national portal
 

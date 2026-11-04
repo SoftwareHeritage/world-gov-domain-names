@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: Persian (Farsi)
-- Population: 85961000
-- GDP per capita: 3924 US$ (2025)
-- Currencies: IRR
 - ccTLD: `.ir` (manager: Institute for Research in Fundamental Sciences)
-- OECD: non-member
 - UN/DESA EGDI: Rank 101 of 193
 - Government type: theocratic republic
 - Capital: Tehran

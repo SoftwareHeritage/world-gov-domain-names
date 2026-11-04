@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Melanesia
-- Languages: English; Fijian; Fiji Hindi
-- Population: 900869
-- GDP per capita: 6642 US$ (2025)
-- Currencies: FJD
 - ccTLD: `.fj` (manager: The University of the South Pacific)
-- OECD: non-member
 - UN/DESA EGDI: Rank 93 of 193
 - Government type: parliamentary republic
 - Capital: Suva (on Viti Levu)

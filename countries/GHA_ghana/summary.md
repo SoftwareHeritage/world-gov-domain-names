@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: English
-- Population: 33742380
-- GDP per capita: 3257 US$ (2025)
-- Currencies: GHS
 - ccTLD: `.gh` (manager: Network Computer Systems Limited)
-- OECD: non-member
 - UN/DESA EGDI: Rank 108 of 193
 - Government type: presidential republic
 - Capital: Accra

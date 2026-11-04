@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Central America
-- Languages: Belizean Creole; English; Spanish
-- Population: 417634
-- GDP per capita: 7865 US$ (2025)
-- Currencies: BZD
 - ccTLD: `.bz` (manager: University of Belize)
-- OECD: non-member
 - UN/DESA EGDI: Rank 141 of 193
 - Government type: parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm
 - Capital: Belmopan

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southeast Europe
-- Languages: Montenegrin
-- Population: 623327
-- GDP per capita: 14817 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.me` (manager: Government of Montenegro)
-- OECD: non-member
 - UN/DESA EGDI: Rank 81 of 193
 - Government type: parliamentary republic
 - Capital: Podgorica

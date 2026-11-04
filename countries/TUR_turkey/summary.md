@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Turkish
-- Population: 85664944
-- GDP per capita: 15893 US$ (2024)
-- Currencies: TRY
 - ccTLD: `.tr` (manager: Bilgi Teknolojileri ve İletişim Kurumu (BTK))
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 27 of 193
 - Government type: presidential republic
 - Capital: Ankara
 - Hosts collected: 2664
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.tr`: metropolitan water utilities, local unions
 
 ## UN/DESA national portal
 

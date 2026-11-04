@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: Portuguese
-- Population: 34090466
-- GDP per capita: 627 US$ (2025)
-- Currencies: MZN
 - ccTLD: `.mz` (manager: Centro de Informatica de Universidade Eduardo Mondlane)
-- OECD: non-member
 - UN/DESA EGDI: Rank 177 of 193
 - Government type: presidential republic
 - Capital: Maputo

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: Arabic; English; Tigrinya
-- Population: 3607000
-- GDP per capita: 689 US$ (2011)
-- Currencies: ERN
 - ccTLD: `.er` (manager: Eritrea Telecommunication Services Corporation (EriTel))
-- OECD: non-member
 - UN/DESA EGDI: Rank 190 of 193
 - Government type: authoritarian
 - Capital: Asmara

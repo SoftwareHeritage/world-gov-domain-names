@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English
-- Population: 267800
-- GDP per capita: 28365 US$ (2025)
-- Currencies: BBD
 - ccTLD: `.bb` (manager: Ministry of Innovation, Science and Smart Technology)
-- OECD: non-member
 - UN/DESA EGDI: Rank 91 of 193
 - Government type: parliamentary republic; a Commonwealth realm
 - Capital: Bridgetown

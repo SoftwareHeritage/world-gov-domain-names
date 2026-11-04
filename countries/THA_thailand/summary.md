@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Thai
-- Population: 65859640
-- GDP per capita: 8057 US$ (2025)
-- Currencies: THB
 - ccTLD: `.th` (manager: Thai Network Information Center Foundation)
-- OECD: non-member
 - UN/DESA EGDI: Rank 52 of 193
 - Government type: constitutional monarchy
 - Capital: Bangkok
 - Hosts collected: 628
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `go.th`: to check: mixed policy, mostly central sample
 
 ## UN/DESA national portal
 

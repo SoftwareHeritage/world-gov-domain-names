@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English; Jamaican Patois
-- Population: 2825544
-- GDP per capita: 7754 US$ (2024)
-- Currencies: JMD
 - ccTLD: `.jm` (manager: University of West Indies)
-- OECD: non-member
 - UN/DESA EGDI: Rank 96 of 193
 - Government type: parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm
 - Capital: Kingston

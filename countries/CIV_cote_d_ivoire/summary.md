@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: French
-- Population: 31719275
-- GDP per capita: 3050 US$ (2025)
-- Currencies: XOF
 - ccTLD: `.ci` (manager: Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI))
-- OECD: non-member
 - UN/DESA EGDI: Rank 124 of 193
 - Government type: presidential republic
 - Capital: Yamoussoukro (legislative capital), Abidjan (administrative and economic capital); note - the US Embassy is in Abidjan

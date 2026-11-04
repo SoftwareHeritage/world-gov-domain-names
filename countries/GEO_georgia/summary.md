@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Georgian
-- Population: 4000921
-- GDP per capita: 9692 US$ (2025)
-- Currencies: GEL
 - ccTLD: `.ge` (manager: Caucasus Online LLC)
-- OECD: non-member
 - UN/DESA EGDI: Rank 69 of 193
 - Government type: semi-presidential republic
 - Capital: Tbilisi

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Burmese
-- Population: 51316756
-- GDP per capita: 1359 US$ (2024)
-- Currencies: MMK
 - ccTLD: `.mm` (manager: Ministry of Transport and Communications)
-- OECD: non-member
 - UN/DESA EGDI: Rank 138 of 193
 - Government type: military regime
 - Capital: Rangoon (aka Yangon, continues to be recognized as the primary Burmese capital by the US Government); Nay Pyi Taw is the administrative capital

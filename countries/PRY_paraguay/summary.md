@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Guaraní; Spanish
-- Population: 6109644
-- GDP per capita: 7027 US$ (2025)
-- Currencies: PYG
 - ccTLD: `.py` (manager: NIC-PY)
-- OECD: non-member
 - UN/DESA EGDI: Rank 80 of 193
 - Government type: presidential republic
 - Capital: Asunción

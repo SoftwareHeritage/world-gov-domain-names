@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southern Europe
-- Languages: Italian; Catalan
-- Population: 58927633
-- GDP per capita: 43309 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.it` (manager: IIT - CNR)
-- OECD: member since 1962
 - UN/DESA EGDI: Rank 51 of 193
 - Government type: parliamentary republic
 - Capital: Rome

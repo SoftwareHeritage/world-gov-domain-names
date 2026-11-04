@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Micronesia
-- Languages: English; Marshallese
-- Population: 42418
-- GDP per capita: 8489 US$ (2025)
-- Currencies: USD
 - ccTLD: `.mh` (manager: Office of the Cabinet)
-- OECD: non-member
 - UN/DESA EGDI: Rank 143 of 193
 - Government type: mixed presidential-parliamentary system in free association with the US
 - Capital: Majuro

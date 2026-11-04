@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English
-- Population: 110872
-- GDP per capita: 11501 US$ (2024)
-- Currencies: XCD
 - ccTLD: `.vc` (manager: Ministry of Telecommunications, Science, Technology and Industry)
-- OECD: non-member
 - UN/DESA EGDI: Rank 117 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Kingstown

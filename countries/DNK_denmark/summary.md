@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Northern Europe
-- Languages: Danish
-- Population: 6011488
-- GDP per capita: 76970 US$ (2025)
-- Currencies: DKK
 - ccTLD: `.dk` (manager: Dansk Internet Forum)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 1 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Copenhagen

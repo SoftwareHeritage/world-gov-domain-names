@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Southern Africa
-- Languages: Lozi; Herero; Kwangali; German; English; Afrikaans; Khoekhoe; Ndonga; Tswana
-- Population: 3022401
-- GDP per capita: 4876 US$ (2025)
-- Currencies: NAD; ZAR
 - ccTLD: `.na` (manager: Namibian Network Information Center)
-- OECD: non-member
 - UN/DESA EGDI: Rank 114 of 193
 - Government type: presidential republic
 - Capital: Windhoek

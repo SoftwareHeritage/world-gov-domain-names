@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: English
-- Population: 772975
-- GDP per capita: 32414 US$ (2025)
-- Currencies: GYD
 - ccTLD: `.gy` (manager: University of Guyana)
-- OECD: non-member
 - UN/DESA EGDI: Rank 128 of 193
 - Government type: parliamentary republic
 - Capital: Georgetown

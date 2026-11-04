@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Northern Africa
-- Languages: Arabic
-- Population: 7459000
-- GDP per capita: 6449 US$ (2025)
-- Currencies: LYD
 - ccTLD: `.ly` (manager: General Authority of Communications and Informatics (GACI))
-- OECD: non-member
 - UN/DESA EGDI: Rank 125 of 193
 - Government type: in transition
 - Capital: Tripoli (Tarabulus)

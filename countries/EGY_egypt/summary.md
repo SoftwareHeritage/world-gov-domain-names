@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Northern Africa
-- Languages: Arabic
-- Population: 107271260
-- GDP per capita: 3086 US$ (2025)
-- Currencies: EGP
 - ccTLD: `.eg` (manager: Egyptian Universities Network (EUN), Supreme Council of Universities)
-- OECD: non-member
 - UN/DESA EGDI: Rank 95 of 193
 - Government type: presidential republic
 - Capital: Cairo

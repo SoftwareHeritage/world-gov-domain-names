@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Middle Africa
-- Languages: French; Kikongo; Lingala
-- Population: 6142180
-- GDP per capita: 2515 US$ (2025)
-- Currencies: XAF
 - ccTLD: `.cg` (manager: Interpoint Switzerland)
-- OECD: non-member
 - UN/DESA EGDI: Rank 166 of 193
 - Government type: presidential republic
 - Capital: Brazzaville

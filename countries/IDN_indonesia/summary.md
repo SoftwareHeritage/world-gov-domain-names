@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Indonesian
-- Population: 284438782
-- GDP per capita: 5060 US$ (2025)
-- Currencies: IDR
 - ccTLD: `.id` (manager: Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI))
-- OECD: non-member
 - UN/DESA EGDI: Rank 64 of 193
 - Government type: presidential republic
 - Capital: Jakarta
 - Hosts collected: 2582
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `go.id`: provinces, regencies and cities
 
 ## UN/DESA national portal
 

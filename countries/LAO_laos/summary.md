@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Lao
-- Population: 7647000
-- GDP per capita: 2325 US$ (2025)
-- Currencies: LAK
 - ccTLD: `.la` (manager: Lao National Internet Center (LANIC), Ministry of Technology and Communications)
-- OECD: non-member
 - UN/DESA EGDI: Rank 152 of 193
 - Government type: communist party-led state
 - Capital: Vientiane (Viangchan)

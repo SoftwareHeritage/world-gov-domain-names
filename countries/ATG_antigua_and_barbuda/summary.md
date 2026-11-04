@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English
-- Population: 103603
-- GDP per capita: 24819 US$ (2025)
-- Currencies: XCD
 - ccTLD: `.ag` (manager: UHSA School of Medicine)
-- OECD: non-member
 - UN/DESA EGDI: Rank 105 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Saint John's

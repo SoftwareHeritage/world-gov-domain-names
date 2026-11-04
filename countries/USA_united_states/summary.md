@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / North America
-- Languages: English
-- Population: 340110988
-- GDP per capita: 84534 US$ (2024)
-- Currencies: USD
 - ccTLD: `.gov` (manager: Cybersecurity and Infrastructure Security Agency)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 19 of 193
 - Government type: constitutional federal republic
 - Capital: Washington, D.C.

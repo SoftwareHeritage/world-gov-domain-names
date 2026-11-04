@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Arabic
-- Population: 35300280
-- GDP per capita: 34537 US$ (2025)
-- Currencies: SAR
 - ccTLD: `.sa` (manager: Communications, Space and Technology Commission)
-- OECD: non-member
 - UN/DESA EGDI: Rank 6 of 193
 - Government type: absolute monarchy
 - Capital: Riyadh

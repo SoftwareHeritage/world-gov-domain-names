@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: French; Kirundi
-- Population: 12332788
-- GDP per capita: 234 US$ (2025)
-- Currencies: BIF
 - ccTLD: `.bi` (manager: Centre National de l&#x27;Informatique)
-- OECD: non-member
 - UN/DESA EGDI: Rank 183 of 193
 - Government type: presidential republic
 - Capital: Gitega (political capital), Bujumbura (commercial capital)

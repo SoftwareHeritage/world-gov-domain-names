@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Northern Europe
-- Languages: Estonian
-- Population: 1369995
-- GDP per capita: 34418 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.ee` (manager: Eesti Interneti Sihtasutus (EIS))
-- OECD: member since 2010
 - UN/DESA EGDI: Rank 2 of 193
 - Government type: parliamentary republic
 - Capital: Tallinn

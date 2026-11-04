@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / North America
-- Languages: Spanish
-- Population: 130575786
-- GDP per capita: 13889 US$ (2025)
-- Currencies: MXN
 - ccTLD: `.mx` (manager: NIC-Mexico)
-- OECD: member since 1994
 - UN/DESA EGDI: Rank 65 of 193
 - Government type: federal presidential republic
 - Capital: Mexico City (Ciudad de Mexico)

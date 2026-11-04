@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Western Europe
-- Languages: German; French; Dutch
-- Population: 11825551
-- GDP per capita: 60750 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.be` (manager: DNS Belgium vzw/asbl)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 56 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy
 - Capital: Brussels

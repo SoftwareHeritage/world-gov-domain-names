@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southern Europe
-- Languages: English; Maltese
-- Population: 574250
-- GDP per capita: 47907 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.mt` (manager: NIC (Malta))
-- OECD: non-member
 - UN/DESA EGDI: Rank 28 of 193
 - Government type: parliamentary republic
 - Capital: Valletta

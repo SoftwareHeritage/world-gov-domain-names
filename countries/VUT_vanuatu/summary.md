@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Melanesia
-- Languages: Bislama; English; French
-- Population: 321409
-- GDP per capita: 4039 US$ (2025)
-- Currencies: VUV
 - ccTLD: `.vu` (manager: Telecommunications Radiocommunications and Broadcasting Regulator (TRBR))
-- OECD: non-member
 - UN/DESA EGDI: Rank 129 of 193
 - Government type: parliamentary republic
 - Capital: Port-Vila (on Efate)

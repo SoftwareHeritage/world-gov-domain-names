@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southeast Europe
-- Languages: Romanian
-- Population: 19036031
-- GDP per capita: 22538 US$ (2025)
-- Currencies: RON
 - ccTLD: `.ro` (manager: National Institute for R&amp;D in Informatics)
-- OECD: non-member
 - UN/DESA EGDI: Rank 72 of 193
 - Government type: semi-presidential republic
 - Capital: Bucharest

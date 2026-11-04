@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Arabic; Aramaic; Sorani
-- Population: 46118793
-- GDP per capita: 5410 US$ (2025)
-- Currencies: IQD
 - ccTLD: `.iq` (manager: Communications and Media Commission (CMC))
-- OECD: non-member
 - UN/DESA EGDI: Rank 148 of 193
 - Government type: federal parliamentary republic
 - Capital: Baghdad

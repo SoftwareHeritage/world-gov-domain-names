@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: English; Swahili
-- Population: 53330978
-- GDP per capita: 2363 US$ (2025)
-- Currencies: KES
 - ccTLD: `.ke` (manager: Kenya Network Information Center (KeNIC))
-- OECD: non-member
 - UN/DESA EGDI: Rank 109 of 193
 - Government type: presidential republic
 - Capital: Nairobi

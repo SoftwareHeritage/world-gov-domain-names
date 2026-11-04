@@ -3,12 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Eastern Asia
-- Languages: Korean
-- Population: 25950000
-- Currencies: KPW
 - ccTLD: `.kp` (manager: Star Joint Venture Company)
-- OECD: non-member
 - UN/DESA EGDI: Rank 184 of 193
 - Government type: dictatorship, single-party communist state
 - Capital: Pyongyang

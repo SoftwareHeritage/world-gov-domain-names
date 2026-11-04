@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: English; Filipino
-- Population: 114123600
-- GDP per capita: 4171 US$ (2025)
-- Currencies: PHP
 - ccTLD: `.ph` (manager: PH Domain Foundation)
-- OECD: non-member
 - UN/DESA EGDI: Rank 73 of 193
 - Government type: presidential republic
 - Capital: Manila
 - Hosts collected: 1614
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.ph`: provinces and local government units
 
 ## UN/DESA national portal
 

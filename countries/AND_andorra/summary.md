@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southern Europe
-- Languages: Catalan
-- Population: 88406
-- GDP per capita: 54292 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.ad` (manager: Andorra Telecom)
-- OECD: non-member
 - UN/DESA EGDI: Rank 88 of 193
 - Government type: parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain
 - Capital: Andorra la Vella

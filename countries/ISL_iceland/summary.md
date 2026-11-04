@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Northern Europe
-- Languages: Icelandic
-- Population: 391810
-- GDP per capita: 98323 US$ (2025)
-- Currencies: ISK
 - ccTLD: `.is` (manager: ISNIC - Internet á Íslandi hf.)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 5 of 193
 - Government type: unitary parliamentary republic
 - Capital: Reykjavik

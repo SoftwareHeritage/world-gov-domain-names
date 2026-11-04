@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southeast Europe
-- Languages: Croatian
-- Population: 3866233
-- GDP per capita: 27104 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.hr` (manager: CARNet - Croatian Academic and Research Network)
-- OECD: member since 2025
 - UN/DESA EGDI: Rank 32 of 193
 - Government type: parliamentary republic
 - Capital: Zagreb

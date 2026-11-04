@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Vietnamese
-- Population: 101343800
-- GDP per capita: 4717 US$ (2024)
-- Currencies: VND
 - ccTLD: `.vn` (manager: Viet Nam Internet Network Information Center (VNNIC))
-- OECD: non-member
 - UN/DESA EGDI: Rank 71 of 193
 - Government type: communist party-led state
 - Capital: Hanoi (Ha Noi)
 - Hosts collected: 1692
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.vn`: provinces (bare names) and lower tiers
 
 ## UN/DESA national portal
 

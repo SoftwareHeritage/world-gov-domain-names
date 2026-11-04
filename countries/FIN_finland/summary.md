@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Northern Europe
-- Languages: Finnish; Swedish
-- Population: 5650325
-- GDP per capita: 56149 US$ (2025)
-- Currencies: EUR
 - ccTLD: `.fi` (manager: Finnish Transport and Communications Agency Traficom)
-- OECD: member since 1969
 - UN/DESA EGDI: Rank 9 of 193
 - Government type: parliamentary republic
 - Capital: Helsinki

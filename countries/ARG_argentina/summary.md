@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Guaraní; Spanish
-- Population: 46735004
-- GDP per capita: 13970 US$ (2024)
-- Currencies: ARS
 - ccTLD: `.ar` (manager: Presidencia de la Nación , Secretaría Legal y Técnica)
-- OECD: non-member
 - UN/DESA EGDI: Rank 42 of 193
 - Government type: presidential republic
 - Capital: Buenos Aires

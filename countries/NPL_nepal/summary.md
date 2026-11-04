@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: Nepali
-- Population: 29911840
-- GDP per capita: 1447 US$ (2024)
-- Currencies: NPR
 - ccTLD: `.np` (manager: Mercantile Communications Pvt. Ltd.)
-- OECD: non-member
 - UN/DESA EGDI: Rank 119 of 193
 - Government type: federal parliamentary republic
 - Capital: Kathmandu

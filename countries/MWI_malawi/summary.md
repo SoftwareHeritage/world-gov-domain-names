@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: English; Chewa
-- Population: 20734262
-- GDP per capita: 672 US$ (2025)
-- Currencies: MWK
 - ccTLD: `.mw` (manager: Malawi Sustainable Development Network Programme (Malawi SDNP))
-- OECD: non-member
 - UN/DESA EGDI: Rank 163 of 193
 - Government type: presidential republic
 - Capital: Lilongwe

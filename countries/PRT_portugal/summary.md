@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southern Europe
-- Languages: Portuguese
-- Population: 10749635
-- GDP per capita: 29292 US$ (2024)
-- Currencies: EUR
 - ccTLD: `.pt` (manager: Associação DNS.PT)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 49 of 193
 - Government type: semi-presidential republic
 - Capital: Lisbon

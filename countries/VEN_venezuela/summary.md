@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Spanish
-- Population: 28517000
-- GDP per capita: 4218 US$ (2024)
-- Currencies: VES
 - ccTLD: `.ve` (manager: Comisión Nacional de Telecomunicaciones (CONATEL))
-- OECD: non-member
 - UN/DESA EGDI: Rank 131 of 193
 - Government type: federal presidential republic
 - Capital: Caracas

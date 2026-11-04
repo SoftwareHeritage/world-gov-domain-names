@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Central Asia
-- Languages: Russian; Tajik
-- Population: 10499000
-- GDP per capita: 1341 US$ (2024)
-- Currencies: TJS
 - ccTLD: `.tj` (manager: Information Technology Center)
-- OECD: non-member
 - UN/DESA EGDI: Rank 123 of 193
 - Government type: presidential republic
 - Capital: Dushanbe

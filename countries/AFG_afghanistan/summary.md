@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: Dari; Pashto; Turkmen
-- Population: 43844000
-- GDP per capita: 417 US$ (2024)
-- Currencies: AFN
 - ccTLD: `.af` (manager: Ministry of Communications and IT)
-- OECD: non-member
 - UN/DESA EGDI: Rank 188 of 193
 - Government type: theocratic; the United States does not recognize the Taliban Government
 - Capital: Kabul

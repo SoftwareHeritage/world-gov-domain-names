@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / South-Eastern Asia
-- Languages: Portuguese; Tetum
-- Population: 1391221
-- GDP per capita: 1332 US$ (2024)
-- Currencies: USD
 - ccTLD: `.tl` (manager: Autoridade Nacional de Comunicações)
-- OECD: non-member
 - UN/DESA EGDI: Rank 159 of 193
 - Government type: semi-presidential republic
 - Capital: Dili

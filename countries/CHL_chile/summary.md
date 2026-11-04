@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Spanish
-- Population: 20206953
-- GDP per capita: 17995 US$ (2025)
-- Currencies: CLP
 - ccTLD: `.cl` (manager: NIC Chile (University of Chile))
-- OECD: member since 2010
 - UN/DESA EGDI: Rank 31 of 193
 - Government type: presidential republic
 - Capital: Santiago; note - Valparaiso is the seat of the national legislature

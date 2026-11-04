@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Western Europe
-- Languages: German
-- Population: 40900
-- GDP per capita: 220167 US$ (2024)
-- Currencies: CHF
 - ccTLD: `.li` (manager: SWITCH The Swiss Education &amp; Research Network)
-- OECD: non-member
 - UN/DESA EGDI: Rank 44 of 193
 - Government type: constitutional monarchy
 - Capital: Vaduz

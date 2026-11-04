@@ -3,7 +3,6 @@
 ## Overview
 
 - UN status: **Not recognised by the UN** (exclude from UN-facing report)
-- OECD: non-member
 - Government type: parliamentary republic
 - Capital: Pristina (Prishtine, Prishtina)
 - Hosts collected: 0

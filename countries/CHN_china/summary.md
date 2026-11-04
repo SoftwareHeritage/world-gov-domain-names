@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Eastern Asia
-- Languages: Chinese
-- Population: 1408280000
-- GDP per capita: 13862 US$ (2025)
-- Currencies: CNY
 - ccTLD: `.cn` (manager: China Internet Network Information Center (CNNIC))
-- OECD: non-member
 - UN/DESA EGDI: Rank 35 of 193
 - Government type: communist party-led state
 - Capital: Beijing

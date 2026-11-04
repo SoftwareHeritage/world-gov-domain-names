@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: Spanish
-- Population: 10771504
-- GDP per capita: 11059 US$ (2025)
-- Currencies: DOP
 - ccTLD: `.do` (manager: Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino)
-- OECD: non-member
 - UN/DESA EGDI: Rank 85 of 193
 - Government type: presidential republic
 - Capital: Santo Domingo

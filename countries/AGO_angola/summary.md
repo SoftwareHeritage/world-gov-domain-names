@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Middle Africa
-- Languages: Portuguese
-- Population: 36170961
-- GDP per capita: 3129 US$ (2025)
-- Currencies: AOA
 - ccTLD: `.ao` (manager: Ministry of Telecommunications and Information Technologies (MTTI))
-- OECD: non-member
 - UN/DESA EGDI: Rank 156 of 193
 - Government type: presidential republic
 - Capital: Luanda

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Polynesia
-- Languages: English; Samoan
-- Population: 205557
-- GDP per capita: 5873 US$ (2025)
-- Currencies: WST
 - ccTLD: `.ws` (manager: Government of Samoa Ministry of Foreign Affairs &amp; Trade)
-- OECD: non-member
 - UN/DESA EGDI: Rank 140 of 193
 - Government type: parliamentary republic
 - Capital: Apia

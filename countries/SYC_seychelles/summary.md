@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Eastern Africa
-- Languages: Seychellois Creole; English; French
-- Population: 122729
-- GDP per capita: 19449 US$ (2025)
-- Currencies: SCR
 - ccTLD: `.sc` (manager: VCS Pty Ltd)
-- OECD: non-member
 - UN/DESA EGDI: Rank 92 of 193
 - Government type: presidential republic
 - Capital: Victoria

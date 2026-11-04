@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Central Europe
-- Languages: Czech; Slovak
-- Population: 10882341
-- GDP per capita: 35917 US$ (2025)
-- Currencies: CZK
 - ccTLD: `.cz` (manager: CZ.NIC, z.s.p.o)
-- OECD: member since 1995
 - UN/DESA EGDI: Rank 54 of 193
 - Government type: parliamentary republic
 - Capital: Prague

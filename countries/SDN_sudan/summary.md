@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Northern Africa
-- Languages: Arabic; English
-- Population: 51662000
-- GDP per capita: 1165 US$ (2025)
-- Currencies: SDG
 - ccTLD: `.sd` (manager: Sudan Internet Society)
-- OECD: non-member
 - UN/DESA EGDI: Rank 178 of 193
 - Government type: presidential republic
 - Capital: Khartoum

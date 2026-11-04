@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Eastern Europe
-- Languages: Romanian
-- Population: 2749076
-- GDP per capita: 8622 US$ (2025)
-- Currencies: MDL
 - ccTLD: `.md` (manager: IP Serviciul Tehnologia Informatiei si Securitate Cibernetica)
-- OECD: non-member
 - UN/DESA EGDI: Rank 70 of 193
 - Government type: parliamentary republic
 - Capital: Chisinau in Romanian (Kishinev in Russian)

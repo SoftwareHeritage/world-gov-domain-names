@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Southern Asia
-- Languages: Bengali
-- Population: 169828911
-- GDP per capita: 2597 US$ (2025)
-- Currencies: BDT
 - ccTLD: `.bd` (manager: Posts and Telecommunications Division)
-- OECD: non-member
 - UN/DESA EGDI: Rank 100 of 193
 - Government type: parliamentary republic
 - Capital: Dhaka
 - Hosts collected: 2490
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.bd`: zila and upazila parishads
 
 ## UN/DESA national portal
 

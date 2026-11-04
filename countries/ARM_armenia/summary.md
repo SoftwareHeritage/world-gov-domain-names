@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Asia / Western Asia
-- Languages: Armenian
-- Population: 3076200
-- GDP per capita: 8556 US$ (2024)
-- Currencies: AMD
 - ccTLD: `.am` (manager: &quot;Internet Society&quot; Non-governmental Organization)
-- OECD: non-member
 - UN/DESA EGDI: Rank 48 of 193
 - Government type: parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system
 - Capital: Yerevan

@@ -3,17 +3,17 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Spanish
-- Population: 53057212
-- GDP per capita: 8562 US$ (2025)
-- Currencies: COP
 - ccTLD: `.co` (manager: Ministry of Information and Communications Technologies (MinTIC))
-- OECD: member since 2020
 - UN/DESA EGDI: Rank 68 of 193
 - Government type: presidential republic
 - Capital: Bogotá
 - Hosts collected: 1723
+
+## Mixed roots
+
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+
+- `gov.co`: departments, cities and municipalities
 
 ## UN/DESA national portal
 

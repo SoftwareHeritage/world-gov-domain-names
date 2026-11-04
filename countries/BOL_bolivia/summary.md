@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / South America
-- Languages: Aymara; Guaraní; Quechua; Spanish
-- Population: 11365333
-- GDP per capita: 5148 US$ (2025)
-- Currencies: BOB
 - ccTLD: `.bo` (manager: Agencia para el Desarrollo de la Información de la Sociedad en Bolivia)
-- OECD: non-member
 - UN/DESA EGDI: Rank 99 of 193
 - Government type: presidential republic
 - Capital: La Paz (administrative capital); Sucre (constitutional [legislative and judicial] capital)

@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Middle Africa
-- Languages: French; Portuguese; Spanish
-- Population: 1668768
-- GDP per capita: 6615 US$ (2025)
-- Currencies: XAF
 - ccTLD: `.com` (manager: VeriSign Global Registry Services)
-- OECD: non-member
 - UN/DESA EGDI: Rank 176 of 193
 - Government type: presidential republic
 - Capital: Malabo; note - Malabo is on the island of Bioko; some months of the year, the government operates out of Bata on the mainland region.

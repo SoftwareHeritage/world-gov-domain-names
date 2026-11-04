@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English
-- Population: 398165
-- GDP per capita: 39455 US$ (2024)
-- Currencies: BSD; USD
 - ccTLD: `.bs` (manager: University of The Bahamas)
-- OECD: non-member
 - UN/DESA EGDI: Rank 83 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Nassau

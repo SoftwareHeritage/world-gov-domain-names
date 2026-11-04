@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Southern Africa
-- Languages: English; Swazi
-- Population: 1235549
-- GDP per capita: 3910 US$ (2024)
-- Currencies: SZL; ZAR
 - ccTLD: `.sz` (manager: University of Swaziland)
-- OECD: non-member
 - UN/DESA EGDI: Rank 113 of 193
 - Government type: absolute monarchy
 - Capital: Mbabane (administrative capital); Lobamba (royal and legislative capital)

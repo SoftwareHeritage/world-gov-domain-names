@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Micronesia
-- Languages: English
-- Population: 105564
-- GDP per capita: 4414 US$ (2025)
-- Currencies: USD
 - ccTLD: `.fm` (manager: FSM Telecommunications Corporation)
-- OECD: non-member
 - UN/DESA EGDI: Rank 167 of 193
 - Government type: federal republic in free association with the US
 - Capital: Palikir

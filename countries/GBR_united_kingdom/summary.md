@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Northern Europe
-- Languages: English
-- Population: 69281437
-- GDP per capita: 57602 US$ (2025)
-- Currencies: GBP
 - ccTLD: `.uk` (manager: Nominet UK)
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 7 of 193
 - Government type: parliamentary constitutional monarchy; a Commonwealth realm
 - Capital: London

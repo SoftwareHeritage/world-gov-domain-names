@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Western Africa
-- Languages: French
-- Population: 26312034
-- GDP per capita: 775 US$ (2025)
-- Currencies: XOF
 - ccTLD: `.ne` (manager: SONITEL)
-- OECD: non-member
 - UN/DESA EGDI: Rank 187 of 193
 - Government type: formerly, semi-presidential republic
 - Capital: Niamey

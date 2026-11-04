@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Europe / Southeast Europe
-- Languages: Macedonian
-- Population: 1822612
-- GDP per capita: 9292 US$ (2024)
-- Currencies: MKD
 - ccTLD: `.mk` (manager: Macedonian Academic Research Network Skopje)
-- OECD: non-member
 - UN/DESA EGDI: Rank 84 of 193
 - Government type: parliamentary republic
 - Capital: Skopje

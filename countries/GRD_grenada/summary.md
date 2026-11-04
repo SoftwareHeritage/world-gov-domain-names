@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / Caribbean
-- Languages: English
-- Population: 109021
-- GDP per capita: 12107 US$ (2025)
-- Currencies: XCD
 - ccTLD: `.gd` (manager: The National Telecommunications Regulatory Commission (NTRC))
-- OECD: non-member
 - UN/DESA EGDI: Rank 104 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Saint George's

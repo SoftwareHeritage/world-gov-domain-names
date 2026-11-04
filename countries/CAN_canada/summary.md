@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Americas / North America
-- Languages: English; French
-- Population: 41651653
-- GDP per capita: 55698 US$ (2025)
-- Currencies: CAD
 - ccTLD: `.ca` (manager: Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI))
-- OECD: member since 1961
 - UN/DESA EGDI: Rank 47 of 193
 - Government type: federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution
 - Capital: Ottawa

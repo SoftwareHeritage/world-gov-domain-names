@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Africa / Middle Africa
-- Languages: French; Kikongo; Lingala; Tshiluba; Swahili
-- Population: 112832000
-- GDP per capita: 807 US$ (2025)
-- Currencies: CDF
 - ccTLD: `.cd` (manager: Office Congolais des Postes et Télécommunications - OCPT)
-- OECD: non-member
 - UN/DESA EGDI: Rank 179 of 193
 - Government type: semi-presidential republic
 - Capital: Kinshasa

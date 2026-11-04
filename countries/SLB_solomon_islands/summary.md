@@ -3,13 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- Region: Oceania / Melanesia
-- Languages: English
-- Population: 750325
-- GDP per capita: 2086 US$ (2025)
-- Currencies: SBD
 - ccTLD: `.sb` (manager: Solomon Telekom Company Limited)
-- OECD: non-member
 - UN/DESA EGDI: Rank 164 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Honiara
