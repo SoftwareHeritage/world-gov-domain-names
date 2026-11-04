@@ -163,6 +163,20 @@
 ;; domains of a country are their compilation, registered plus curated
 ;; minus excluded, computed in memory (confirmed-rows): no file to
 ;; regenerate after a curation.
+(def mixed-roots-file
+  "Hand-edited: the confirmed roots holding bodies of several levels
+  directly under them (gov.za: national departments and municipalities),
+  domain,country,mixed_with."
+  "data/mixed-roots.csv")
+
+(defn mixed-roots
+  "{country_dir {root mixed_with}} of data/mixed-roots.csv; empty when
+  the file is absent."
+  []
+  (reduce (fn [m {:strs [domain country mixed_with]}]
+            (assoc-in m [country (str/lower-case (str/trim domain))] (or mixed_with "")))
+          {} (read-csv-file mixed-roots-file)))
+
 (defn curated-file [country-dir] (str "countries/" country-dir "/curated.csv"))
 (defn excluded-file [country-dir] (str "countries/" country-dir "/excluded.csv"))
 (defn registered-file [country-dir registry]

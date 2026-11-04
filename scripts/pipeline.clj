@@ -934,12 +934,42 @@
                       [p (most-frequent-level (map second hosts))])))))
          distinct)))
 
+(defn- fold-name
+  "Hà Nội -> hanoi: s with its accents dropped, then normalize-name."
+  [s]
+  (-> (java.text.Normalizer/normalize (or s "") java.text.Normalizer$Form/NFD)
+      (str/replace #"\p{M}" "")
+      normalize-name))
+
+(defn mixed-root-rows
+  "[domain level] rows of the labels directly under the mixed roots of
+  a country, www aside, that no decided domain is yet: label.root for
+  every label of the hosts hosts-of gives for a root, level central-1*
+  when the label names a first-level subdivision (subdivisions, compared
+  by fold-name: westerncape for Western Cape), blank otherwise. Sorted
+  by domain. Pure."
+  [roots hosts-of decided subdivisions]
+  (let [level1 (set (map fold-name subdivisions))]
+    (->> (for [root roots
+               :let [re (re-pattern (str "(?:.*\\.)?([a-z0-9-]+)\\."
+                                         (java.util.regex.Pattern/quote root)))]
+               h (hosts-of root)
+               :let [label (second (re-matches re h))]
+               :when (and label (not= label "www"))
+               :let [d (str label "." root)]
+               :when (not (decided d))]
+           [d (if (level1 (normalize-name label)) "central-1*" "")])
+         distinct
+         (sort-by first))))
+
 (defn todo-country!
   "Write countries/<c>/to_curate.csv (domain,level): the
   rows of proposed.csv no decided or excluded domain covers yet, in
   the columns of curated.csv, ready to move there, folded by
   fold-todo-rows (cnr.it for its 59 subdomains; proposed.csv lists
-  them all).
+  them all); then the mixed-root-rows of the mixed roots of the
+  country, from the harvest file of the root or of the nearest
+  harvested domain above it (gov.br.csv for sp.gov.br).
   Offline: refreshes the list after a curation, proposed.csv untouched."
   [country-dir]
   (let [out     (str "countries/" country-dir "/to_curate.csv")
@@ -947,7 +977,19 @@
         open    (for [[d level] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "")])
-        rows    (fold-todo-rows open)]
+        sub-path (country-src country-dir "wikidata" "subdivisions_level1.csv")
+        mixed   (mixed-root-rows (keys (get (mixed-roots) country-dir))
+                                 #(for [[h] (some->> (butlast (host-suffixes %))
+                                                     (map (partial harvest-file country-dir))
+                                                     (filter fs/exists?)
+                                                     first
+                                                     read-csv-raw
+                                                     rest)
+                                        :when (valid-hostname? h)]
+                                    h)
+                                 decided
+                                 (map second (rest (read-csv-raw sub-path))))
+        rows    (concat (fold-todo-rows open) mixed)]
     (write-csv-file out ["domain" "level"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
 
@@ -1082,9 +1124,24 @@
         (println "```")
         (println)))))
 
+(defn- section-mixed-roots
+  "The mixed roots of the country (data/mixed-roots.csv): every label
+  directly under them waits in to_curate.csv for a level."
+  [country-dir]
+  (when-let [roots (seq (sort (get (mixed-roots) country-dir)))]
+    (println "## Mixed roots")
+    (println)
+    (println (str "These roots hold bodies of several levels: `to_curate.csv` lists every "
+                  "label directly under them until `curated.csv` gives it a level "
+                  "(`local` for a lower tier)."))
+    (println)
+    (doseq [[root with] roots]
+      (println (str "- `" root "`: " with)))
+    (println)))
+
 (defn summary-country!
-  "Write countries/<c>/summary.md: metadata, UN/DESA portal coverage,
-  Factbook institutions, ccTLD anomalies. The candidates stay in
+  "Write countries/<c>/summary.md: metadata, registries, mixed roots,
+  UN/DESA portal coverage, Factbook institutions, ccTLD anomalies. The candidates stay in
   proposed.csv, which would only be repeated here."
   [country-dir collected-by-country un-status-by-country]
   (let [out        (str "countries/" country-dir "/summary.md")
@@ -1108,6 +1165,7 @@
             (println)
             (section-overview (assoc ctx :n-collected (count collected)))
             (section-registries country-dir)
+            (section-mixed-roots country-dir)
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
             (section-cctld-anomalies country-dir cctld collected)))
@@ -1135,10 +1193,17 @@
          (not (contains? (set excl2) label)))))
 
 (defn- prune-covered
-  "Drop [domain excl apex?] entries already covered by another entry,
-  apexes aside: an exact row under a subtree takes its own subtree out."
+  "Drop [domain excl apex?] entries the nearest entry above already
+  covers (covered-by?), apexes aside: the longest match decides, so an
+  exact row under a subtree takes its own subtree out, and an entry
+  under it (detran.sp.gov.br under sp.gov.br) brings its own back in."
   [entries]
-  (filter (fn [[d _ apex?]] (or apex? (not-any? #(covered-by? d %) entries))) entries))
+  (let [by-domain (into {} (map (juxt first identity) entries))]
+    (filter (fn [[d _ apex?]]
+              (or apex?
+                  (let [up (some by-domain (rest (host-suffixes d)))]
+                    (not (and up (covered-by? d up))))))
+            entries)))
 
 (defn- central-plus-rows
   "[domain country level] of every confirmed central and central-1
@@ -1258,12 +1323,16 @@
   "The [:warn msg] of the curated and excluded rows of a country against
   its compiled decisions: confirmed is confirmed-country, registered
   {domain [registry level-cell]} (first registry wins), harvested?
-  tells whether a domain has a harvest file of its own. A curated row a
-  registry already lists, a curated row with its subdomains a confirmed
-  domain of the same level and with its subdomains covers (unless
-  harvested on its own), a local or excluded domain more than one label
-  under a central root. Pure."
-  [curated excluded confirmed registered harvested?]
+  tells whether a domain has a harvest file of its own, mixed is the
+  set of the mixed roots of the country. A curated row a registry
+  already lists, a curated row with its subdomains a confirmed domain
+  of the same level and with its subdomains covers (unless harvested on
+  its own, or directly under a mixed root, where every label gets a
+  row), a local or excluded domain more than one label under a central
+  root, a mixed root not confirmed central*, central or central-1, or
+  with no harvest file on it or above it.
+  Pure."
+  [curated excluded confirmed registered harvested? mixed]
   (let [level-of   (into {} (for [[d level] confirmed] [d level]))
         source-of  (into {} (for [[d _ source] confirmed] [d source]))
         subtree-of (into {} (for [[d _ _ subtree?] confirmed] [d subtree?]))]
@@ -1274,12 +1343,14 @@
        [:warn (str d " (" cell ") is curated but " r " already lists it")])
      ;; a confirmed domain with its subdomains covers them: a curated
      ;; row with its subdomains under such a root of the same level adds
-     ;; nothing, unless it is harvested on its own
+     ;; nothing, unless it is harvested on its own or records the level
+     ;; of a label of a mixed root
      (for [[d cell] curated
            :let [[level subtree?] (parse-level cell)
                  root (some #(when (level-of %) %) (rest (host-suffixes d)))]
            :when (and subtree? root (subtree-of root) (= level (level-of root))
-                      (not (harvested? d)))]
+                      (not (harvested? d))
+                      (not (and (mixed root) (= (second (host-suffixes d)) root))))]
        [:warn (str d " (" cell ") is already covered by " root
                    " (" cell ", " (source-of root) ")")])
      ;; the policy table only carves the labels directly under a central
@@ -1292,7 +1363,20 @@
            :when (and root (= "central" (level-of root))
                       (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
        [:warn (str d " sits more than one label under " root
-                   " -- no exclude row in the policy table")]))))
+                   " -- no exclude row in the policy table")])
+     ;; the labels of a mixed root come from the harvest file of the
+     ;; root or above it; with its subdomains, only a central root turns
+     ;; local labels into exclude rows, without them (sp.gov.br) its
+     ;; labels are out until a row takes them in
+     (for [root (sort mixed)
+           :let [level (level-of root)
+                 why   (cond
+                         (not (if (subtree-of root) (= "central" level) (harvest-levels level)))
+                         " is a mixed root in data/mixed-roots.csv but not confirmed central*, central or central-1"
+                         (not-any? harvested? (butlast (host-suffixes root)))
+                         " is a mixed root in data/mixed-roots.csv with no harvest file on it or above it: run bb pipeline fetch")]
+           :when why]
+       [:warn (str root why)]))))
 
 (defn- country-problems
   "Every problem of the decision files of country c, [:err msg] or
@@ -1315,7 +1399,8 @@
                     registered (index-first (for [r (registries c), [d level] (read-registered c r)]
                                               [d [r level]]))]
                 (vec (coverage-problems curated excluded confirmed registered
-                                        #(fs/exists? (harvest-file c %)))))
+                                        #(fs/exists? (harvest-file c %))
+                                        (set (keys (get (mixed-roots) c))))))
               (catch clojure.lang.ExceptionInfo e
                 [[:err (ex-message e)]]))))))
 

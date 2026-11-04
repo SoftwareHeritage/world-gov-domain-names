@@ -30,8 +30,19 @@ subtree; it is never harvested.
 Generated per country: =proposed.csv=, =to_curate.csv= (=proposed.csv=
 minus what was decided since, in the columns of =curated.csv=, a domain
 standing for its subdomains, two or more under one registrable domain
-folded into it; =bb todo= refreshes it offline),
-=summary.md= and =sources/=.
+folded into it, then every label directly under a root of
+=data/mixed-roots.csv= no row decides yet; =bb todo= refreshes it
+offline), =summary.md= and =sources/=.
+
+=data/mixed-roots.csv= (=domain,country,mixed_with=, edited by hand)
+lists the roots that hold bodies of several levels directly under
+them: =central*= ones (=gov.za=), whose =local= labels become
+=exclude= rows, and roots without their subdomains (=sp.gov.br=),
+whose =central-1*= labels come back in. Their labels come from the
+harvest file of the root or above it (=gov.br.csv=). =summary.md=
+names them; =bb check= warns when one is confirmed otherwise or has no
+harvest file, and does not warn about a =central*= row directly under
+one: it records a decision.
 
 The harvest has one file per harvested root,
 =sources/harvest/<root>.csv= (one column =subdomain=, apex included):

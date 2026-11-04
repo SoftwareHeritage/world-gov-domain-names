@@ -42,20 +42,16 @@ possible actions in `curated.csv`:
   exclude as `local`. E.g. `gov.za` holds both national departments
   and municipalities, so `capetown.gov.za` is marked as `local`.
 
-These root domains mix levels and need someone who knows the country:
-
-| Root     | Mixed with                                    |
-|----------|-----------------------------------------------|
-| `gov.za` | provinces and ~257 municipalities             |
-| `gov.co` | departments, cities and municipalities        |
-| `gov.ph` | provinces and local government units          |
-| `go.id`  | provinces, regencies and cities               |
-| `gov.vn` | provinces (bare names) and lower tiers        |
-| `gov.bd` | zila and upazila parishads                    |
-| `gov.pk` | provinces and cities                          |
-| `gov.tr` | metropolitan water utilities, local unions    |
-| `gov.ng` | two-letter state codes                        |
-| `go.th`  | to check: mixed policy, mostly central sample |
+The root domains that mix levels are listed in
+[`data/mixed-roots.csv`](data/mixed-roots.csv) and need someone who
+knows the country. For each of them, `to_curate.csv` lists every
+domain directly under the root (`capetown.gov.za`, `dpme.gov.za`…)
+until `curated.csv` gives it a level: `local` for a lower tier,
+`central*` or `central-1*` otherwise, so that it does not come back.
+Under a root written without `*`, like the Brazilian states, this is
+how a body of the State gets in: `detran.sp.gov.br,central-1*`.
+A level is suggested when the label names a first-tier subdivision
+(`gauteng.gov.za`, `central-1*`).
 
 When the lower tier follows a naming rule (`*-bld.gov.tr`,
 `*state.gov.ng`), telling the rule will help a lot.
@@ -67,8 +63,9 @@ Every decision lives in two CSV files of the country directory.
 Everything else is generated from them and from official registries:
 never edit `to_curate.csv`, `proposed.csv`, `summary.md` or anything
 under `sources/`. In `data/`, everything is generated except
-`world-governments.csv`, the list of countries: open an issue or send
-us an email to change it.
+`world-governments.csv`, the list of countries, and `mixed-roots.csv`,
+the roots that mix levels: open an issue or send us an email to change
+them.
 
 ### `curated.csv` for the domains you confirm
 
