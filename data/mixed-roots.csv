@@ -1,38 +1,38 @@
-domain,country,mixed_with,local_labels
-ac.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-al.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-am.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-ap.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-ba.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-ce.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-df.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-es.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-go.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-go.id,IDN_indonesia,"provinces, regencies and cities","(dprd-)?[a-z]{4,}(kab|kota)|kota-?[a-z]+"
-go.th,THA_thailand,"to check: mixed policy, mostly central sample","[a-z]+(local|municipality|pao)|[a-z]{4,}city|sao-[a-z]+|[a-z]+-sao"
-gov.bd,BGD_bangladesh,zila and upazila parishads,"[a-z]+(municipality|pourashava|paurashava|paurashsva|poura|pauro)|[a-z]+upazila|zp[a-z]{4,}"
-gov.co,COL_colombia,"departments, cities and municipalities",[a-z]+-(amazonas|antioquia|arauca|atlantico|bolivar|boyaca|caldas|caqueta|casanare|cauca|cesar|choco|cordoba|cundinamarca|guainia|guaviare|huila|laguajira|guajira|magdalena|meta|narino|nortedesantander|putumayo|quindio|risaralda|sanandres|santander|sucre|tolima|valle|valledelcauca|vaupes|vichada)|(alcaldia|concejo|personeria)[a-z]+
-gov.ng,NGA_nigeria,two-letter state codes,
-gov.ph,PHL_philippines,provinces and local government units,"[a-z]+waterdistrict|[a-z]{4,}wd|[a-z]{4,}city|cityof[a-z]+|municipalityof[a-z]+|lgu[a-z]+"
-gov.pk,PAK_pakistan,provinces and cities,
-gov.tr,TUR_turkey,"metropolitan water utilities, local unions","[a-z0-9-]+-?bld|[a-z]+ozelidare|[a-z]+muhtarligi|[a-z]+(sulama|atiksu)birligi|([a-z]+-?)?[a-z]{0,2}ski"
-gov.vn,VNM_vietnam,provinces (bare names) and lower tiers,(phuong|thitran|uybannhandanxa|ubndxa|ubndphuong)[a-z0-9]+
-gov.za,ZAF_south_africa,provinces and ~257 municipalities,"[a-z]{3,}(lm|dm|mun)|[a-z]+-dm"
-ma.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-mg.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-ms.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-mt.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-pa.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-pb.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-pe.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-pi.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-pr.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-rj.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-rn.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-ro.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-rr.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-rs.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-sc.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-se.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-sp.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
-to.gov.br,BRA_brazil,state bodies and municipalities,(prefeitura|camara)[a-z]+
+domain,country,mixed_with,central-1_labels,local_labels
+ac.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+al.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+am.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+ap.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+ba.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+ce.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+df.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+es.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+go.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+go.id,IDN_indonesia,"provinces, regencies and cities","(dprd-)?[a-z]{3,}prov","(dprd-)?[a-z]{4,}(kab|kota)|kota-?[a-z]+"
+go.th,THA_thailand,"to check: mixed policy, mostly central sample",,"[a-z]+(local|municipality|pao)|[a-z]{4,}city|sao-[a-z]+|[a-z]+-sao"
+gov.bd,BGD_bangladesh,zila and upazila parishads,,"[a-z]+(municipality|pourashava|paurashava|paurashsva|poura|pauro)|[a-z]+upazila|zp[a-z]{4,}"
+gov.co,COL_colombia,"departments, cities and municipalities",,[a-z]+-(amazonas|antioquia|arauca|atlantico|bolivar|boyaca|caldas|caqueta|casanare|cauca|cesar|choco|cordoba|cundinamarca|guainia|guaviare|huila|laguajira|guajira|magdalena|meta|narino|nortedesantander|putumayo|quindio|risaralda|sanandres|santander|sucre|tolima|valle|valledelcauca|vaupes|vichada)|(alcaldia|concejo|personeria)[a-z]+
+gov.ng,NGA_nigeria,two-letter state codes,(ab|ad|ak|an|be|bo|bu|by|cr|dl|eb|en|gm|im|kd|kg|kt|kw|ni|og|on|os|oy|rv|yb)|(abia|adamawa|akwaibom|anambra|bauchi|bayelsa|benue|borno|crossriver|delta|ebonyi|edo|ekiti|enugu|gombe|imo|jigawa|kaduna|kano|katsina|kebbi|kogi|kwara|lagos|nasarawa|ogun|ondo|osun|oyo|plateau|rivers|sokoto|taraba|yobe|zamfara)[a-z-]*|nigerstate[a-z-]*,
+gov.ph,PHL_philippines,provinces and local government units,,"[a-z]+waterdistrict|[a-z]{4,}wd|[a-z]{4,}city|cityof[a-z]+|municipalityof[a-z]+|lgu[a-z]+"
+gov.pk,PAK_pakistan,provinces and cities,,
+gov.tr,TUR_turkey,"metropolitan water utilities, local unions",,"[a-z0-9-]+-?bld|[a-z]+ozelidare|[a-z]+muhtarligi|[a-z]+(sulama|atiksu)birligi|([a-z]+-?)?[a-z]{0,2}ski"
+gov.vn,VNM_vietnam,provinces (bare names) and lower tiers,,(phuong|thitran|uybannhandanxa|ubndxa|ubndphuong)[a-z0-9]+
+gov.za,ZAF_south_africa,provinces and ~257 municipalities,,"[a-z]{3,}(lm|dm|mun)|[a-z]+-dm"
+ma.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+mg.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+ms.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+mt.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+pa.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+pb.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+pe.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+pi.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+pr.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+rj.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+rn.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+ro.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+rr.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+rs.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+sc.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+se.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+sp.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+
+to.gov.br,BRA_brazil,state bodies and municipalities,,(prefeitura|camara)[a-z]+

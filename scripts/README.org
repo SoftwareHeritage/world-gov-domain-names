@@ -34,9 +34,11 @@ folded into it, then every label directly under a root of
 =data/mixed-roots.csv= no row decides yet; =bb todo= refreshes it
 offline), =summary.md= and =sources/=.
 
-=data/mixed-roots.csv= (=domain,country,mixed_with,local_labels=,
-edited by hand; =local_labels=, a regex the whole label of a
-lower-tier body matches, suggests =local= in =to_curate.csv=)
+=data/mixed-roots.csv=
+(=domain,country,mixed_with,central-1_labels,local_labels=, edited by
+hand; =central-1_labels= and =local_labels=, regexes the whole label
+of a body of that level matches, suggest its level in
+=to_curate.csv=, after a subdivision name)
 lists the roots that hold bodies of several levels directly under
 them: =central= ones (=gov.za=), whose =local= labels become
 =exclude= rows, and roots without their subdomains (=sp.gov.br=,

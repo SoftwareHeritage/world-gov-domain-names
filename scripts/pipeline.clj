@@ -948,12 +948,12 @@
   a country, www aside, that no decided domain is yet: label.root for
   every label of the hosts hosts-of gives for a root, level central-1
   when the label names a first-level subdivision (subdivisions, compared
-  by fold-name: westerncape for Western Cape), local when it matches
-  the local-labels regex of its root in roots ({root regex-or-nil}),
-  blank otherwise. Sorted by domain. Pure."
+  by fold-name: westerncape for Western Cape), else the level of the
+  first rule of its root in roots ({root [[level regex]…]}) its label
+  matches, blank otherwise. Sorted by domain. Pure."
   [roots hosts-of decided subdivisions]
   (let [level1 (set (map fold-name subdivisions))]
-    (->> (for [[root local-rx] roots
+    (->> (for [[root rules] roots
                :let [re (re-pattern (str "(?:.*\\.)?([a-z0-9-]+)\\."
                                          (java.util.regex.Pattern/quote root)))]
                h (hosts-of root)
@@ -961,9 +961,9 @@
                :when (and label (not= label "www"))
                :let [d (str label "." root)]
                :when (not (decided d))]
-           [d (cond (level1 (normalize-name label))                 "central-1"
-                    (and local-rx (re-matches local-rx label))      "local"
-                    :else                                           "")])
+           [d (if (level1 (normalize-name label))
+                "central-1"
+                (or (some (fn [[level rx]] (when (re-matches rx label) level)) rules) ""))])
          distinct
          (sort-by first))))
 
@@ -983,7 +983,7 @@
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "")])
         sub-path (country-src country-dir "wikidata" "subdivisions_level1.csv")
-        mixed   (mixed-root-rows (update-vals (get (mixed-roots) country-dir) :local-labels)
+        mixed   (mixed-root-rows (update-vals (get (mixed-roots) country-dir) :label-rules)
                                  #(for [[h] (some->> (butlast (host-suffixes %))
                                                      (map (partial harvest-file country-dir))
                                                      (filter fs/exists?)

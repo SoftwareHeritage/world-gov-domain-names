@@ -43,8 +43,8 @@ These roots are listed in [`data/mixed-roots.csv`](data/mixed-roots.csv).
 For each of them, `to_curate.csv` lists every domain we found directly
 under the root until `curated.csv` gives it a level. Some levels are
 suggested, from a subdivision name (`gauteng.gov.za`, `central-1`) or
-a naming rule of the lower tier (`bantulkab.go.id`, `local`): check
-them. If you know such a rule for your country, tell us.
+a naming rule (`jatengprov.go.id`, `central-1`; `bantulkab.go.id`,
+`local`): check them. If you know such a rule for your country, tell us.
 
 ## You only need to edit two files
 

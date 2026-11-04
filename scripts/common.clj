@@ -166,28 +166,33 @@
 (def mixed-roots-file
   "Hand-edited: the confirmed roots holding bodies of several levels
   directly under them (gov.za: national departments and municipalities),
-  domain,country,mixed_with,local_labels -- local_labels, a regex the
-  whole label of a lower-tier body matches (-bld for gov.tr), may be
-  blank."
+  domain,country,mixed_with,central-1_labels,local_labels -- the
+  *_labels, regexes the whole label of a body of that level matches
+  (<province>prov for go.id, -bld for gov.tr), may be blank."
   "data/mixed-roots.csv")
 
 (defn mixed-roots
-  "{country_dir {root {:mixed-with s :local-labels pattern-or-nil}}} of
-  data/mixed-roots.csv, rows without a valid domain or a country
-  skipped; empty when the file is absent. Throws ex-info on a
-  local_labels that is no regex."
+  "{country_dir {root {:mixed-with s :label-rules [[level pattern]…]}}}
+  of data/mixed-roots.csv, the rules of its central-1_labels then
+  local_labels that are not blank, rows without a valid domain or a
+  country skipped; empty when the file is absent. Throws ex-info on a
+  cell that is no regex."
   []
-  (reduce (fn [m {:strs [domain country mixed_with local_labels]}]
-            (let [root (some-> domain str/trim str/lower-case)
-                  rx   (when-not (str/blank? local_labels)
-                         (try (re-pattern (str/trim local_labels))
-                              (catch java.util.regex.PatternSyntaxException e
-                                (throw (ex-info (str mixed-roots-file ": " root " has no valid local_labels regex: "
-                                                     (.getDescription e))
-                                                {:domain root})))))]
+  (reduce (fn [m row]
+            (let [{:strs [domain country mixed_with]} row
+                  root  (some-> domain str/trim str/lower-case)
+                  rule  (fn [level col]
+                          (let [cell (str/trim (or (get row col) ""))]
+                            (when (seq cell)
+                              (try [level (re-pattern cell)]
+                                   (catch java.util.regex.PatternSyntaxException e
+                                     (throw (ex-info (str mixed-roots-file ": " root " has no valid " col
+                                                          " regex: " (.getDescription e))
+                                                     {:domain root})))))))
+                  rules (keep #(apply rule %) [["central-1" "central-1_labels"] ["local" "local_labels"]])]
               (cond-> m
                 (and (valid-hostname? root) (not (str/blank? country)))
-                (assoc-in [country root] {:mixed-with (or mixed_with "") :local-labels rx}))))
+                (assoc-in [country root] {:mixed-with (or mixed_with "") :label-rules (vec rules)}))))
           {} (read-csv-file mixed-roots-file)))
 
 (defn- read-domain-rows
