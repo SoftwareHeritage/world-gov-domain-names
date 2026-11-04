@@ -158,6 +158,11 @@
 ;; domains of a country are their compilation, registered plus curated
 ;; minus excluded, computed in memory (confirmed-rows): no file to
 ;; regenerate after a curation.
+(defn curated-file [country-dir] (str "countries/" country-dir "/curated.csv"))
+(defn excluded-file [country-dir] (str "countries/" country-dir "/excluded.csv"))
+(defn registered-file [country-dir registry]
+  (country-src country-dir registry "registered.csv"))
+
 (def mixed-roots-file
   "Hand-edited: the confirmed roots holding bodies of several levels
   directly under them (gov.za: national departments and municipalities),
@@ -168,24 +173,22 @@
 
 (defn mixed-roots
   "{country_dir {root {:mixed-with s :local-labels pattern-or-nil}}} of
-  data/mixed-roots.csv; empty when the file is absent. Throws ex-info
-  on a local_labels that is no regex."
+  data/mixed-roots.csv, rows without a valid domain or a country
+  skipped; empty when the file is absent. Throws ex-info on a
+  local_labels that is no regex."
   []
   (reduce (fn [m {:strs [domain country mixed_with local_labels]}]
-            (let [root (str/lower-case (str/trim domain))
+            (let [root (some-> domain str/trim str/lower-case)
                   rx   (when-not (str/blank? local_labels)
                          (try (re-pattern (str/trim local_labels))
                               (catch java.util.regex.PatternSyntaxException e
                                 (throw (ex-info (str mixed-roots-file ": " root " has no valid local_labels regex: "
                                                      (.getDescription e))
                                                 {:domain root})))))]
-              (assoc-in m [country root] {:mixed-with (or mixed_with "") :local-labels rx})))
+              (cond-> m
+                (and (valid-hostname? root) (not (str/blank? country)))
+                (assoc-in [country root] {:mixed-with (or mixed_with "") :local-labels rx}))))
           {} (read-csv-file mixed-roots-file)))
-
-(defn curated-file [country-dir] (str "countries/" country-dir "/curated.csv"))
-(defn excluded-file [country-dir] (str "countries/" country-dir "/excluded.csv"))
-(defn registered-file [country-dir registry]
-  (country-src country-dir registry "registered.csv"))
 
 (defn- read-domain-rows
   "Read the rows of a CSV whose first column is a hostname as vectors of

@@ -11,7 +11,7 @@
 
 ## Mixed roots
 
-These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier).
+These roots hold bodies of several levels: `to_curate.csv` lists every label directly under them until `curated.csv` gives it a level (`local` for a lower tier); a suggested level is to be checked.
 
 - `gov.ng`: two-letter state codes
 

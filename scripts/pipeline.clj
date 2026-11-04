@@ -605,9 +605,11 @@
                       " ; observers: " (get counts "observer" 0)))))))
 
 (defn- central-roots
-  "#{[country root]} of the confirmed central domains."
+  "#{[country root]} of the confirmed central domains with their
+  subdomains: a root ending in ! already keeps its subtree out."
   []
-  (set (for [[c d level] (confirmed-rows) :when (= level "central")] [c d])))
+  (set (for [[c d level _ subtree?] (confirmed-rows) :when (and (= level "central") subtree?)]
+         [c d])))
 
 (defn- labels-under-central
   "{[country root] #{label…}} of the [country hostname] pairs sitting
@@ -1135,7 +1137,7 @@
     (println)
     (println (str "These roots hold bodies of several levels: `to_curate.csv` lists every "
                   "label directly under them until `curated.csv` gives it a level "
-                  "(`local` for a lower tier)."))
+                  "(`local` for a lower tier); a suggested level is to be checked."))
     (println)
     (doseq [[root {:keys [mixed-with]}] roots]
       (println (str "- `" root "`: " mixed-with)))
@@ -1362,7 +1364,7 @@
                      (map first excluded))
            :let [root (some #(when (contains? harvest-levels (level-of %)) %)
                             (rest (host-suffixes d)))]
-           :when (and root (= "central" (level-of root))
+           :when (and root (= "central" (level-of root)) (subtree-of root)
                       (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
        [:warn (str d " sits more than one label under " root
                    " -- no exclude row in the policy table")])
@@ -1413,8 +1415,10 @@
   level, two levels for a domain, a domain both curated and excluded.
   WARN: a duplicate row, an excluded row without a reason, a curated
   row a registry already lists or a confirmed domain of the same level
-  covers (unless harvested on its own), a local or excluded domain more
-  than one label under a central root."
+  covers (unless harvested on its own or directly under a mixed root),
+  a local or excluded domain more than one label under a central root,
+  a mixed root not confirmed central, central! or central-1!, or with
+  no harvest file on it or above it (coverage-problems)."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [report! (fn [c]
