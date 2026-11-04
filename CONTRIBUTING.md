@@ -51,7 +51,9 @@ until `curated.csv` gives it a level: `local` for a lower tier,
 Under a root written without `*`, like the Brazilian states, this is
 how a body of the State gets in: `detran.sp.gov.br,central-1*`.
 A level is suggested when the label names a first-tier subdivision
-(`gauteng.gov.za`, `central-1*`).
+(`gauteng.gov.za`, `central-1*`) or follows the naming rule of a lower
+tier in the `local_labels` column (`aydin-bld.gov.tr`, `local`):
+check it before moving the row.
 
 When the lower tier follows a naming rule (`*-bld.gov.tr`,
 `*state.gov.ng`), telling the rule will help a lot.

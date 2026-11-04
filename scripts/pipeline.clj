@@ -946,11 +946,12 @@
   a country, www aside, that no decided domain is yet: label.root for
   every label of the hosts hosts-of gives for a root, level central-1*
   when the label names a first-level subdivision (subdivisions, compared
-  by fold-name: westerncape for Western Cape), blank otherwise. Sorted
-  by domain. Pure."
+  by fold-name: westerncape for Western Cape), local when it matches
+  the local-labels regex of its root in roots ({root regex-or-nil}),
+  blank otherwise. Sorted by domain. Pure."
   [roots hosts-of decided subdivisions]
   (let [level1 (set (map fold-name subdivisions))]
-    (->> (for [root roots
+    (->> (for [[root local-rx] roots
                :let [re (re-pattern (str "(?:.*\\.)?([a-z0-9-]+)\\."
                                          (java.util.regex.Pattern/quote root)))]
                h (hosts-of root)
@@ -958,7 +959,9 @@
                :when (and label (not= label "www"))
                :let [d (str label "." root)]
                :when (not (decided d))]
-           [d (if (level1 (normalize-name label)) "central-1*" "")])
+           [d (cond (level1 (normalize-name label))                 "central-1*"
+                    (and local-rx (re-matches local-rx label))      "local"
+                    :else                                           "")])
          distinct
          (sort-by first))))
 
@@ -978,7 +981,7 @@
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "")])
         sub-path (country-src country-dir "wikidata" "subdivisions_level1.csv")
-        mixed   (mixed-root-rows (keys (get (mixed-roots) country-dir))
+        mixed   (mixed-root-rows (update-vals (get (mixed-roots) country-dir) :local-labels)
                                  #(for [[h] (some->> (butlast (host-suffixes %))
                                                      (map (partial harvest-file country-dir))
                                                      (filter fs/exists?)
@@ -1135,8 +1138,8 @@
                   "label directly under them until `curated.csv` gives it a level "
                   "(`local` for a lower tier)."))
     (println)
-    (doseq [[root with] roots]
-      (println (str "- `" root "`: " with)))
+    (doseq [[root {:keys [mixed-with]}] roots]
+      (println (str "- `" root "`: " mixed-with)))
     (println)))
 
 (defn summary-country!
