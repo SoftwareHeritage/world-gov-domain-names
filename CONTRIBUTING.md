@@ -65,12 +65,24 @@ sp.gov.br,central-1!
 abingdon.gov.uk,local
 ```
 
-- `domain` is a domain name.
-- `level` is `central` (central government and its bodies),
-  `central-1` (the first tier below: state, region, Land, etc.) or
-  `local` (anything lower). A `central` or `central-1` domain counts
-  with all its subdomains; with a `!`, it counts alone (see above).
-  A `local` domain is left out with everything below it.
+`domain` is a domain name.
+
+`level` can have one of five values:
+
+- `central`, for domains for the central government and its bodies.
+  All higher-level domains of such an entry will count. For example,
+  the entry `gouv.fr,central` will count `gouv.fr`, `foo.gouv.fr`,
+  `bar.foo.gouv.fr` and so on.
+  - `central!` describes a central government domain but ignores
+  its higher-level domains. The entry `gouv.fr,central!` will count
+  `gouv.fr` but not `foo.gouv.fr` or `bar.foo.gouv.fr`.
+- `central-1` and `central-1!` function identically to the previous
+  levels, except that they are intended for the first tier below
+  government organisations, such as state, region, Land and so on.
+- `local` is for organisations at a lower level than the
+  aforementioned ones, and does not count its higher-level domains.
+  For example, `abingdon.gov.uk` describes a local council, and
+  `foo.abingdon.gov.uk` or `bar.foo.abingdon.gov.uk` will not count.
 
 ### `excluded.csv` for the domains you reject
 
