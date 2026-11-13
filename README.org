@@ -58,6 +58,14 @@ commands, =bb pipeline all= runs everything. See =scripts/README.org=.
 
 See [[file:CONTRIBUTING.md][CONTRIBUTING.md]] and [[file:AI_policy.md][AI_policy.md]].
 
+* Versioning
+
+This project uses [[https://intver.org][Intentional Versioning]]:
+
+- Users :: people who read the published data.
+- Integrators :: projects that read files or run our commands.
+- Maintainers :: people who maintain the codebase and domains.
+
 * License
 
 Data: [[LICENSES/CC0-1.0.txt][CC0 1.0]]. Code: [[LICENSES/EPL-2.0.txt][EPL 2.0]].
