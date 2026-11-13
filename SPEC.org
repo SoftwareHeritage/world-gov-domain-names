@@ -1,0 +1,71 @@
+#+title: world-gov-domain-names -- specification
+
+The project uses [[https://intver.org][Intentional Versioning]] (see README.org): changing a
+statement of the first section increments =u= (it impacts "users") and
+changing one of the second increments =i= (it impacts "integrators").
+Anything this file does not mention may change in any release.
+
+* Users
+
+Users are the people who read the published data.
+
+** Scope
+
+- The countries are the UN member states and observers.
+- The scope is the central government of each country and the first
+  tier below it (state, Land, region, etc.). Lower tiers are out.
+- Nothing promises that the lists are complete or fresh: a missing
+  domain can always be added.
+
+** Levels
+
+| Value      | Meaning                                                       |
+|------------+---------------------------------------------------------------|
+| =central=    | central government, the domain and all its subdomains         |
+| =central!=   | central government, the domain alone                          |
+| =central-1=  | first tier below (state, Land, region, etc.), with subdomains |
+| =central-1!= | first tier below, the domain alone                            |
+| =local=      | lower tiers, out of scope                                     |
+
+** Confirmed domains
+
+- The confirmed domains of a country are those of its authoritative
+  registries, plus =curated.csv=, minus =excluded.csv=.
+- A curated row wins over a registry.
+- =curated.csv= (=domain,level=) and =excluded.csv= (=domain,reason=) are
+  edited by hand; the scripts never write them.
+- A host listed in =data/public-sector-domains.csv= was seen at least
+  once under a confirmed domain.
+
+* Integrators
+
+Integrators are the projects that read our files.
+
+** Countries
+
+A country is identified by its directory name (i.e. =<ISO3>_<slug>=) in
+=countries/= and in the =country= column of the files below.
+
+** =data/public-sector-domains-central+-policy.csv=
+
+- Columns =domain,kind,country=, in that order.
+- =kind= is =subtree= (the domain and everything below it), =exact= (the
+  domain alone) or =exclude= (the domain and everything below it kept
+  out).
+- For a host, the longest =domain= that is the host or a parent of it
+  decides; no match means out of scope.
+
+** =data/public-sector-domains.csv=
+
+- Columns =subdomain,parent_domain,country,un_status,http_status,mx=, in
+  that order.
+- =un_status= is =member= or =observer=.
+- =http_status= is the status code of the last HTTPS probe; any value
+  that is not a number is a failure; blank means never probed.
+- =mx= is the MX records, =none= without MX, =dig error= on failure; blank
+  means never probed.
+
+** Per-country files
+
+In =countries/<ISO3>_<slug>/=: =curated.csv= (=domain,level=), =excluded.csv=
+(=domain,reason=) and =sources/<registry>/registered.csv= (=domain,level=).
